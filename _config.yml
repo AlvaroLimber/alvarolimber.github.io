@@ -2,9 +2,10 @@
 title: Mirada Estadística
 email: achirino@aru.org.bo
 description: Impulsando la cultura del dato
-
-twitter_username: EstBolivia
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: Estbolivia
 github_username:  AlvaroLimber
 
 # Build settings
-markdown:    kramdown
+markdown: kramdown
