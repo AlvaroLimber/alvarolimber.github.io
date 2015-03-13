@@ -5,12 +5,6 @@ description: Impulsando la cultura del dato
 
 twitter_username: EstBolivia
 github_username:  AlvaroLimber
-owner:	
-	name: Alvaro Limber Chirino Gutierrez
-	avatar: 
-	bio: cdnscjdbcjhdsbcsd
 
 # Build settings
 markdown:    kramdown
-paginate: 5
-
