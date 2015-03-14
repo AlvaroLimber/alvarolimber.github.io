@@ -1,7 +1,7 @@
 # Site settings
 title: Mirada Estadistica
 email: achirino@aru.org.bo 
-url: https://example.github.io
+url: https://alvarolimber.github.io
 description: Pagina de prueba
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
@@ -17,7 +17,7 @@ color:
 footer:
   copyright: Alvaro Limber Chirino
   location: La Paz - Bolivia  
-  social: Around the Web
+  social: Otras conexiones 
   credits: Github 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
