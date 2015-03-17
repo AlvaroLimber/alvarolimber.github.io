@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
+title:            Mirada Estadística
+locale:           La Paz - Bolivia
 url:              
 
 
@@ -26,12 +26,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
+  name: Alvaro Limber Chirino Gutierrez
+  avatar: profile.png
   bio: "Describe your self."
-  email: 
+  email: achirino@aru.org.bo
   disqus-shortname: 
-  twitter: #username
+  twitter: EstBolivia
   facebook: #username
   google:
     plus: #username
