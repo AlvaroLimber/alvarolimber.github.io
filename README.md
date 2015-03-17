@@ -1,25 +1,16 @@
-# Leap Day
+# Skinny Bones Jekyll Starter
 
-Open source content for Leap Day theme. Theme was first designed / developed for GitHub Pages and is availalbe for download, forking and using anywhere else on the web. Like the theme share it with the twitterverse.
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
-![Leap Day](http://cl.ly/image/2Z1Z1e2q2I1C/image)
+I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
 
-**Note** If you are an original Leap Day user (pre August 2014) the [1.0 tag](https://github.com/mattgraham/leapday/releases/tag/1.0) is what you are on.
+![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
 
-The Leap Day Pages demo is [here](http://mattgraham.github.com/leapday)
+---
 
+## Notable Features
 
-### Developing Locally
-
-```
-script/server
-```
-
-Running `script/server` will run `jekyll serve && compass --watch` commands via terminal. You will be able to open http://localhost:4000 and make changes to any of the, md, .html or .scss files and compass will compile them for you. Simply refresh your browser (or use something like livereload) and develop away. Most of the colors and sizing is found in the _variables.scss file.
-
-
-### Credits
-
-Leap-Day Theme is by [Matt Graham](http://madebygraham.com), twitter [@michigangraham](http://twitter.com/#!/michigangraham). Use, reuse and modify away.
-
-[Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/)
+* Stylesheet built using Sass. *Requires Jekyll 2.x*
+* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
+* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
+* And more.

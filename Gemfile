@@ -1,7 +1,7 @@
-source 'https://rubygems.org'
+# Skinny Bones Gemfile
+source "https://rubygems.org"
 
-gem 'jekyll'
+gem 'jekyll', '~> 2.4.0'
+gem 'jekyll-sitemap', '~> 0.6.1'
 gem 'sass'
-gem 'compass'
-gem 'coffee-script'
-gem 'foreman'
+gem 'octopress', '~> 3.0.0.rc.12'
