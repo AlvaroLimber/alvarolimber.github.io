@@ -1,23 +1,27 @@
-# Minimal Mistakes
+Notepad is a Jekyll theme which is very simple, clean and beautiful. This theme is good for any blog.
+  
+Main Features:
 
-**[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog. 
+* Zurb Foundation 5 – css framework
+* Scss files with settings file
+* Fullscreen post covers with header wich will be bright or dark according to background image
+* Fast and light
+* Font Awesome
+* Disqus comments integration
 
-## Minimal Mistakes is all about:
+You can set post image covers by using only Kramdown narkdown, just place something like this: `![cover-image](http://path-to-your-image.jpg)`
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+Credits:
 
-![screenshot of Minimal Mistakes theme](http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg)
+* Zurb Foundation 5 [http://foundation.zurb.com/](http://foundation.zurb.com/)
+* Font Awesome [http://fontawesome.io](http://fontawesome.io)
+* Google fonts [http://www.google.com/fonts](http://www.google.com/fonts)
+* Background check [http://kennethcachia.com/background-check](http://kennethcachia.com/background-check)
+* Codrops article: [http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/)
+* There are also tools like jQuery, Modernizr, Normalize.
 
-See a [live version of Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) hosted on GitHub.
+If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
 
-## Getting Started
 
-Minimal Mistakes takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
-
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/minimal-mistakes/theme-setup/) for more information.
+Warm Regards and Stay Creative,  
+Hossain Mohd. Faysal
