@@ -1,30 +1,24 @@
-Agency Jekyll theme
-====================
+#Clean Blog by Start Bootstrap - Jekyll Version
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-# How to use
+###[View Live Demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
 
-###Portfolio 
+## Before You Begin
 
-Portfolio projects are in '/_posts'
+In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
 
-Images are in '/img/portfolio'
+It should look like this:
+`baseurl: ""`
 
-###About
+## What's Included
 
-Images are in '/img/about/'
+A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
 
-###Team
+A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
 
-Team members and info are in '_config.yml'
+You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
 
-Images are in '/img/team/'
+## Support
 
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
