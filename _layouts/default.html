@@ -1,16 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-
+---
+layout: compress
+---
 {% include head.html %}
+<body id="top-of-page" class="{{ page.format }}">
+	{% include navigation.html %}
 
-<body>
+	{% include masthead.html %}
 
-    {% include nav.html %}
+	{% if page.breadcrumb == true %}
+	{% include breadcrumb.html %}
+	{% endif %}
 
-    {{ content }}
+	{{ content }}
 
-    {% include footer.html %}
-
+	{% include footer.html %}
+	
+	{% include footer_scripts.html %}
 </body>
-
 </html>
