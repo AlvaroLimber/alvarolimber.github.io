@@ -1,4 +1,4 @@
-- title: Start
+- title: Inicio
   url: "/"
   side: left
 
@@ -50,30 +50,30 @@
   - title: "No Header but Image"
     url: "/design/no-header-but-image/"
 
-- title: Documentation
+- title: Libreria
   url: "/documentation/"
   side: left
   dropdown:
-  - title: Documentation
+  - title: "Estadística"
     url: "/documentation/"
-  - title: "Changelog"
+  - title: "Software"
     url: "/changelog/"
-  - title: "Roadmap"
+  - title: "Otros"
     url: "/roadmap/"
 
-- title: Blog
+- title: Acerca de mi
   url: "/blog/"
   side: left
   dropdown:
-  - title: Blog
+  - title: Blog en Wordpress
     url: "/blog/"
-  - title: "Blog Archive"
+  - title: "CV"
     url: "/blog/archive/"
 
-- title: "Search"
+- title: "Busqueda"
   url: "/search/"
   side: right
 
-- title: "Contact"
+- title: "Contacto"
   url: "/contact/"
   side: right
