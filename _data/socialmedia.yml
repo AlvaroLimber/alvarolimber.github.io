@@ -4,14 +4,14 @@
   title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
 - name: Twitter
-  url: http://twitter.com/EstBolivia
+  url: http://twitter.com/phlow
   class: icon-twitter
-  title: "Sigueme en Twitter"
+  title: "Immer das Neuste von Phlow gibt es auf Twitter"
 
 - name: Facebook
-  url: http://www.facebook.com/alvarolimber.chirinogutierrez
+  url: http://www.facebook.com/phlow.media
   class: icon-facebook
-  title: "Buscame en Facebook"
+  title: "Lass uns Freunde sein!"
 
 - name: Soundcloud
   url: http://soundcloud.com/phlow
@@ -19,9 +19,9 @@
   title: "Sounds und Downloads und mehr"
 
 - name: GitHub
-  url: http://github.com/alvarolimber
+  url: http://github.com/phlow
   class: icon-github
-  title: "En GitHub"
+  title: Code und mehr...
 
 - name: Instagram
   url: http://instagram.com/phlowmedia
