@@ -21,7 +21,7 @@ description: "Información para la revolución"
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "http://alvarolimber.github.io/feeling-responsive"
+url: "http://alvarolimber.github.io"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
