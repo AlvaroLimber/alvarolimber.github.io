@@ -1,62 +1,45 @@
-<!doctype html>
-<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<link rel="stylesheet" href="{{ site.url }}/assets/css/styles_feeling_responsive.css">
-	<script src="{{ site.url }}/assets/js/modernizr.min.js"></script>
-	
-  <script>
-    WebFontConfig = {
-      google: { families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ] }
-    };
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <title>{{ page.title }}</title>
 
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-                '://ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })();
-  </script>
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/img/favicon.ico" />
 
-  <noscript>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7cVolkhov' rel='stylesheet' type='text/css'>
-  </noscript>
+        <!-- Come and get me RSS readers -->
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+        
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+        <!--[if IE 8]><link rel="stylesheet" href="{{ site.url }}/assets/css/ie.css"><![endif]-->
 
-  {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}" />{% endif %}
-	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
-	{% if page.meta_description %}<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.teaser %}<meta name="description" content="{{ page.teaser | strip_html | escape }}"/>{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
-	
-	{% if site.google_author %}<link rel="author" href="{{ site.google_author }}"/>{% endif %}
-	{% if site.favicon %}<link rel="shortcut icon" href="{{ site.url }}{{ site.favicon }}" type="image/png" />{% endif %}
-	{% if site.favicon %}<link rel="icon" href="{{ site.url }}{{ site.favicon }}" type="image/png" />{% endif %}
-	{% if site.apple_touch_icon_iphone %}<link rel="apple-touch-icon" href="{{ site.url }}{{ site.apple_touch_icon_iphone }}">{% endif %}
-	{% if site.apple_touch_icon_iphone_retina %}<link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}{{ site.apple_touch_icon_iphone_retina }}">{% endif %}
-	{% if site.apple_touch_icon_ipad %}<link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}{{ site.apple_touch_icon_ipad }}">{% endif %}
-	{% if site.apple_touch_icon_ipad_retina %}<link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}{{ site.apple_touch_icon_ipad_retina }}">{% endif %}
-	{% if site.apple_touch_icon_precomposed %}<link rel="apple-touch-icon-precomposed" href="{{ site.url }}{{ site.apple_touch_icon_precomposed }}">{% endif %}
-
-	<!-- Facebook Optimization -->
-	<meta property="og:locale" content="{% if site.og_locale == nil %}en_EN{% else %}{{ site.og_locale }}{% endif %}" />
-	{% if site.og_type %}<meta property="og:type" content="website" />{% endif %}
-	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-	{% if page.meta_description %}<meta property="og:description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.description %}<meta property="og:description" content="{{ page.description | strip_html | escape }}"/>{% elsif site.description %}<meta property="og:description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
-	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-	{% if site.title %}<meta property="og:site_name" content="{{ site.title }}" />{% endif %}
-	{% if page.image.thumb %}<meta property="og:image" content="{{ site.url }}/images/{{ page.image.thumb }}" />{% endif %}
-
-	{% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}" />{% endif %}
-
-	<!-- Search Engine Optimization -->
-	{% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
-
-	<link type="text/plain" rel="author" href="{{ site.url }}/humans.txt" />
-
-	{% unless page.style == NULL %}
-	<style type="text/css">{{ page.style }}</style>
-	{% endunless %}
-</head>
+        <!-- Modernizr -->
+        <script src="{{ site.url }}/assets/js/modernizr.custom.15390.js" type="text/javascript"></script>
+    </head>
+ 
+    <body>
+        <div class="header">
+            <div class="container">
+                <h1 class="logo"><a href="{{ site.url }}">{{ site.name }}</a></h1>
+                <nav class="nav-collapse">
+                    <ul class="noList">
+                    {% for link in site.navigation %}{% assign current = nil %}{% if page.url contains link.url %}{% assign current = 'current' %}{% endif %}
+                        <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+                            <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                        </li> 
+                    {% endfor %}
+                        <li> <a href="https://github.com/brianmaierjr/long-haul" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/brianmaierjr/long-haul/archive/master.zip">Download Theme</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div><!-- end .header -->
+        
+            

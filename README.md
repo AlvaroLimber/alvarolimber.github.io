@@ -1,50 +1,45 @@
+![preview Long Haul](/preview.jpg)
 
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
+Long Haul is a minimal jekyll theme built with COMPASS / SASS / SUSY and focuses on long form blog plosts. It is meant to used as a starting point for a jekyll blog/website.
 
-## A Responsive Jekyll Theme: *Feeling Responsive*
+If you really enjoy Long Haul and want to give me credit somewhere on the send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaier).
 
-Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
+####[View Demo](http://brianmaierjr.com/long-haul)
 
-To get to know *Feeling Responsive* check out all the features explained in the [documentation][1].
+## Features
 
-And what license is *Feeling Responsive* released under? [This one][2].
+- Minimal, Type Focused Design
+- Built with SASS + COMPASS
+- Layout with SUSY Grid
+- SVG Social Icons
+- Responsive Nav Menu
+- XML Feed for RSS Readers
+- Contact Form via Formspree
+- 5 Post Loop with excerpt on Home Page
+- Previous / Next Post Navigation
+- Estimated Reading Time for posts
+- Stylish Drop Cap on posts
+- A Better Type Scale for all devices
 
+## Setup
 
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
+3. Clone it
+4. Run Jekyll `jekyll serve -w`
+5. Run `compass watch`
+6. Customize!
 
-## Why use this theme?
+## Site Settings
 
-Feeling Responsive is heavily customizable.
+The main settings can be found inside the `_config.yml` file:
 
-1. Language-Support :)
-2. Optimized for speed and it's responsive.
-3. Built on Foundation Framework.
-4. Six different Headers.
-5. Customizable navigation, footer,...
+- **name:** name of your site
+- **description:** description of your site
+- **url:** your url
+- **paginate:** the amount of posts displayed on homepage
+- **navigation:** these are the links in the main site navigation
 
-**[More ›][3]**
+## License
 
-
-
-## Video Tutorial
-
-Click the image to [watch the YouTube-Video-Tutorial][4].
-
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-tutorial-frontpage.jpg)](https://www.youtube.com/watch?v=rLS-BEvlEyY)
-
-
-
-
-
-
-
-
- [1]: http://phlow.github.io/feeling-responsive/documentation/
- [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
- [3]: http://phlow.github.io/feeling-responsive/info/
- [4]: https://www.youtube.com/watch?v=rLS-BEvlEyY
- [5]: #
- [6]: #
- [7]: #
- [8]: #
- [9]: #
- [10]: #
+This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
