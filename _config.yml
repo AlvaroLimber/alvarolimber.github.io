@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+title: Mirando los datos
+header-img: img/front.png
+email: achirino@aru.org.bo
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: EstBolivia
+github_username:  AlvaroLimber
+facebook_username:  alvarolimber.chirinogutierrez
 
 # Build settings
 markdown: kramdown
