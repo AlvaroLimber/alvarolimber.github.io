@@ -1,8 +1,8 @@
 # Site settings
-title: Mirando los datos
-header-img: img/front.png
+title: Una Mirada a la ciencia de los datos
+header-img: img/data.jpg
 email: achirino@aru.org.bo
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Buscando generar cultura estadística, una mirada hacia la calidad del dato y el uso responsable de información para la generación de políticas públicas"
 baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: EstBolivia
