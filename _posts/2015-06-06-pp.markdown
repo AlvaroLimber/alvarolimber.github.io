@@ -1,0 +1,8 @@
+---
+layout:     post
+title:      "Introducción a la Bayesiana"
+subtitle:   "Nociones Básicas"
+date:       2015-06-06
+author:     "Alvaro Chirino"
+header-img: "img/post-bg-06.jpg"
+---
