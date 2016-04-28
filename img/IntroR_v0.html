@@ -1656,8 +1656,8 @@ for(i in 1:n) {
 y[1:10]
 </code></pre>
 
-<pre><code> [1] 3.254361 3.115066 2.999122 2.967489 3.372918 3.334859 3.363126
- [8] 3.108646 3.227727 2.820113
+<pre><code> [1] 3.238167 2.989376 2.953102 3.150087 3.017741 3.196720 3.084312
+ [8] 3.000308 3.400205 3.097271
 </code></pre>
 
 <pre><code class="r"># While loops
@@ -1670,8 +1670,8 @@ while(counter&lt;=n) {
 y[1:10]
 </code></pre>
 
-<pre><code> [1] 3.254361 3.115066 2.999122 2.967489 3.372918 3.334859 3.363126
- [8] 3.108646 3.227727 2.820113
+<pre><code> [1] 3.238167 2.989376 2.953102 3.150087 3.017741 3.196720 3.084312
+ [8] 3.000308 3.400205 3.097271
 </code></pre>
 
 </div>
@@ -1700,6 +1700,147 @@ MySqrt(81)
 </code></pre>
 
 <pre><code>[1] 10.04988
+</code></pre>
+
+</div>
+
+</section>
+<section data-transition="default" data-transition-speed="default">
+<h3>La familia *apply (1&#x2F;3)</h3>
+<div class="column column1 slideContent" >
+<p>Son comandos que permiten hacer operaciones sobre objetos en <em>R</em></p>
+
+<ul>
+<li>apply(X, MARGIN, FUN, &hellip;)</li>
+<li>lapply(X, FUN, &hellip;) sapply</li>
+<li>tapply(X, INDEX, FUN = NULL, &hellip;, simplify = TRUE)</li>
+</ul>
+
+
+</div>
+
+<div class="column column2 slideContent" >
+
+
+<p><strong>apply</strong></p>
+
+<pre><code class="r">A&lt;-matrix(1:9,3,3)
+A
+</code></pre>
+
+<pre><code>     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9
+</code></pre>
+
+<pre><code class="r">apply(A,1,sum)
+</code></pre>
+
+<pre><code>[1] 12 15 18
+</code></pre>
+
+<pre><code class="r">apply(A,2,mean)
+</code></pre>
+
+<pre><code>[1] 2 5 8
+</code></pre>
+
+</div>
+
+</section>
+<section data-transition="default" data-transition-speed="default">
+<h3>La familia *apply (2&#x2F;3)</h3>
+<div class="slideContent" >
+<pre><code class="r">B&lt;-cbind(1:20,rbinom(20,1,0.5))
+head(B)
+</code></pre>
+
+<pre><code>     [,1] [,2]
+[1,]    1    1
+[2,]    2    1
+[3,]    3    1
+[4,]    4    0
+[5,]    5    0
+[6,]    6    1
+</code></pre>
+
+<pre><code class="r">tapply(B[,1],B[,2],mean)
+</code></pre>
+
+<pre><code>        0         1 
+11.818182  8.888889 
+</code></pre>
+
+<pre><code class="r">tapply(B[,1],B[,2],sd)
+</code></pre>
+
+<pre><code>       0        1 
+5.192652 6.641620 
+</code></pre>
+
+</div>
+
+</section>
+<section data-transition="default" data-transition-speed="default">
+<h3>La familia *apply (2&#x2F;3)</h3>
+<div class="slideContent" >
+<pre><code class="r">apply(A,2,MySqrt)
+</code></pre>
+
+<pre><code>         [,1] [,2]     [,3]
+[1,] 1.000000  2.0 2.645751
+[2,] 1.414214  2.5 2.828427
+[3,] 1.732051  3.0 3.000000
+</code></pre>
+
+<pre><code class="r">sqrt(A)
+</code></pre>
+
+<pre><code>         [,1]     [,2]     [,3]
+[1,] 1.000000 2.000000 2.645751
+[2,] 1.414214 2.236068 2.828427
+[3,] 1.732051 2.449490 3.000000
+</code></pre>
+
+<p>Mas detalles: <a href="http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega/7141669#7141669">http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega/7141669#7141669</a></p>
+
+</div>
+
+</section>
+<section data-transition="default" data-transition-speed="default">
+<h3>Operaciones especiales para matrices</h3>
+<div class="slideContent" >
+<ul>
+<li>prop.table</li>
+<li>margin.table</li>
+</ul>
+
+<pre><code class="r">prop.table(A)
+</code></pre>
+
+<pre><code>           [,1]       [,2]      [,3]
+[1,] 0.02222222 0.08888889 0.1555556
+[2,] 0.04444444 0.11111111 0.1777778
+[3,] 0.06666667 0.13333333 0.2000000
+</code></pre>
+
+<pre><code class="r">prop.table(A,1)
+</code></pre>
+
+<pre><code>           [,1]      [,2]      [,3]
+[1,] 0.08333333 0.3333333 0.5833333
+[2,] 0.13333333 0.3333333 0.5333333
+[3,] 0.16666667 0.3333333 0.5000000
+</code></pre>
+
+<pre><code class="r">prop.table(A,2)
+</code></pre>
+
+<pre><code>          [,1]      [,2]      [,3]
+[1,] 0.1666667 0.2666667 0.2916667
+[2,] 0.3333333 0.3333333 0.3333333
+[3,] 0.5000000 0.4000000 0.3750000
 </code></pre>
 
 </div>
