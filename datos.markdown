@@ -1,9 +1,7 @@
 ---
 layout:     page
 title:      "Datos Bolivia"
-subtitle:   "Una ventana a los datos existentes en Bolivia"
-date:       2014-06-10 12:00:00
-author:     "Alvaro Chirino"
+description: "Una ventana a los datos existentes en Bolivia"
 header-img: "img/data4.png"
 ---
 
