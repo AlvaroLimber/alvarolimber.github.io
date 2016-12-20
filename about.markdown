@@ -7,13 +7,23 @@ header-img: "img/about1.jpg"
 
 # ¿Quién Soy Yo?
 
+---
+
 ## Areás de interés
+
+---
 
 ## Hoja de vida
 
+---
+
 # Reconocimientos
 
+---
+
 # Membresias
+
+---
 
 # Redes Sociales
 
