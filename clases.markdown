@@ -2,7 +2,6 @@
 layout:     page
 title:      "Mis clases"
 description: "Seccion destinada a las clases que dicto en las Universidades y Centros de Investigación"
-author:     "Alvaro Chirino"
 header-img: "img/clase3.jpg"
 ---
 
