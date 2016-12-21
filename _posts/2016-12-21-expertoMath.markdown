@@ -4,7 +4,7 @@ title:      "Como estudiar como un Experto en #Matématica"
 subtitle:   "..."
 date:       2016-12-21 12:00:00
 author:     "Alvaro chirino"
-header-img: "img/evo.jpg"
+header-img: "img/portada4.jpg"
 ---
 
 <a href="https://miradaestadisticabolivia.files.wordpress.com/2015/10/math-formulae.png"><img class="aligncenter size-full wp-image-583" src="https://miradaestadisticabolivia.files.wordpress.com/2015/10/math-formulae.png" alt="math-formulae" width="500" height="269" /></a>
