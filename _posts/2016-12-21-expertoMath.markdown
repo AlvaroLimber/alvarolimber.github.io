@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     poster
 title:      "Como estudiar como un Experto en #Matématica"
 subtitle:   "..."
 date:       2016-12-21 12:00:00
