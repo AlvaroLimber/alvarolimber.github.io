@@ -1,0 +1,616 @@
+<style>
+.section .reveal .state-background{
+   background: brown;
+}
+</style>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full" type="text/javascript">
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { scale: 100}
+  });
+</script>
+
+Introducción a R
+========================================================
+width: 1440
+height: 900
+author: Alvaro Chirino
+date: Abril 2016
+transition: rotate
+css: pres6.css
+## Maestria en Modelaje Matemático
+### [achirino@aru.org.bo](mailto:achirino@aru.org.bo)
+
+<p style="text-align:right;">
+<IMG SRC="rpres.png">
+</p>
+
+Outline
+=======
+
+- ¿Qué es R?, algo de historia y usos
+- R-Studio
+- Instalación
+- R Básico
+  - Comandos (help), valores especiales
+  - Librerias
+  - Asignación
+  - Tipos de Objetos
+  - Estructuras
+  - Loops
+  - Indexación
+  
+  ***
+
+- Creación de Funciones
+- La familia apply
+- Investigación reproducible, programing literacy: Markdown, knitr, Shiny
+
+![](artR.jpg)
+
+
+Data science
+========================================================
+
+![](datascience.jpg)
+
+
+Algo de historia de R
+========================================================
+
+- R es el hermano de S
+- S es un leguaje de programacion estadistica desarrollado por John Chambers de Bell Labs
+- El objetivo de S era "convertir las ideas en el software, de forma rápida y fielmente"
+- S fue creado en 1976 y se reinvento 1988 introduciendo muchos cambios
+- En 1993, StatSci (fabricante de S-Plus) adquieren licencia exclusiva a S
+- S-Plus integra S con una interfaz gráfica de usuario agradable y pleno apoyo al cliente
+- R Fue creado por Ross Ihaka y Robert Gentleman de la University of Auckland, New Zealand
+
+R
+===
+- El proyecto R inicio en 1991
+- R apareció por primera vez en 1996 como un software de código abierto!
+- **Altamente personalizable a través de paquetes**
+- La comunidad R, se basa en el poder de la colaboración con miles de paquetes de libre disposición
+- Existen muchas interfaces gráficas de usuario de R libres y comerciales (por ejemplo *R Studio* y Revolución)
+
+¿Qué es R?
+==========
+R es un conjunto integrado de servicios de software para la manipulación de datos, cálculo y representación gráfica. Incluye:
+- instalacion sencilla y un facil almacenamiento de datos
+- un conjunto de operadores para los cálculos en arrays, particularmente en las matrices
+- facilidad en los gráficos y el analisis de datos y
+- bien desarrollado, lenguaje de programación sencillo y eficaz que incluye condicionales, bucles, funciones recursivas definidos por el usuario.
+- Altamente intuitivo
+
+R en the NY Times
+=================
+
+A pesar de **ser libre** y de código abierto, R es ampliamente utilizado por los analistas de datos dentro de las empresas y el mundo académico.
+
+Ver [NY Times](http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html?pagewanted=all&_r=0) articulo
+
+
+Algunas referencias
+===============
+
+Algunas referencias para empezar:
+- [aRrgh: a newcomer's (angry) guide to R](http://tim-smith.us/arrgh/) by Tim Smith and Kevin Ushey
+- [Introductory Statistics with ](http://www.amazon.com/Introductory-Statistics-R-Computing/dp/0387790535) by Peter Dalgaard
+- R tarjeta de comandos http://cran.r-project.org/doc/contrib/Short-refcard.pdf
+- Tutorial de R http://www.cyclismo.org/tutorial/R/
+- [R project](http://r-project.org) and [Bioconductor](bioconductor.org)
+
+Mas avanzado:
+
+- [Hadley Wickham's book](http://adv-r.had.co.nz/)
+
+
+RStudio
+=======
+type: section
+
+[RStudio](http://www.rstudio.com/) es un ambiente libre y abierto de desarrollo de código integrado. 
+
+![RStudio IDE](http://www.rstudio.com/images/screenshots/rstudio-windows.png)
+
+-------------
+- multiplataforma
+- El resaltado de sintaxis, completado de código, y la sangría inteligente
+- gestionar fácilmente múltiples directorios de trabajo 
+- Flexible para el manejo de gráficos
+- Integrado con Knitr
+- Integrado con Git
+
+Intalación
+============
+
+1. R-CRAN https://cran.r-project.org/ (elija el Sistema operativo, descargue y siguiente, siguiente...)
+2. R-Studio https://www.rstudio.com/  (elija el Sistema operativo, descargue y siguiente, siguiente...)
+
+**Nota:**
+
+Para actulizar ambos paquetes: descargue la nueva versión e instalela (las librerias no sufren cambios). 
+
+R básico
+========
+type: section
+
+R es una calculadora demasiado grande
+==============
+```{r some-easy-math}
+2+2
+exp(-2)
+pi
+sin(2*pi)
+```
+
+Como entiende R los comandos
+============
+
+**comando(argumentos, argumentos,...)**
+
+*Advertencia*
+
+- No es posible resumir un comando
+- R distingue mayuscula de minuscula
+- Siempre cerrar los parentesis
+- R entiende el orden de los argumentos o su nombre clave
+
+Obteniendo ayuda
+============
+
+```{r getting-help}
+help(pi) # equivalent ?pi
+?sqrt
+?sin
+?Special
+```
+
+Si no conoces el nombre exacto:
+```{r getting-more-help}
+help.search("trigonometry")
+??trigonometry
+apropos("test")
+```
+
+Palabras reservadas y simbolos especiales de R
+=========================
+
+- NA: datos perdidos
+- NULL: datos nulos
+- Inf -Inf: Infinito
+- #: comentario
+- TRUE (T), FALSE (F): valores lógicos
+
+***
+
+- NaN: not a number
+- ?: Ayuda
+- + x
+- x, ,x + y, x - y ,x * y ,x / y ,x ^ y (**),x %% y (mod) ,x %/% y (div int)
+- ! x, .x & y ,x && y ,x | y ,x || y
+
+Librerias
+==========
+
+Instalar una libreria
+
+**install.packages("Nombre de la libreria")**
+**install.packages("Nombre de la libreria",dependencies="Depends")**
+
+*Ejemplo*
+
+install.packages("TeachingDemos")
+
+```{r}
+####Habilitar la libreria
+library(TeachingDemos)
+####Comandos de la libreria
+library(help=TeachingDemos)
+```
+--------------------
+```{r}
+####Algunos comandos
+faces(rbind(1:3,5:3,3:5,5:7))
+```
+
+
+Asignación
+==========
+
+Almacenando resultados intermedios.
+
+```{r storing-things}
+x1 <- 1
+x2 <<- 2
+3 -> x3
+4 ->> x4
+x5 = 5
+```
+
+Trate de usar nombres significativos!
+Miren esto:
+- [Hadley Wickham's book](http://adv-r.had.co.nz/)
+- [Google's coding standards](http://google-styleguide.googlecode.com/svn/trunk/Rguide.xml)
+
+
+Tipos de objetos
+===========================
+
+```{r}
+y1<-2
+y2<-2.5
+y3<-TRUE
+y4<-"Hola"
+y5<-NULL
+```
+-------------------
+```{r}
+typeof(y1);typeof(y2);typeof(y3);
+mode(y4);mode(y5)
+```
+
+Vectores
+========================================================
+No podemos hacer mucho estadísticas con un solo número!
+
+Necesitamos una forma de almacenar una secuencia / lista de números
+
+Uno puede simplemente concatenar los elementos con la función `c`.
+
+```{r concatenate}
+weight <- c(60, 72, 75, 90, 95, 72)
+height <- c(1.75, 1.80, 1.65, 1.90, 1.74, 1.91)
+bmi <- weight/height^2 # vector based operation
+bmi
+```
+- El trabajo con vectores es mucho mas facil y rapido
+- `c` puede ser usado para unir números y cadenas
+
+Tipos de estructuras
+========================================================
+
+Incluso los vectores pueden ser limitados y necesitamos estructuras más poderosas
+
+**Homogeneas:**
+- Vectores (1-d)
+- Matrices (2-d)
+- Arrays (n-d)
+
+Pueden ser valores lógicos, números o cadenas
+
+**Heterogeneas:**
+- Listas (list)
+- Marcos de datos (dataframes)
+
+Para mas detalles: [http://adv-r.had.co.nz/Data-structures.html](http://adv-r.had.co.nz/Data-structures.html)
+
+Vectores
+=======
+
+Tres tipos de vectores
+```{r vectors}
+# Numeric vectors
+x <- c(1, 5, 8)
+x
+# Logical vectors
+x <- c(TRUE, TRUE, FALSE, TRUE)
+x
+# Character vectors
+x <- c("Hello", "my", "name", "is", "Francis")
+x
+```
+
+Matrices y arrays (1/2)
+===================
+
+Una matriz es una arreglo bidimensional de números. Las matrices se pueden utilizar para realizar operaciones (álgebra lineal). Sin embargo, también se pueden utilizar como tablas. 
+
+```{r matrices}
+x <- 1:12
+length(x)
+dim(x)
+dim(x) <- c(3, 4)
+x
+```
+--------
+```{r matrices1}
+x <- matrix(1:12, nrow=3, byrow=TRUE)
+x <- matrix(1:12, nrow=3, byrow=FALSE)
+rownames(x) <- c("A", "B", "C")
+colnames(x) <- c("1", "2", "x", "y")
+x <- matrix(c(9,8,7,6), 2,2)
+x
+```
+
+Matrices y Arrays (2/2)
+===================
+
+Las matrices pueden conformarce a partir de vectores
+
+```{r matrices2}
+x1 <- 1:4
+x2 <- 5:8
+y1 <- c(3, 9)
+my_matrix <- rbind(x1, x2)
+new_matrix <- cbind(my_matrix, y1)
+new_matrix
+```
+-------------
+Arrays, n-dimensiones
+```{r arrays}
+array(1:27, c(3, 3, 3))
+```
+
+Listas
+=====
+Las listas pueden ser utilizados para almacenar objetos (posiblemente de diferentes tipos / tamaños) en un objeto compuesto más grande.
+```{r lists}
+x <- c(31, 32, 40)
+y <- c("F", "M", "M", "F")
+# Diferentes tipos y dimensiones
+z <- c("London", "School")
+my_list <- list(age=x, sex=y, meta=z)
+my_list
+```
+
+Data Frames
+==========
+Es una "matriz de datos" o un "conjunto de datos". Es una lista de vectores y / o factores de la misma longitud que están relacionadas "a través" de tal manera que los datos en la misma posición provienen de la misma unidad experimental (sujeto, genes, etc.).
+
+```{r data-frames}
+my_df <- data.frame(age=c(31, 32, 40, 50), sex=c("M", "M", "F", "M"))
+my_df
+```
+¿Por qué necesitamos dataframes si es simplemente una lista?
+- indexación y almacenamiento más eficiente!
+
+Indexación (1/3)
+========
+
+La indexación es una gran manera de acceder directamente a los elementos de interés.
+
+```{r indexing}
+# Indexing a vector
+pain <- c(0, 3, 2, 2, 1)
+pain[1]
+pain[2]
+pain[1:2]
+```
+----------
+```{r indexing1}
+pain[c(1, 3)]
+pain[-5]
+```
+Tenga en cuenta que con un dataframe, la indexación de las unidades es sencillo!
+
+Indexación (2/3)
+================
+
+```{r indexing-suite}
+# Indexing a matrix
+my_matrix[1, 1]
+my_matrix[1, ]
+my_matrix[, 1]
+my_matrix[, -2]
+```
+----------
+```{r}
+# Indexing list is done in the same way
+my_list[3]
+my_list[[3]]
+my_list[[3]][1]
+# Indexing a data frame
+my_df[1, ]
+my_df[2, ]
+```
+
+
+Indexación por nombre (3/3)
+================
+
+```{r indexing-by-name}
+my_list$age
+my_list["age"]
+my_list[["age"]]
+my_df["age"]
+# tambien intente
+# my_df[1]
+# my_df[[1]]
+```
+
+Indexación condicionada 
+====================
+La indexación puede estar condicionada a otra variable!
+
+```{r conditional-indexing}
+id <- c(0, 3, 2, 2, 1)
+sex <- factor(c("M", "M", "F", "F", "M"))
+age <- c(45, 51, 45, 32, 90)
+id[sex=="M"]
+id[age>32]
+```
+
+Loops y condicionales
+================================
+
+R es un verdadero lenguaje de programación, y por lo tanto tiene una sintaxis rica incluyendo `bucles` y condicionales (`while`, `if`, `ifelse`, etc).
+
+```{r if-statement}
+# 
+x <- -2
+if(x>0) {
+  print(x)
+} else {
+  print(-x)
+}
+
+if(x>0) {
+  print(x)
+} else if(x==0) {
+  print(0)
+} else {
+  print(-x)
+}
+```
+
+--------------
+
+```{r for-while}
+# For loops
+n <- 1000000
+x <- rnorm(n, 10, 1)
+y <- x^2
+y <- rep(0, n)
+for(i in 1:n) {
+  y[i]<-sqrt(x[i])
+}
+
+y[1:10]
+
+# While loops
+counter <- 1
+while(counter<=n) {
+  y[counter] <- sqrt(x[counter])
+  counter <- counter+1
+}
+
+y[1:10]
+```
+
+Creación de funciones
+=======================
+
+Usted puede crear fácilmente su propia función en R. Recomendado cuando se va a usar el mismo código una y otra vez.
+
+```{r NR}
+# Newton-Raphson para encontrar la raiz cuadrada
+MySqrt <- function(y) {
+  x <- y/2
+  while (abs(x*x-y) > 1e-10) {
+    x <- (x+y/x)/2
+    }
+  x
+  }
+MySqrt(81)
+MySqrt(101)
+```
+
+
+
+The *apply family
+===========================================
+The `*apply` family of functions is intended to try to solve some of the side effects of `for` loops, such as facilitating it's application to R objects (e.g. lists) and improving efficiency. 
+
+
+The most common `*apply` functions are 
+- `apply`:  Returns a vector or array or list of values obtained by applying a function to margins of an array or matrix.
+
+- `lapply`: apply a function or each element of a list or vector
+
+- `sapply`: a user-friendly version and wrapper of lapply by default returning a vector, matrix or, an array. sapply will try to guess what the output should be based on the input.
+
+For more details have a look at [this](http://www.dummies.com/how-to/content/how-to-use-the-apply-family-of-functions-in-r.html).
+
+Vectorized operation with the *apply family (suite)
+===================================================
+
+```{r vectorized-apply}
+# Let's generate some uniform [0,10] random numbers
+n <- 10000
+x  <-  runif(n, 0, 10)
+y  <- rep(0, n)
+library(microbenchmark)
+microbenchmark(for(i in 1:n) y[i] <- MySqrt(x[i]), sapply(x, MySqrt), times=10)
+```
+
+`*apply` functions are not necessarily faster than `for` loops, but they can be very convenient and usually lead to more compact and more elegant code. 
+
+More efficiency gain can be obtained using compiled code (e.g. C++). R provides multiple ways to call compiled code. In particular, the [Rcpp](http://cran.r-project.org/web/packages/Rcpp/index.html) package can greatly facilitate the use of C++ compiled code.
+
+**Exercise:** Write some code to use the `apply` function on a given matrix.
+
+Reproducibility and literrate programming
+=====================
+- Approach to programming introduced by Donald Knuth
+    - An explanation of a program logic in a plain English, interspersed with chunk of computer code.
+- Sweave
+    - Create dynamic reports by embedding R code in latex documents
+    
+knitr vs. Sweave
+==================
+
+- Sweave is good but ...
+    - Writing latex is painful
+    - Output is limited to pdf
+- knitr
+    - Transparent engine for dynamic report generation
+    - knitr allows any input languages (e.g. R, Python and Awk) and any output markup languages
+    
+knitr: a feature rich package
+=============================
+- Full control of input, code, and output
+    - Fine control over how the code is executed and the ouput is displayed
+    - knitr can process input files in various formats: latex, html, R markdown
+- [R markdown](http://www.rstudio.com/ide/docs/authoring/using_markdown.html)
+    - markdown:  easy-to-read, easy-to-write plain text format that can be converted to html
+    - R markdown: markdown + R code chunks
+- [R presentation](http://www.rstudio.com/ide/docs/presentations/overview)
+- knitr is readily accessible in RStudio
+
+Markdown
+========
+Markdown is a simple markup language similar to wiki markups
+
+![Markdown in RStudio](http://www.rstudio.com/images/docs/markdownOverview.png)
+
+R Markdown
+==========
+Mardown with R code chuncks.
+
+![R Mardown](http://www.rstudio.com/images/docs/markdownUntitled.png)
+
+As we've seen, R expressions can also be evaluated inline:
+
+pi=`r pi`
+
+knitr and caching
+=================
+
+Large data and complex analysis can require significant computing time
+    
+- Not unusual for an analysis to take a few minutes to an hour, or even more!
+- This can result in some performance issues when viewing a report → User frustration
+- Why rerun a script when nothing has changed?
+- The solution is caching
+
+knitr and caching (suite)
+=================
+
+knitr provides powerful caching mechanism:
+
+- cache can be turned on/off for each code chunk
+- If caching is on, knitr will check if the code has changed when rerunning a report
+- Chunks can be made dependent
+- The caching mechanism is flexible can be attached to an R version, an input dataset, a date, etc.
+
+Want to know more about knitr?
+=============================
+Visit Yihui's webpage: http://yihui.name/knitr/
+
+or buy his book
+
+![Dynamic Documents with R and knitr](http://ecx.images-amazon.com/images/I/41kI1dxXGfL.jpg)
+
+Time for your to work!
+=====================
+What you need to do:
+- Download [R](r-project.org) and [RStudio](rstudio.org)
+- Signup for an account on [GitHub](github.com). 
+    - Set up your first repository!
+- Try [knitr](yihui.name/knitr/) and git within [RStudio](rstudio.org)
+
+We will use RStudio, GitHub and knitr a whole lot throughout this course! 
