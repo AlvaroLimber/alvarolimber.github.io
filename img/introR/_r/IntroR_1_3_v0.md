@@ -204,11 +204,9 @@ Acerca del curso
 Reglas del curso
 ===
 
-* Hay una tolerancia de 15 minutos al inicio de cada sesión (mañana o tarde)
-* Existe una pausa de refrigerio de 10 minutos a la mitad de la sesión (mañana: 11:15, tarde: 15:15)
+* Hay una tolerancia de 10 minutos al inicio de la sesión  
 * Es necesario una computadora personal
-* La ultima hora de la tarde se destina a ejercicios en aula
-
+* La ultima hora se destina a ejercicios en aula
 
 Herramientas
 ===
@@ -1009,8 +1007,8 @@ y[1:10]
 ```
 
 ```
- [1] 3.216043 3.371066 2.899087 3.384146 3.045862 3.282563 3.082277
- [8] 2.985467 3.237196 3.048795
+ [1] 2.788787 3.126842 3.330392 3.075632 3.368811 3.058231 3.206613
+ [8] 3.267836 2.993323 3.174249
 ```
 
 ```r
@@ -1025,8 +1023,8 @@ y[1:10]
 ```
 
 ```
- [1] 3.216043 3.371066 2.899087 3.384146 3.045862 3.282563 3.082277
- [8] 2.985467 3.237196 3.048795
+ [1] 2.788787 3.126842 3.330392 3.075632 3.368811 3.058231 3.206613
+ [8] 3.267836 2.993323 3.174249
 ```
 
 Creación de funciones
