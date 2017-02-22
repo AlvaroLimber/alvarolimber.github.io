@@ -1,0 +1,1 @@
+<img src='http://www.pieb.com.bo/imagen/pd_pdpieb.jpg' border='0' /><br /><h2 style='color:#336699;'>Error: P&aacute;gina no existe</h2><br /><a href='http://www.pieb.com.bo'>Home</a>
