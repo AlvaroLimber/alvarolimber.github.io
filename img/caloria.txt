@@ -28,6 +28,7 @@
 36 "Lechuga" 17
 39 "Papa" 65
 40 "Chuño" 315
+42 "Oca" 62
 45 "Banana" 89
 46 "Postre" 122
 47 "Naranja" 47
