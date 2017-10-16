@@ -7,6 +7,4 @@ author:     "Alvaro chirino"
 header-img: "img/portada4.jpg"
 ---
 
-<a href="https://miradaestadisticabolivia.files.wordpress.com/2015/10/math-formulae.png"><img class="aligncenter size-full wp-image-583" src="https://miradaestadisticabolivia.files.wordpress.com/2015/10/math-formulae.png" alt="math-formulae" width="500" height="269" /></a>
-
 <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1173_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"empleo","geo":"BO","time":"2004-01-01 2017-10-16"},{"keyword":"curriculum","geo":"BO","time":"2004-01-01 2017-10-16"},{"keyword":"hoja de vida","geo":"BO","time":"2004-01-01 2017-10-16"}],"category":0,"property":""}, {"exploreQuery":"date=2004-01-01 2017-10-16,2004-01-01 2017-10-16,2004-01-01 2017-10-16&geo=BO&q=empleo,curriculum,hoja%20de%20vida","guestPath":"https://trends.google.es:443/trends/embed/"}); </script>
