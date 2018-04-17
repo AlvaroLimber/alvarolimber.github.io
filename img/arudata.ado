@@ -5,11 +5,10 @@
 version 7.0
 program define arudata
 syntax anything 
-cd "/Users/iMac6/Desktop/_ARU2018/8_arudata/eh"
 quietly {
 clear *
-import delimited using `anything'.csv, delimiter(";")
-do `anything'.do
+import delimited using http://aru2.ddns.net/datumARU/eh/`anything'.csv, delimiter(";")
+do http://aru2.ddns.net/datumARU/eh/`anything'.do
 }
 		
 end
