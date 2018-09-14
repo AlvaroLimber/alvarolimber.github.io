@@ -1,36 +1,51 @@
----
-layout: page
-description: "(Blog Personal) Fomentando la alfabetización de datos y la crítica basada en evidencia"
----
+<HTML>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Escrito por {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} en {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
-<hr>
-{% endfor %}
+<HEAD>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Nuevos artículos</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Artículos anteriores &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<TITLE>Un Titulo para el Browser de turno </TITLE>
+
+</HEAD>
+
+<BODY>
+
+<!-- Aqui va todo lo chachi -->
+
+<H1>Otro t&iacute;tulo, esta vez m&aacute;s largo. </H1>
+
+<P> <IMG SRC= "./felix.gif "ALIGN= "MIDDLE " ALT= "EL Gato Felix ">Hoola.
+
+<P>Esto es un parrafo con informacion
+
+super importante. Notese que las lineas salen pegadas aun dejando
+
+espacios, saltos de linea, etc. <BR> &#161 Si pongo esto
+
+si <STRONG>cambia </STRONG> de linea!
+
+<P>Otro parrafo, esto ya es un poco rollo.
+
+<H3>Pongamos un subtítulo<H3>
+
+<P>Por cierto, &#191 que paso con las <A HREF= "#pepe ">anclas</A>?
+
+<HR>
+
+<UL>
+
+<LI> Esto es una lista no ordenada.
+
+<LI> Las listas quedan mejor si tienen varios elementos.
+
+</UL>
+
+Me voy al <A HREF= "http://www.iac.es/home.html ">IAC</A>.
+
+<P>Vamos a crear un <EM>ancla </EM>, o lo que es lo mismo, un <A NAME="pepe">anchor.</A>
+
+.....................................................
+
+.....................................................
+
+</BODY>
+
+</HTML>
