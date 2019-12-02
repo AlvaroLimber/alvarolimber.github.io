@@ -7,13 +7,14 @@
 #' arudata(id="cs76v",pass=9876)
 #' @export
 arudata<-function(id="cs76v",pass=9876){
-  aux<-read.csv("https://udata-aru.github.io/img/pass.csv")
+  aux<-pass()
   if(max(aux==pass)==1){
     data(indexaru)
     if(max(indexaru$id==id)){
-      bd<-read.csv(paste0("http://aru2.ddns.net:8080/datumARU/data/",id,".csv"),sep=";")
+      bd<-aru(id)
       return(bd)
-      cat("Vas bien...",fill=T)
+      cat("Investigación de calidad, políticas basadas en evidencia",fill=T)
+      cat("Fundación ARU",fill=T)
     } else {
       cat("Identificador de la base de datos incorrecto, revise con <<aru_repo()>> las bases disponibles",fill=T)
     }
@@ -33,3 +34,12 @@ aru_repo<-function(){
   print(indexaru[,1:2])
 }
 
+pass<-function(){
+  aux<-read.csv("https://udata-aru.github.io/img/pass.csv")
+  return(aux)
+}
+
+aru<-function(id){
+  aux<-read.csv(paste0("http://aru2.ddns.net:8080/datumARU/data/",id,".csv"),sep=";")
+  return(aux)
+}
