@@ -1,24 +1,43 @@
-#Clean Blog by Start Bootstrap - Jekyll Version
+Peter Solymos's personal website
+==========
 
-The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+## Todo in order of priority
 
-###[View Live Demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
+- [x] add to R-bloggers [here](http://www.r-bloggers.com/add-your-blog/)
+- [x] include 'subscribe/follow' buttons at top of sidebar
+  (see [here](http://coschedule.com/blog/write-a-great-blog-post/)).
+- [x] update logline
+- [x] create blog entries from News section
+- [x] share buttons (Twitter etc)
+- [x] create category specific highlights once there are enough posts/category
+- [x] qisqus to add in bottom is done but does not load: canonical problem? works mostly...
+- [x] create R tag secific RSS feed as [here](http://jekyll.tips/tutorials/rss-feed/) or [here](https://github.com/snaptortoise/jekyll-rss-feeds/blob/master/feed.xml)
+- [x] differentiate landing page by categories
+- [x] finish embed
+- [x] previous/next post buttons
+- [ ] add non peer-reviewed publications page
 
-## Before You Begin
+## Organization
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+Categories:
 
-It should look like this:
-`baseurl: ""`
+* Papers: peer reviewed publications
+  - `post.title` is short title
+  - 1st paragraph is formatted citation (excerpt)
+  - full text etc. links defined in yaml header so that it can be pulled out
+  - body after 1st paragraph: optional
+  - use R tag (for `feed-r.xml`) if paper has R relevance, code explained, etc.
+  - do not post abstract only posts, post only is it goes beyond
+    (but in that case it is most likely to fall within the Code category
+    with appropriate links/citations)
+* Code: R package related info
+  - use R tag (for `feed-r.xml`)
+  - package can be just part of tags: list relevant posts for packages
+  - this includes tutorials as well (tutorial as tag)
+* Talks: slides, posters (tag reveling what kind)
+* Etc, tag revealing what kind:
+  - here comes course announcements (tag: course),
+  - reports (non peer reviewed publications in general, tag: report),
+  - R package updates (use R tag for `feed-r.xml`, package as tag too).
 
-## What's Included
-
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
-
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
-
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
-
-## Support
-
-Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+1-3 (few) posts can be promoted (`post.promote: true`), prefereably only 1.

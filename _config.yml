@@ -1,17 +1,36 @@
-# Site settings
-title: Estadística, Datos y Análisis
-header-img: img/portada1.jpg
-email: achirino@aru.org.bo
-description: Buscando generar cultura estadística, una mirada hacia la calidad del dato y el uso responsable de información para la generación de políticas públicas
-baseurl: ""
-url: "http://alvarolimber.github.io/"
-twitter_username: AlvaroChirinoG
-github_username:  AlvaroLimber
-facebook_username:  alvarolimber.chirinogutierrez
+title: "P&eacute;ter S&oacute;lymos"
+description: "Statistical computing meets biodiversity conservation and natural resource management"
 
-# Build settings
+#baseurl:  http://localhost:4000
+baseurl: https://peter.solymos.org
+#baseurl: https://psolymos.github.io
+
+include: [".htaccess"]
+exclude: ["README.md","LICENSE.md"]
+timezone:    America/Edmonton
+
+encoding: UTF-8
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+kramdown:
+  input:          GFM
+  hard_wrap:      false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Bootswatch theme (cosmo)
+bswtheme: flatly
+# fancy fonts on/off
+fancyfonts: true
+# navbar style: inverse, transparent
+navbar: transparent
+
+disqus: petersolymos
+ads: false
+
+author: '<a href="https://peter.solymos.org">P&eacute;ter S&oacute;lymos</a>'
+author_plain: 'Peter Solymos'
+
+categories: ["Etc", "Talks", "Papers", "Code", "Tutorials"]
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
