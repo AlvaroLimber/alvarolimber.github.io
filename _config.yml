@@ -1,8 +1,8 @@
-title: "P&eacute;ter S&oacute;lymos"
-description: "Statistical computing meets biodiversity conservation and natural resource management"
+title: "alvarolimber"
+description: "La estadística es el arte de contar una historia con datos"
 
 #baseurl:  http://localhost:4000
-baseurl: https://peter.solymos.org
+baseurl: https://alvarolimber.github.io
 #baseurl: https://psolymos.github.io
 
 include: [".htaccess"]
