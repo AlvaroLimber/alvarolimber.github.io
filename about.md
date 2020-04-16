@@ -1,10 +1,10 @@
 ---
 title: "About"
-description: "General information about this website and the author"
+description: "Información general del autor"
 layout: default
 ---
 
-## Appointments
+## Clases
 
 - **Jan 2015 &ndash;**: Adjunct Professor, [Department of Biological Sciences](https://uofa.ualberta.ca/biological-sciences), [University of Alberta](http://www.ualberta.ca/), Edmonton, AB Canada
 - **Jan 2010 &ndash;**: Statistical Ecologist, [Boreal Avian Modelling (BAM) Project](http://www.borealbirds.ca/)
@@ -13,11 +13,29 @@ layout: default
 - **Jan 2004 &ndash; Mar 2009**: Junior Research Associate, Department of Ecology, [Institute for Biology](http://bio.univet.hu/), [Faculty of Veterinary Science](http://aotk.szie.hu/), [Szent Istv&aacute;n University](http://szie.hu/), Budapest, Hungary
 - **Sep 2003 &ndash; Dec 2003**: Junior Research Associate, Evolutionary Genetics and Conservation Biology Research Group, [Hungarian Academy of Sciences](http://mta.hu/) and [University of Debrecen](http://unideb.hu/), Debrecen, Hungary.
 
-## Qualifications
+## Educación Universitaria
 
-- **2006**: PhD in Biology, [University of Debrecen](http://unideb.hu/), Hungary.
-- **2002**: MSc in Environmental Management, [University of Debrecen](http://unideb.hu/), Hungary.
-- **2000**: MSc in Biology (Ecology Major), and Teacher in Biology, [University of Debrecen](http://unideb.hu/), Hungary.
+- **2020** MSc en Modelaje Matemático, [Universidad Mayor de San Andres](https://www.umsa.bo/)
+- **2016** Diplomado - Análisis Matemático de Datos, [Universidad Mayor de San Andres](https://www.umsa.bo/), Bolivia
+- **2015** Diplomado - Fundamentos de Modelaje Matemático, [Universidad Mayor de San Andres](https://www.umsa.bo/), Bolivia
+- **2013** Diplomado - Evaluación de Políticas Sociales, [Universidad Católica Boliviana](http://www.ucb.edu.bo/), Bolivia
+- **2011** Diplomado en Organización y administración pedagógica del aula en Educación Superior, [Universidad Mayor de San Andres](https://www.umsa.bo/), Bolivia
+- **2011** Licenciatura en Estadística, [Universidad Mayor de San Andres](https://www.umsa.bo/), Bolivia
+
+## Cursos y seminarios destacados
+
+- Del control al aprendizaje: El monitoreo y la evaluación participativa como estrategia para potenciar la generación de conocimiento para incidir en las políticas pública, Iniciativa Latinoamericana de Investigación para las Políticas Públicas (ILAIPP), Septiembre 2017  
+- SC17 - Practical Bayes for Beginners, 61th World Statistics Congress, Marruecos-Julio 2017.
+- Sampling, Weighting and Estimation, 5th GESIS Summer School in Survey Methodology, Cologne - Germany, Agosto 2016
+- Formacion basada en competencias, formación en entornos virtuales y pedagogía de la educación superior del siglo XXI, Universidad Mayor de San Andres, La Paz-Bolivia, Julio 2016
+- Advance Topics in Survey Sampling, IBGE - National School of Statistical Sciences (ENCE), Rio de Janeiro - Brasil, Julio 2015
+- Introduction to Structural Equation Modeling, IBGE - National School of Statistical Sciences (ENCE), Rio de Janeiro - Brasil, Julio 2015
+- Curso Intermedio de Evaluación de Impacto, CEDLAS-GRADE, Lima-Peru, Mayo 2014
+- Taller para Investigadores Jóvenes: Preparando propuestas de investigación orientada a donantes, CIES, Lima-Peru, Septiembre 2013
+- Curso Básico de Evaluación de Impacto, CEDLAS-GRADE, La Plata-Argentina, Agosto 2013
+- The Economic contributions of Women and men: A training Workshop on time-use data analysis for policymaking, IATUR, Rio-Brasil, Agosto 2013
+- 61th World Statistics Congress, Marruecos-Julio 2017.
+- 60th World Statistics Congress, Brasil-Julio 2015.
 
 ## Contact
 
