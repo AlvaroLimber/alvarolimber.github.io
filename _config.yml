@@ -26,8 +26,8 @@ navbar: transparent
 disqus: petersolymos
 ads: false
 
-author: '<a href="https://peter.solymos.org">P&eacute;ter S&oacute;lymos</a>'
-author_plain: 'Peter Solymos'
+author: '<a href="https://alvarolimber.github.io">P&eacute;ter S&oacute;lymos</a>'
+author_plain: 'Alvaro Chirino'
 
 categories: ["Etc", "Talks", "Papers", "Code", "Tutorials"]
 
