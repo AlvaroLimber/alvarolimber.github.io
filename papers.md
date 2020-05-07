@@ -1,8 +1,8 @@
 ---
 title: Papers
-description: "A list of peer-reviewed publications by Peter Solymos."
+description: "A list of peer-reviewed publications by Alvaro Chirino"
 layout: default
-years: [2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2005, 2004, 2002]
+years: [2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011]
 ---
 
 <div class="btn-group btn-group-justified">
