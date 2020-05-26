@@ -1,5 +1,5 @@
 ---
-title: "R packages"
+title: "Códigos desarrollados"
 description: "An archive of posts in the code category"
 layout: default
 ---
@@ -43,6 +43,8 @@ layout: default
 </div>
 {% endfor %}
 
+<!-- 
 ### Other contributions
 
 - **Programa1**: 
+-->

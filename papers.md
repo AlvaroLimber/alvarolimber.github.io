@@ -6,13 +6,13 @@ years: [2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011]
 ---
 
 <div class="btn-group btn-group-justified">
-
+<!--  
   <div class="btn-group">
     <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Bibliometrics <i class="fa fa-caret-down" aria-hidden="true"></i></a>
     <ul class="dropdown-menu">
       <li><a href="http://scholar.google.ca/citations?hl=en&user=PfC17QsAAAAJ&view_op=list_works&pagesize=100">Google Scholar</a></li>
       <li><a href="http://orcid.org/0000-0001-7337-1740">ORCID</a></li>
-    <!--  <li><a href="https://vm.mtmt.hu/www/index.php?AuthorID=10000580">MTMT</a></li> -->
+    
       <li><a href="http://www.researcherid.com/rid/B-2775-2008">ResearcherID</a></li>
       <li><a href="http://www.scopus.com/authid/detail.url?authorId=23104106300">ScopusID</a></li>
       <li><a href="https://academic.microsoft.com/#/detail/1972292879">Microsoft Academic</a></li>
@@ -28,7 +28,7 @@ years: [2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011]
       <li><a href="https://sites.google.com/site/psolymosold/publications/nonrefereed">Not peer-reviewed stuff</a></li>
      </ul>
   </div>
-
+-->
   <div class="btn-group">
     <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Jump to a year <i class="fa fa-caret-down" aria-hidden="true"></i></a>
     <ul class="dropdown-menu">
