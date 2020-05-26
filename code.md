@@ -4,6 +4,7 @@ description: "An archive of posts in the code category"
 layout: default
 ---
 
+<!-- tags 
 <p id="checks-external">
 <a href="http://depsy.org/person/329897">
     <img src="http://depsy.org/api/person/329897/badge.svg"></a> &mdash;
@@ -14,7 +15,7 @@ layout: default
 <a href="https://codecov.io/gh/psolymos/">CodeCov</a> &mdash;
 <a href="https://sourcerer.io/psolymos">Sourcerer</a>
 </p>
-
+-->
 <!-- tags -->
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
@@ -44,6 +45,4 @@ layout: default
 
 ### Other contributions
 
-- **adegenet**: `coords.monmonier` &mdash; <i class="fa fa-archive text-black"></i> <a href="http://cran.r-project.org/package=adegenet">CRAN</a> &mdash; <i class="fa fa-github text-black"></i> <a href="https://github.com/psolymos/contrib">GitHub</a>
-- **plotrix**: `ladderplot`, `ruginv`, `draw.ellipse` &mdash; <i class="fa fa-archive text-black"></i> <a href="http://cran.r-project.org/package=plotrix">CRAN</a> &mdash; <i class="fa fa-github text-black"></i> <a href="https://github.com/psolymos/contrib">GitHub</a>
-- **epiR**: `epi.occc` &mdash; <i class="fa fa-archive text-black"></i> <a href="http://cran.r-project.org/package=epiR">CRAN</a> &mdash; <i class="fa fa-github text-black"></i> <a href="https://github.com/psolymos/contrib">GitHub</a>
+- **Programa1**: 
