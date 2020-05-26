@@ -1,15 +1,27 @@
 #
 #------------------------- 2020 ------------------------------
 #
-- id: Knight2020
+- id: compendium2017
   type: paper
-  year: 2020
-  text: "Knight, E. C, <strong>S&oacute;lymos, P.</strong>, Scott, C., and Bayne, E. M., 2020. Validation prediction: a flexible protocol to increase efficiency of automated acoustic processing for wildlife research. <strong>Ecological Applications</strong>, xx: xx&ndash;xx."
-  link: 
+  year: 2017
+  text: "¿REDUCCIÓN DE LA AUTO PERTENENCIA INDÍGENA EN BOLIVIA? UNA APLICACIÓN EXPERIMENTAL EN EL DISEÑO DE CUESTIONARIOS."
+  link: http://www.revistas.espol.edu.ec/index.php/compendium/article/view/273/197
   fulltext: 
   code:
   supportinginfo:
   doi: 
+
+- id: isi2015
+  type: paper
+  year: 2015
+  text: "2 Census, 10 years of household surveys in Bolivia. Time to re-weight and define a comparable sample design for Welfare indicator"
+  link: http://www.isi2015.ibge.gov.br/components/com_users/views/registration/tmpl/media/uploadedFiles/paper/1047/6217/PP-F04-P1-S.pdf
+  fulltext: 
+  code:
+  supportinginfo:
+  doi: 
+
+
 #
 #------------------------- YYYY ------------------------------
 #

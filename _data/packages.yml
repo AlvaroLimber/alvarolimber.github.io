@@ -1,6 +1,6 @@
 - pkgname: mefa
-  title: "Multivariate data handling in ecology and biogeography"
-  description: "Standardized computational environment for ecological data manipulation."
-  tutorial: "<a href=\"http://cran.r-project.org/web/packages/mefa/vignettes/mefa.pdf\">vignette</a>"
-  paper: "<a href=\"http://www.jstatsoft.org/v29/i08/\">S&oacute;lymos 2009</a>"
-  devel: psolymos
+  title: ""
+  description: ""
+  tutorial: "<a href=\" \">vignette</a>"
+  paper: "<a href=\" \"> AlvaroLimber </a>"
+  devel: alvarolimber
