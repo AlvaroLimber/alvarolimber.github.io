@@ -1,7 +1,7 @@
 ---
 output: github_document
 ---
-```{r,eval=F,echo=T}
+
 ---
 title: "Programación Estadística I (EST-383)"
 layout: default
@@ -11,7 +11,7 @@ published: true
 disqus: Alvaro
 promote: false
 ---
-```
+
 
 * Universidad: Universidad Mayor de San Ándres
 * Carrera: Estadística
