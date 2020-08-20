@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+```{r,eval=F,echo=T}
+---
+title: "Programación Estadística I (EST-383)"
+layout: default
+category: Talks
+tags: [estadística,big data]
+published: true
+disqus: Alvaro
+promote: false
+---
+```
+
+* Universidad: Universidad Mayor de San Ándres
+* Carrera: Estadística
+* Pre requisito: Quinto Semestre vencido
+* Nivel: Pregrado, Sexto Semestre (optativa)
+* Repositorio de la materia: [Aquí](github.io/alvarolimber/EST-383)
+* Apuntes de la materia: [Aquí](https://alvarolimber.github.io/EST-383/bigdata/_book/)
+* Lista de reproducción en youtube: [Aquí](https://www.youtube.com/playlist?list=PL1bQNHPTDXvITugK_44edW-dDfDnEhe4P)
+* Temas:	
+	+ Introducción a R
+	+ Scraping Web 
+	+ Introducción a Big Data
+	+ Big Data en R
+	+ Spark en R
+* Libro guía: Según el capítulo: (1,4) Big Data Analytics with R, Simon Walkowiak. (3) Big Data and Social Science, Ian Foster (2) Automated Data Collection with R, Simon Munzert. (5) [Mastering Spark with R](https://therinspark.com/), Javier Luraschi
+
+## Fechas Importantes
