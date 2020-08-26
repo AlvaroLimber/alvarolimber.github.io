@@ -1,0 +1,51 @@
+---
+title: "Planificación: Estadística I. EST-133(c) II2020"
+author: 'Docente: Alvaro Chirino Gutierrez'
+date: "Agosto, 2020"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Contenido:
+
+  * **Tema 1:** Introducción a la estadística descriptiva
+  * **Tema 2:** Probabilidad
+  * **Tema 3:** Variables aleatorias
+  * **Tema 4:** Distribuciones discretas
+  * **Tema 5:** Distribuciones continuas
+  
+# Planificación por fecha
+
+```{r,echo=F}
+StartDate <- as.Date("2020-08-10")
+EndDate <- as.Date("2020-12-26") 
+myDays <- seq(StartDate , EndDate, by = "day") 
+excludeDays <- c("lunes","miércoles","viernes", "sábado","domingo")
+myWeekDays <- subset(myDays, !weekdays(myDays) %in% excludeDays)
+library(readxl)
+aux<-read_excel("G:\\Mi unidad\\contenido_materias\\contenido2020.xlsx",sheet = "EST133")
+aux<-cbind(aux,myWeekDays)
+names(aux)[4]<-"Fecha"
+
+knitr::kable(aux)
+```
+
+# Evaluación
+
+  * 20% Primer parcial: Tema 1 y 2
+  * 20% Segundo Parcial: Tema 3 y 4
+  * 20% Actividades virtuales: Todos los temas
+  *  5% Práctica de libro guía: Seleccionar al menos 20 ejercicios por capítulo
+  *  5% Poster estadístico.
+  * 30% Examen final: Todos los temas
+
+# Bibliografía
+
+  * **Libro guía:** Tópicos de Estadística Descriptiva y Probabilidad, Maximo Mitac Meza
+  * **Libro Sugerido:** A first course of probability, Sheldon Ross
+  
