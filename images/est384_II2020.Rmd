@@ -1,5 +1,5 @@
 ---
-title: "Planificación: Estadística I. EST-383 II2020"
+title: "Planificación: Estadística I. EST-384 II2020"
 author: 'Docente: Alvaro Chirino Gutierrez'
 date: "Agosto, 2020"
 output: pdf_document
@@ -13,11 +13,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Contenido:
 
-  * **Tema 1:** Introducción a R
-  * **Tema 2:** Scraping web
-  * **Tema 3:** Introducción a Big Data
-  * **Tema 4:** R y Big Data
-  * **Tema 5:** R y Spark
+  * **Tema 1:** Introducción a minería de datos
+  * **Tema 2:** Modelado
+  * **Tema 3:** Clustering
+  * **Tema 4:** Regresión
+  * **Tema 5:** Clasificación
+  * **Tema 6:** Minería de texto
   
 # Planificación por fecha
 
@@ -28,7 +29,7 @@ myDays <- seq(StartDate , EndDate, by = "day")
 excludeDays <- c("martes","jueves","viernes", "sábado","domingo")
 myWeekDays <- subset(myDays, !weekdays(myDays) %in% excludeDays)
 library(readxl)
-aux<-read_excel("G:\\Mi unidad\\contenido_materias\\contenido2020.xlsx",sheet = "EST383")
+aux<-read_excel("G:\\Mi unidad\\contenido_materias\\contenido2020.xlsx",sheet = "EST384")
 aux<-cbind(aux,myWeekDays)
 names(aux)[4]<-"Fecha"
 
