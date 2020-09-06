@@ -18,6 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
   * **Tema 3:** Variables aleatorias
   * **Tema 4:** Distribuciones discretas
   * **Tema 5:** Distribuciones continuas
+  * **Tema 6:** Variable aleatoria Bidimensional
   
 # Planificación por fecha
 
@@ -31,14 +32,24 @@ library(readxl)
 aux<-read_excel("G:\\Mi unidad\\contenido_materias\\contenido2020.xlsx",sheet = "EST133")
 aux<-cbind(aux,myWeekDays)
 names(aux)[4]<-"Fecha"
+#evaluaciones
+aux<-rbind(aux,
+c(0,0,"Primer Parcial", "2020-10-10"),
+c(0,0,"Segundo Parcial", "2020-11-21"),
+c(0,0,"Examen Final", "2020-12-19"))
 
-knitr::kable(aux)
+#10 de octubre (18 sesiones)
+#21 de noviembre (30 sesiones)
+#19 de diciembre (38 sesiones)
+aux<-aux[order(aux$Fecha),]
+############
+knitr::kable(aux,row.names = F)
 ```
 
 # Evaluación
 
-  * 20% Primer parcial: Tema 1 y 2
-  * 20% Segundo Parcial: Tema 3 y 4
+  * 20% Primer parcial: Tema 1, 2 y 3
+  * 20% Segundo Parcial: Tema 4 y 5
   * 20% Actividades virtuales: Todos los temas
   *  5% Práctica de libro guía: Seleccionar al menos 20 ejercicios por capítulo
   *  5% Poster estadístico.
@@ -48,4 +59,3 @@ knitr::kable(aux)
 
   * **Libro guía:** Tópicos de Estadística Descriptiva y Probabilidad, Maximo Mitac Meza
   * **Libro Sugerido:** A first course of probability, Sheldon Ross
-  
