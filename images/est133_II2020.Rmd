@@ -33,10 +33,6 @@ aux<-read_excel("G:\\Mi unidad\\contenido_materias\\contenido2020.xlsx",sheet = 
 aux<-cbind(aux,myWeekDays)
 names(aux)[4]<-"Fecha"
 #evaluaciones
-aux<-rbind(aux,
-c(0,0,"Primer Parcial", "2020-10-10"),
-c(0,0,"Segundo Parcial", "2020-11-21"),
-c(0,0,"Examen Final", "2020-12-19"))
 
 #10 de octubre (18 sesiones)
 #21 de noviembre (30 sesiones)
@@ -51,8 +47,8 @@ knitr::kable(aux,row.names = F)
   * 20% Primer parcial: Tema 1, 2 y 3
   * 20% Segundo Parcial: Tema 4 y 5
   * 20% Actividades virtuales: Todos los temas
-  *  5% Práctica de libro guía: Seleccionar al menos 20 ejercicios por capítulo
-  *  5% Poster estadístico.
+  *  5% Práctica de libro guía: Seleccionar al menos 20 ejercicios por capítulo. Entrega una clase antes del examen final.
+  *  5% Poster estadístico. Visto bueno una clase antes del examen final.
   * 30% Examen final: Todos los temas
 
 # Bibliografía
