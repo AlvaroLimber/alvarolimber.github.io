@@ -1,0 +1,79 @@
+---
+title: "Planificación: Estadística Social y Aplicada. MAT-228, 2021"
+author: 'Docente: Alvaro Chirino Gutierrez'
+date: "Febrero, 2021"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Contenido:
+
+  * **Tema 1:** Introducción a la Estadística y importancia para la parte Social
+  * **Tema 2:** Estadística Descriptiva 
+  * **Tema 3:** Diseño de estudios estadísticos
+  * **Tema 4:** Introducción a la inferencia Estadística 
+  * **Tema 5:** Estadística aplicada en Stata/SPSS/R 
+  
+# Planificación por fecha
+
+```{r,echo=F}
+StartDate <- as.Date("2021-02-01")
+EndDate <- as.Date("2021-11-11") 
+myDays <- seq(StartDate , EndDate, by = "day") 
+#c("lunes","martes","miércoles","jueves","viernes", "sábado","domingo")
+excludeDays <- c("lunes","miércoles","viernes", "sábado","domingo")
+myWeekDays <- subset(myDays, !weekdays(myDays) %in% excludeDays)
+myWeekDays<-myWeekDays[-c(49,50)]
+library(readxl)
+aux<-read_excel("G:\\Mi unidad\\contenido_materias\\contenido2020.xlsx",sheet = "EST228")
+aux<-cbind(aux,myWeekDays)
+names(aux)[4]<-"Fecha"
+
+knitr::kable(aux)
+```
+
+# Evaluación
+
+  + 20% Primer Parcial (T1, T2)
+  + 20% Segundo Parcial (T3, T4)
+  + 20% Proyecto de investigación
+  + 10% Actividades virtuales
+  + 10% Auxiliatura
+  + 30% Examen final (T1-T4)
+  + Una de las dos opciones: Segundo Turno (al menos un parcial) o Recuperatorio
+  
+# Proyecto de investigación
+
+Individual o en grupos de 2 a 4 personas.
+
+## Objetivo: introducir al estudiante a la investigación cuantitativa, mediante el análisis de una problemática social.
+
+## Formato
+Reporte estadístico, con los siguientes puntos:
+
+  1. Importancia del tema
+  2. Contexto en Bolivia
+  3. Marco de indicadores
+  3. Estadísticas 
+  4. Figuras
+  5. Análisis, comentarios e implicaciones
+  6. Referencias
+
+## Temas
+
+Cualquier tema de indole social, dentro de una población definida por el estudiante.
+
+  + Pobreza
+  + Migración
+  + Trata y tráfico
+  + Trabajo infantil
+  + Cuidados (Infantil, adultos mayores)
+  + Etc. 
+  
+Fuente de información: Fuentes primarias (Encuestas), fuentes secundarias (bases de datos ya generadas)
+  

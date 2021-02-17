@@ -1,0 +1,42 @@
+---
+title: "Planificación: Estadística II. EST-145 I2021"
+author: 'Docente: Alvaro Chirino Gutierrez'
+date: "Febrero, 2021"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Contenido
+
+  + Distribuciones conjuntas
+  + Distribuciones muestrales
+  + Estimación
+  + Pruebas de hipótesis
+  
+# Planificación por fecha
+
+```{r,echo=F}
+StartDate <- as.Date("2021-02-08")
+EndDate <- as.Date("2021-06-24") 
+myDays <- seq(StartDate , EndDate, by = "day") 
+#c("lunes","martes","miércoles","jueves","viernes", "sábado","domingo")
+excludeDays <- c("martes","jueves","viernes", "sábado","domingo")
+myWeekDays <- subset(myDays, !weekdays(myDays) %in% excludeDays)
+library(readxl)
+aux<-read_excel("G:\\Mi unidad\\contenido_materias\\contenido2020.xlsx",sheet = "EST145")
+aux<-cbind(aux,myWeekDays)
+names(aux)[4]<-"Fecha"
+knitr::kable(aux)
+```
+
+# Evaluación
+
+	+ 30% Primer Parcial (T1, T2)
+	+ 30% Segundo Parcial (T3, T4)
+	+ 30% Final (T1-T4)
+	+ 10% Actividades virtuales (5 pts extra)
