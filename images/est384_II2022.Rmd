@@ -1,0 +1,46 @@
+---
+title: "Planificación: Minería de datos. EST-384 II2022"
+author: 'Docente: Alvaro Chirino Gutierrez'
+date: "Julio, 2022"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Contenido:
+
+  * **Tema 1:** Introducción a minería de datos
+  * **Tema 2:** Modelado
+  * **Tema 3:** Clustering (Agrupamiento)
+  * **Tema 4:** Regresión
+  * **Tema 5:** Clasificación
+  * **Tema 6:** Minería de texto
+  
+# Planificación por fecha
+
+```{r,echo=F}
+
+StartDate <- as.Date("2022-07-25")
+EndDate <- as.Date("2022-12-10") 
+myDays <- seq(StartDate , EndDate, by = "day") 
+#excludeDays <- c("martes","jueves","viernes", "sábado","domingo")
+excludeDays <- c("Tuesday","Thursday","Friday","Saturday","Sunday")
+myWeekDays <- subset(myDays, !weekdays(myDays) %in% excludeDays)
+library(readxl)
+aux<-read_excel("
+                }contenido2020.xlsx",sheet = "EST384")
+aux<-cbind(aux,myWeekDays)
+names(aux)[4]<-"Fecha"
+knitr::kable(aux)
+```
+
+# Evaluación
+
+  * 20% Primer parcial: Tema 1 y 2
+  * 20% Segundo Parcial: Tema 3, 4 y 5
+  * 20% (Tareas) Actividades virtuales: Todos los temas
+  * 40% Proyecto
