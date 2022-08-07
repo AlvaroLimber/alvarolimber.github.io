@@ -1,0 +1,48 @@
+---
+title: "Planificación: Estadística. EST-104 II2022"
+author: 'Docente: MSc. Alvaro Limber Chirino Gutierrez'
+date: "Agosto, 2022"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Contenido
+
+  + Estadística descriptiva
+  + Probabilidad
+  + Muestreo
+  + Pruebas de hipótesis
+  
+# Planificación por fecha
+
+```{r,echo=F}
+library(readxl)
+StartDate <- as.Date("2022-07-25")
+EndDate <-StartDate+(7*20)
+myDays <- seq(StartDate , EndDate, by = "day") 
+
+#c("lunes","martes","miércoles","jueves","viernes", "sábado","domingo")
+#excludeDays <- c("martes","jueves","viernes", "sábado","domingo")
+excludeDays<-c("Monday","Thursday","Friday","Saturday","Sunday")
+myWeekDays <- subset(myDays, !weekdays(myDays) %in% excludeDays)
+
+aux<-read_excel("G:\\Mi unidad\\contenido_materias\\contenido2020.xlsx",sheet = "EST104")
+
+
+#aux<-read_excel("/Volumes/GoogleDrive/My Drive/contenido_materias/contenido2020.xlsx",sheet = "EST104")
+aux<-cbind(aux,myWeekDays)
+names(aux)[4]<-"Fecha"
+knitr::kable(aux)
+```
+
+# Evaluación
+
+  + 30 Primer parcial
+  + 30 Segundo Parcial
+  + 30 Final
+  + 10 Auxiliatura
