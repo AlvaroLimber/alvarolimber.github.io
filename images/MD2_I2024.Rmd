@@ -1,0 +1,46 @@
+---
+title: "Planificación: Minería de datos 2 I-2024"
+author: 'Docente: MSc. Alvaro Limber Chirino Gutierrez'
+date: "Febrero, 2024"
+output: 
+  pdf_document:
+    number_sections: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Unidades de aprendizaje
+
+  1. Minería de texto
+  2. Métodos de asociación
+  3. Métodos de regresión/predicción
+  4. Métodos de Clasificación
+  5. Introducción a redes neuronales
+  6. Series de tiempo
+
+# Evaluación
+
+  - (50%) 5 Laboratorios
+  - (25%) 5 Pruebas de teoría
+  - (25%) Proyecto: Artículo de investigación
+
+# Planificación por fecha
+
+```{r,echo=F}
+StartDate <- as.Date("2024-02-01")
+EndDate <- as.Date("2024-06-20") 
+myDays <- seq(StartDate , EndDate, by = "day") 
+excludeDays <- c("martes","jueves","viernes", "sábado","domingo")
+myWeekDays <- subset(myDays, !weekdays(myDays) %in% excludeDays)
+library(readxl)
+aux<-read_excel("M:/Mi unidad/Materias/md_II/contenido.xlsx",sheet = "MD2-2")
+aux<-cbind(aux,myWeekDays)
+names(aux)[5]<-"Fecha"
+aux<-aux[order(aux$Fecha),]
+############
+knitr::kable(aux,row.names = F)
+```
