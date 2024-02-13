@@ -38,6 +38,7 @@ excludeDays <- c("martes","jueves","viernes", "sábado","domingo")
 myWeekDays <- subset(myDays, !weekdays(myDays) %in% excludeDays)
 library(readxl)
 aux<-read_excel("M:/Mi unidad/Materias/md_II/contenido.xlsx",sheet = "MD2-2")
+
 aux<-cbind(aux,myWeekDays)
 names(aux)[5]<-"Fecha"
 aux<-aux[order(aux$Fecha),]
