@@ -1,0 +1,52 @@
+---
+title: "Planificación: Minería de datos I" 
+subtitle: "II-2024"
+author: 'Docente: MSc. Alvaro Limber Chirino Gutierrez'
+date: "Agosto, 2024"
+output: 
+  pdf_document:
+    number_sections: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Unidades de aprendizaje
+
+  1. Introducción a la minería de datos y Raspado Web
+  2. Pre-Procesamiento
+  3. Técnicas de pre procesamiento
+  
+# Evaluación 
+
+  + 4 Evaluaciones, 25%.
+  
+# Bibliografía
+
+## Básica
+  + Torgo, L. (2017). Data mining with R : learning with case studies. 
+  
+## Complementaria
+
+  + Zumel, N., Mount, J., Howard, J., & Thomas, R. (2020). Practical Data Science with R. https://avxhm.se/blogs/hill0
+  + Johnson, R. A. (Richard A., & Wichern, D. W.
+
+# Planificación por fecha
+
+```{r,echo=F}
+StartDate <- as.Date("2024-08-01")
+EndDate <- as.Date("2024-12-18") 
+myDays <- seq(StartDate , EndDate, by = "day") 
+excludeDays <- c("martes","jueves","viernes", "sábado","domingo")
+myWeekDays <- subset(myDays, !weekdays(myDays) %in% excludeDays)
+library(readxl)
+aux<-read_excel("C:/Users/Alvaro/OneDrive/_ucb/contenido_ucb.xlsx",sheet = "MD-1")
+aux<-cbind(aux,myWeekDays)
+names(aux)[5]<-"Fecha"
+aux<-aux[order(aux$Fecha),]
+############
+knitr::kable(aux,row.names = F)
+```
