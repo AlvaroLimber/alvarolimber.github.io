@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Programación Estadística 2 (EST-384) - Alvaro Limber Chirino Gutierrez</title>
+  <meta name="description" content="Web académica de MSc. Alvaro Chirino">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="/talks/2020/02/01/EST384.html">
+  <link rel="shortcut icon" type ="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+
+
+<!-- Google Analytics (original) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script>
+MathJax = {
+    tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
+    }, 
+    svg: {
+    fontCache: 'global'
+    }
+};
+</script>
+<script
+    type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script> 
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">
+     <img src="/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+      Alvaro Limber Chirino Gutierrez
+    </a>
+    <button class="toggler navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="/">Inicio</a>
+                   
+                <a class="nav-item nav-link" href="/acerca de mí">Acerca de mí</a>
+                   
+                <a class="nav-item nav-link" href="/publications">Publications</a>
+                   
+                <a class="nav-item nav-link" href="/talks">Talks</a>
+                   
+                <a class="nav-item nav-link" href="/software">Software</a>
+                   
+                <a class="nav-item nav-link" href="/teaching">Teaching</a>
+                   
+                <a class="nav-item nav-link" href="/blogs">Blogs</a>
+            
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Programación Estadística 2 (EST-384)</h1>
+    <p class="post-meta"><time datetime="2020-02-01T00:00:00-04:00" itemprop="datePublished">Feb 1, 2020</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <ul>
+  <li>Universidad: Universidad Mayor de San Ándres</li>
+  <li>Carrera: Estadística</li>
+  <li>Pre requisito: Programación Estadítica I (EST-383)</li>
+  <li>Nivel: Pregrado, Quinto semestre</li>
+  <li>Planificación: <a href="https://alvarolimber.github.io/images/est384_II2022.pdf">Aquí</a></li>
+  <li>Acerca del proyecto: <a href="https://alvarolimber.github.io/images/trabajoFormato_p2.pdf">Aquí</a></li>
+  <li>Repositorio de la materia: <a href="https://github.com/AlvaroLimber/EST-384">Aquí</a></li>
+  <li>Apuntes de la materia: <a href="https://alvarolimber.github.io/EST-384/DataMining/_book/">Aquí</a></li>
+  <li>Temas:
+    <ul>
+      <li>Introducción a minería de datos</li>
+      <li>Modelado</li>
+      <li>Clustering</li>
+      <li>Regresión</li>
+      <li>Clasificación</li>
+      <li>Minería de texto</li>
+    </ul>
+  </li>
+  <li>Libro guía: (1-5) Data Mining with R, Luis Torgo. (6) Text Mining in Practice with R, Ted Kwartler.</li>
+</ul>
+
+<h2 id="sesiones-de-avance-en-youtube-i-2022">Sesiones de avance en Youtube (I-2022)</h2>
+
+<p>Muy pronto</p>
+
+<h2 id="sesiones-de-avance-en-youtube-ii-2020">Sesiones de avance en Youtube (II-2020)</h2>
+
+<ul>
+  <li>Lista de reproducción en youtube: <a href="https://www.youtube.com/playlist?list=PL1bQNHPTDXvLSXkUiYZzRkLcPHk1R7fwg">Aquí</a></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2020-08-31</td>
+      <td><a href="https://youtu.be/FFZRNPC8BJg">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-02</td>
+      <td><a href="https://youtu.be/3jCbmyqPHGQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-07</td>
+      <td><a href="https://youtu.be/mT5ubrvWbRE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-09</td>
+      <td><a href="https://youtu.be/gkUqwfy96jI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-14</td>
+      <td><a href="https://youtu.be/u7zOqyqwuYQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-16</td>
+      <td><a href="https://youtu.be/2xf02N-PgFI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-21</td>
+      <td>[Suspensión de actividades, día del estudiante]</td>
+    </tr>
+    <tr>
+      <td>2020-09-23</td>
+      <td><a href="https://youtu.be/-354BYcXUrE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-28</td>
+      <td><a href="https://youtu.be/acA8Nut0T9g">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-30</td>
+      <td><a href="https://youtu.be/gbuiveKkKyI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-05</td>
+      <td><a href="https://youtu.be/-wctJZpwptU">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-07</td>
+      <td><a href="https://youtu.be/6zOgUn-H_Qw">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-12</td>
+      <td><a href="https://youtu.be/kfdOT8NA4e0">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-14</td>
+      <td><a href="https://youtu.be/UAX4HG1GGFE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-19</td>
+      <td><a href="https://youtu.be/GDzEozSthvQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-21</td>
+      <td><a href="https://youtu.be/LlKTzD_yheA">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-26</td>
+      <td>[Tolerancia semana aniversario]</td>
+    </tr>
+    <tr>
+      <td>2020-10-28</td>
+      <td><a href="https://youtu.be/JKT0LqlnF9Q">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-02</td>
+      <td>[Feriado]</td>
+    </tr>
+    <tr>
+      <td>2020-11-04</td>
+      <td>[Primer Parcial]</td>
+    </tr>
+    <tr>
+      <td>2020-11-09</td>
+      <td><a href="https://youtu.be/hiD5MLn1TSY">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-11</td>
+      <td><a href="https://youtu.be/nxedLcvaUyQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-16</td>
+      <td><a href="https://youtu.be/JOsdedkNNig">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-18</td>
+      <td><a href="https://youtu.be/vvhWVTp03xc">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-23</td>
+      <td><a href="https://youtu.be/9Y5EmOJ0rFs">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-25</td>
+      <td><a href="https://youtu.be/L1Uft4BbXhQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-30</td>
+      <td><a href="https://youtu.be/pjEMu31VFJk">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-12-02</td>
+      <td><a href="https://youtu.be/KszXmegv0RM">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-12-07</td>
+      <td>[Sesión de consultas]</td>
+    </tr>
+    <tr>
+      <td>2020-12-09</td>
+      <td>[Segundo Parcial]</td>
+    </tr>
+    <tr>
+      <td>2020-12-14</td>
+      <td>[Recuperatorio]</td>
+    </tr>
+    <tr>
+      <td>2020-12-16</td>
+      <td>[Defensa de proyecto]</td>
+    </tr>
+    <tr>
+      <td>2020-12-21</td>
+      <td>[Notas al SIGAF]</td>
+    </tr>
+    <tr>
+      <td>2020-12-23</td>
+      <td>[Archivo]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="sesiones-de-avance-en-youtube-i-2020">Sesiones de avance en Youtube (I-2020)</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11 Mayo</td>
+      <td><a href="https://youtu.be/5ntkfez6_QM">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>13 Mayo</td>
+      <td><a href="https://youtu.be/BFwuHlHkm8E">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>18 Mayo</td>
+      <td><a href="https://youtu.be/18X8u59rqSE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>20 Mayo</td>
+      <td><a href="https://youtu.be/1PnTo8koPt8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>25 Mayo</td>
+      <td><a href="https://youtu.be/vWchRacTroE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>27 Mayo</td>
+      <td><a href="https://youtu.be/OYxSEssC6lU">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>1 Junio</td>
+      <td><a href="https://youtu.be/qMcE161bKlM">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>3 Junio</td>
+      <td><a href="https://youtu.be/KTnCVnqp7lI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>8 Junio</td>
+      <td>Primer Parcial</td>
+    </tr>
+    <tr>
+      <td>15 Junio</td>
+      <td><a href="https://youtu.be/GkbqFn0iECw">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>17 Junio</td>
+      <td><a href="https://youtu.be/RjcX-uzutcE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>24 Junio</td>
+      <td><a href="https://youtu.be/JJT-gBmi4fo">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>29 Junio</td>
+      <td><a href="https://youtu.be/CyGyeMWMP_k">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>1 Julio</td>
+      <td><a href="https://youtu.be/i9Ggysxc-PM">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>6 Julio</td>
+      <td><a href="https://youtu.be/X8WqaM0oDWY">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>8 Julio</td>
+      <td><a href="https://youtu.be/5Ryy3_jq_So">Aquí</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+  </div>
+
+</article>
+      </div>
+    </div>
+
+    <br/>
+<section id="footer">
+<div class="container-footer">
+  <div class="panel-footer">
+	  <div class="row">
+		<div class="col-sm-4">
+		    <h5>Acerca de mí</h5>	
+            <p>Alvaro Chirino<br/> Investigador y Docente<br/> Fundación Aru, UMSA, UCB
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Contacto</h5>	
+            <p><a href="mailto:achirino@aru.org.bo" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contacta a Alvaro</a> <br/> <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Ubicación</h5>	
+            <p>La Paz - Bolivia
+</p>
+		</div>
+	  </div>
+
+      <center><p>&copy 2025 Alvaro Limber Chirino Gutierrez </p></center>
+	</div>
+  </div>
+</div>
+
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Análisis Masivo de datos - Programación Estadística I - Alvaro Limber Chirino Gutierrez</title>
+  <meta name="description" content="Web académica de MSc. Alvaro Chirino">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="/talks/2023/02/01/EST383-I2023.html">
+  <link rel="shortcut icon" type ="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+
+
+<!-- Google Analytics (original) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script>
+MathJax = {
+    tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
+    }, 
+    svg: {
+    fontCache: 'global'
+    }
+};
+</script>
+<script
+    type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script> 
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">
+     <img src="/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+      Alvaro Limber Chirino Gutierrez
+    </a>
+    <button class="toggler navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="/">Inicio</a>
+                   
+                <a class="nav-item nav-link" href="/acerca de mí">Acerca de mí</a>
+                   
+                <a class="nav-item nav-link" href="/publications">Publications</a>
+                   
+                <a class="nav-item nav-link" href="/talks">Talks</a>
+                   
+                <a class="nav-item nav-link" href="/software">Software</a>
+                   
+                <a class="nav-item nav-link" href="/teaching">Teaching</a>
+                   
+                <a class="nav-item nav-link" href="/blogs">Blogs</a>
+            
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Análisis Masivo de datos - Programación Estadística I</h1>
+    <p class="post-meta"><time datetime="2023-02-01T00:00:00-04:00" itemprop="datePublished">Feb 1, 2023</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <ul>
+  <li>Universidad: Universidad Mayor de San Ándres</li>
+  <li>Carrera: Estadística</li>
+  <li>Periodo: I-2023</li>
+  <li>Planificación: <a href="https://alvarolimber.github.io/images/EST-383-I2023.pdf">Aquí</a></li>
+  <li>Acerca del proyecto: <a href="https://alvarolimber.github.io/images/trabajoFormato_p1.pdf">Aquí</a></li>
+  <li>Apuntes de la materia: <a href="">Muy pronto</a></li>
+</ul>
+
+<h2 id="unidades-de-aprendizaje">Unidades de aprendizaje</h2>
+
+<ol>
+  <li>Introducción al ecosistema de R</li>
+  <li>Introducción al Big Data</li>
+  <li>Fuentes de datos</li>
+  <li>Gramática de datos</li>
+  <li>Muestreo y filtrado</li>
+  <li>Modelado con software con MapReduce</li>
+</ol>
+
+<ul>
+  <li>Lectura discusión: Data and Goliath, Bruce Schneieer, 2015</li>
+  <li>Video discusión: The Great Hack, 2019</li>
+</ul>
+
+<h2 id="evaluación">Evaluación</h2>
+
+<p>Formal</p>
+
+<ul>
+  <li>20% Laboratorio 1: Temas 1 al 3</li>
+  <li>20% Laboratorio 2: Tema 4</li>
+  <li>20% Laboratorio 3: Temas 5 y 6</li>
+  <li>20% Examen teórico: Todos los temas</li>
+  <li>20% Proyecto Dashboard (Shiny/grupal)</li>
+</ul>
+
+<p>Extra:</p>
+
+<ul>
+  <li>10% <strong>Poster estadístico:</strong>
+    <ul>
+      <li>Visto Bueno hasta el 2 de marzo</li>
+      <li>Más información: https://islp-bolivia.github.io/</li>
+    </ul>
+  </li>
+  <li>10% <strong>Podcast (grupal):</strong> Estado, limitaciones y desafíos del Big Data en Bolivia
+    <ul>
+      <li>Entrega el día del examen teórico</li>
+      <li>Entregables: audio, guion e informe corto en rmd.</li>
+    </ul>
+  </li>
+  <li>5% <strong>Dialogo Socrático:</strong> Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World
+    <ul>
+      <li>Leer los primeros 5 capítulos</li>
+      <li>Actividad conjunta a la presentación del dashboard</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="sesiones-de-avance-en-youtube-i-2021">Sesiones de avance en Youtube (I-2021)</h2>
+
+<ul>
+  <li>Lista de reproducción en youtube: <a href="https://youtube.com/playlist?list=PL1bQNHPTDXvI7AT2rpuoucNflXNccROD6">Aquí</a></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2021-02-09</td>
+      <td>[Presentación de la materia]</td>
+    </tr>
+    <tr>
+      <td>2021-02-11</td>
+      <td><a href="https://youtu.be/iRw4dkJoP1Y">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-02-16</td>
+      <td>[FERIADO]</td>
+    </tr>
+    <tr>
+      <td>2021-02-18</td>
+      <td><a href="https://youtu.be/UKdRkL5iPFg">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-02-23</td>
+      <td><a href="https://youtu.be/VFyQXFQDIFc">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-02-25</td>
+      <td><a href="https://youtu.be/iuMkGVWehT4">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-02</td>
+      <td>[Github]</td>
+    </tr>
+    <tr>
+      <td>2021-03-04</td>
+      <td>[II Congreso de Estadística]</td>
+    </tr>
+    <tr>
+      <td>2021-03-09</td>
+      <td><a href="https://youtu.be/XocXMieof20">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-11</td>
+      <td><a href="https://youtu.be/vx3Q-iS4JEI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-16</td>
+      <td><a href="https://youtu.be/jSjCWrrgsp0">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-18</td>
+      <td><a href="https://youtu.be/SjiugzCW4SM">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-23</td>
+      <td><a href="https://youtu.be/V3xxKQ0ueo8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-25</td>
+      <td><a href="https://youtu.be/z3Cm1S8MKXk">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-30</td>
+      <td><a href="https://youtu.be/WGRSdo2XJH0">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-01</td>
+      <td>[Primer Parcial]</td>
+    </tr>
+    <tr>
+      <td>2021-04-06</td>
+      <td><a href="https://youtu.be/QhomYnYIZPU">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-08</td>
+      <td><a href="https://youtu.be/vyWptlQJ35Y">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-13</td>
+      <td><a href="https://youtu.be/mvPODr5SFv4">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-15</td>
+      <td><a href="https://youtu.be/zkYt2W8nC70">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-20</td>
+      <td>[Rev. Proyecto]</td>
+    </tr>
+    <tr>
+      <td>2021-04-22</td>
+      <td><a href="https://youtu.be/gA_Xj9e8Pqk">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-27</td>
+      <td><a href="https://youtu.be/2_khwwNCrzs">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-29</td>
+      <td>[Video discusión]</td>
+    </tr>
+    <tr>
+      <td>2021-05-04</td>
+      <td><a href="https://youtu.be/9Hot7TE04Tc">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-06</td>
+      <td><a href="https://youtu.be/smn4vfxL4xE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-11</td>
+      <td>[Lectura]</td>
+    </tr>
+    <tr>
+      <td>2021-05-13</td>
+      <td><a href="https://youtu.be/ZZLTOWGZISo">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-18</td>
+      <td><a href="https://youtu.be/3GgSNCBlcXQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-20</td>
+      <td>[Actividad virtual]</td>
+    </tr>
+    <tr>
+      <td>2021-05-25</td>
+      <td><a href="https://youtu.be/1NMpn25pl6A">Aquí, parte 1</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-25</td>
+      <td><a href="https://youtu.be/mGVhPyNyCUo">Aquí, parte 2</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-27</td>
+      <td><a href="https://youtu.be/2GfRAwgYWqU">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-06-01</td>
+      <td>[Lectura discusión, espacio para los proyectos]</td>
+    </tr>
+    <tr>
+      <td>2021-06-03</td>
+      <td>[Feriado]</td>
+    </tr>
+    <tr>
+      <td>2021-06-08</td>
+      <td>[Segundo Parcial]</td>
+    </tr>
+    <tr>
+      <td>2021-06-10</td>
+      <td>[Recuperatorio]</td>
+    </tr>
+    <tr>
+      <td>2021-06-15</td>
+      <td>[Defensa de proyectos + entrega de notas]</td>
+    </tr>
+    <tr>
+      <td>2021-06-17</td>
+      <td>[Notas a Sigaf]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="sesiones-de-avance-en-youtube-ii-2020">Sesiones de avance en Youtube (II-2020)</h2>
+
+<ul>
+  <li>Lista de reproducción en youtube: <a href="https://www.youtube.com/playlist?list=PL1bQNHPTDXvLSB9JfokS9n1b4WlnFmo8N">Aquí</a></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2020-08-26</td>
+      <td><a href="https://youtu.be/ofoA01qn39k">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-08-31</td>
+      <td><a href="https://youtu.be/d34WSPlhVuQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-02</td>
+      <td><a href="https://youtu.be/_wMC46sk6mg">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-07</td>
+      <td><a href="https://youtu.be/dt2qPAmAjCc">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-09</td>
+      <td><a href="https://youtu.be/kYzO2bzCZ2A">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-14</td>
+      <td><a href="https://youtu.be/dYuS1WD6FRI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-16</td>
+      <td>[Suspensión de actividades, jornadas académicas vocacionales]</td>
+    </tr>
+    <tr>
+      <td>2020-09-21</td>
+      <td>[Suspensión de actividades, día del estudiante]</td>
+    </tr>
+    <tr>
+      <td>2020-09-23</td>
+      <td><a href="https://youtu.be/HAEjGXj-Acs">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-28</td>
+      <td><a href="https://youtu.be/pdCOoybq6nI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-09-30</td>
+      <td><a href="https://youtu.be/oiyTJBdrT-8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-05</td>
+      <td><a href="https://youtu.be/kyhFWVnbdc8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-07</td>
+      <td><a href="https://youtu.be/puXFlFMhsLk">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-12</td>
+      <td><a href="https://youtu.be/aBBlozdmzsw">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-14</td>
+      <td><a href="https://youtu.be/5A26NjYxbxY">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-19</td>
+      <td><a href="https://youtu.be/7xqLYdhl89E">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-21</td>
+      <td><a href="https://youtu.be/1qxlyh0S9PQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-10-26</td>
+      <td>[Primer Parcial]</td>
+    </tr>
+    <tr>
+      <td>2020-10-28</td>
+      <td>[Tolerancia semana aniversario]</td>
+    </tr>
+    <tr>
+      <td>2020-11-02</td>
+      <td>[Feriado]</td>
+    </tr>
+    <tr>
+      <td>2020-11-04</td>
+      <td><a href="https://youtu.be/I6w9PG66S6w">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-09</td>
+      <td><a href="https://youtu.be/hXreYYoRmGA">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-11</td>
+      <td><a href="https://youtu.be/sFkbcYLj7ZY">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-16</td>
+      <td><a href="https://youtu.be/yuVxs15f8-Y">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-18</td>
+      <td><a href="https://youtu.be/q_aaMpJlX_I">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-23</td>
+      <td><a href="https://youtu.be/uCgGTc859Tw">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-25</td>
+      <td><a href="https://youtu.be/8JPniURLgQ8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-11-30</td>
+      <td><a href="https://youtu.be/O48uW_VoOEc">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-12-02</td>
+      <td><a href="https://youtu.be/fDFi7D7ayto">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2020-12-07</td>
+      <td>[Segundo Parcial]</td>
+    </tr>
+    <tr>
+      <td>2020-12-09</td>
+      <td>[Recuperatorio]</td>
+    </tr>
+    <tr>
+      <td>2020-12-14</td>
+      <td>[Defensa del proyecto]</td>
+    </tr>
+    <tr>
+      <td>2020-12-16</td>
+      <td>[Defensa del proyecto]</td>
+    </tr>
+    <tr>
+      <td>2020-12-21</td>
+      <td>[Notas al Sigaf]</td>
+    </tr>
+    <tr>
+      <td>2020-12-23</td>
+      <td>[Archivo]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="sesiones-de-avance-en-youtube-i-2020">Sesiones de avance en Youtube (I-2020)</h2>
+
+<ul>
+  <li>Lista de reproducción en youtube: <a href="https://www.youtube.com/playlist?list=PL1bQNHPTDXvITugK_44edW-dDfDnEhe4P">Aquí</a></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11 Mayo</td>
+      <td><a href="https://www.youtube.com/watch?v=n5xLEOculUY&amp;list=PL1bQNHPTDXvITugK_44edW-dDfDnEhe4P&amp;index=3">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>13 Mayo</td>
+      <td><a href="https://www.youtube.com/watch?v=HoxQE8MuYUI&amp;list=PL1bQNHPTDXvITugK_44edW-dDfDnEhe4P&amp;index=2">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>18 Mayo</td>
+      <td><a href="https://www.youtube.com/watch?v=hNs-bwj5sl0&amp;list=PL1bQNHPTDXvITugK_44edW-dDfDnEhe4P&amp;index=1">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>20 Mayo</td>
+      <td><a href="https://youtu.be/afHfopX4vFU">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>25 Mayo</td>
+      <td><a href="https://youtu.be/EsxjrXeIQCA">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>27 Mayo</td>
+      <td><a href="https://youtu.be/Fz6qIJ8gWgM">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>1 Junio</td>
+      <td><a href="https://youtu.be/yP9PqTtQSnQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>3 Junio</td>
+      <td><a href="https://youtu.be/sO6mrqCTOKw">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>8 Junio</td>
+      <td><a href="https://youtu.be/SWtjI_xNkjg">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>10 Junio</td>
+      <td>PRIMER PARCIAL</td>
+    </tr>
+    <tr>
+      <td>15 Junio</td>
+      <td><a href="https://youtu.be/OFUvJzXO4yw">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>17 Junio</td>
+      <td><a href="https://youtu.be/RTiijVppS1w">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>24 Junio</td>
+      <td><a href="https://youtu.be/Kbb_uAjDgsA">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>29 Junio</td>
+      <td><a href="https://youtu.be/7Qak4rw76lI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>1 Julio</td>
+      <td><a href="https://youtu.be/i9Ggysxc-PM">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>6 Julio</td>
+      <td><a href="https://youtu.be/vJJTYbMxl4s">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>8 Julio</td>
+      <td><a href="https://youtu.be/FZ8QDOs-j_Q">Aquí</a></td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+
+</article>
+      </div>
+    </div>
+
+    <br/>
+<section id="footer">
+<div class="container-footer">
+  <div class="panel-footer">
+	  <div class="row">
+		<div class="col-sm-4">
+		    <h5>Acerca de mí</h5>	
+            <p>Alvaro Chirino<br/> Investigador y Docente<br/> Fundación Aru, UMSA, UCB
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Contacto</h5>	
+            <p><a href="mailto:achirino@aru.org.bo" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contacta a Alvaro</a> <br/> <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Ubicación</h5>	
+            <p>La Paz - Bolivia
+</p>
+		</div>
+	  </div>
+
+      <center><p>&copy 2025 Alvaro Limber Chirino Gutierrez </p></center>
+	</div>
+  </div>
+</div>
+
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>

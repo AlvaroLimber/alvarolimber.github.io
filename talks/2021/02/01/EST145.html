@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Estadística - II (EST-145) - Alvaro Limber Chirino Gutierrez</title>
+  <meta name="description" content="Web académica de MSc. Alvaro Chirino">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="/talks/2021/02/01/EST145.html">
+  <link rel="shortcut icon" type ="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+
+
+<!-- Google Analytics (original) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script>
+MathJax = {
+    tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
+    }, 
+    svg: {
+    fontCache: 'global'
+    }
+};
+</script>
+<script
+    type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script> 
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">
+     <img src="/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+      Alvaro Limber Chirino Gutierrez
+    </a>
+    <button class="toggler navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="/">Inicio</a>
+                   
+                <a class="nav-item nav-link" href="/acerca de mí">Acerca de mí</a>
+                   
+                <a class="nav-item nav-link" href="/publications">Publications</a>
+                   
+                <a class="nav-item nav-link" href="/talks">Talks</a>
+                   
+                <a class="nav-item nav-link" href="/software">Software</a>
+                   
+                <a class="nav-item nav-link" href="/teaching">Teaching</a>
+                   
+                <a class="nav-item nav-link" href="/blogs">Blogs</a>
+            
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Estadística - II (EST-145)</h1>
+    <p class="post-meta"><time datetime="2021-02-01T00:00:00-04:00" itemprop="datePublished">Feb 1, 2021</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <ul>
+  <li>Universidad: Universidad Mayor de San Andrés</li>
+  <li>Carrera: Informática</li>
+  <li>Pre requisito: Estadística I</li>
+  <li>Nivel: Pregrado, Cuarto Semestre</li>
+  <li>Planificación: <a href="https://alvarolimber.github.io/images/est145_II2022.pdf">Aquí</a></li>
+  <li>Apuntes de la materia: <a href="https://alvarolimber.github.io/EST-145/_book/">Aquí</a></li>
+  <li>Temas:
+    <ul>
+      <li>Distribuciones conjuntas de probabilidad</li>
+      <li>Muestras aleatorias y distribuciones de muestreo</li>
+      <li>Estimación puntual y por intervalo</li>
+      <li>Prueba de hipótesis estadísticas</li>
+    </ul>
+  </li>
+  <li>Libro Guía: Probabilidad y Estadística para Ingeniería y administración, Hines &amp; Montgomery (5,9-11)</li>
+  <li>Libro Apoyo: Probabilidad y Estadística Aplicaciones y métodos, George C. Canavos</li>
+  <li>Libro Sugerido: A COURSE IN STATISTICS WITH R</li>
+</ul>
+
+<h2 id="evaluación">Evaluación</h2>
+
+<ul>
+  <li>30% Primer Parcial</li>
+  <li>30% Segundo Parcial</li>
+  <li>30% Final</li>
+  <li>10% Auxiliatura</li>
+</ul>
+
+<p>Aplican solo si se cuenta con una nota de aprobación en las evaluaciones anteriores:</p>
+
+<ul>
+  <li>5% Práctica individual o grupal de libro guía. Capítulos 5, 9-11. (Pares o impares)</li>
+  <li>10% Grupal. Poster estadístico. Competencia Boliviana de Poster Estadísticos https://islp-bolivia.github.io/</li>
+</ul>
+
+<h2 id="fechas-importantes-ii-2022">Fechas Importantes (II-2022)</h2>
+
+<ul>
+  <li>Primer Parcial: 19 de septiembre</li>
+  <li>Segundo Parcial: 28 de noviembre</li>
+  <li>Recuperatorio: 30 de noviembre</li>
+  <li>
+    <p>Examen Final: 12 de diciembre</p>
+  </li>
+  <li>Entrega de práctica: 5 de diciembre</li>
+  <li>Plazo de visto bueno para poster: 5 de diciembre</li>
+</ul>
+
+<h2 id="sesiones-de-avance-en-youtube-ii-2022">Sesiones de avance en Youtube (II-2022)</h2>
+
+<p>Lista de reproducción en youtube: <a href="https://youtube.com/playlist?list=PL1bQNHPTDXvJARHYuKBUFJU_NVe0Y26kb">Aquí</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1bQNHPTDXvJARHYuKBUFJU_NVe0Y26kb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2022-08-01</td>
+      <td>[Preparación]</td>
+    </tr>
+    <tr>
+      <td>2022-08-03</td>
+      <td><a href="https://youtu.be/7qpukmIMBts">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-08-08</td>
+      <td><a href="https://youtu.be/zczfgSBgiaw">Tema 1, Distribuciones conjuntas: conceptos</a></td>
+    </tr>
+    <tr>
+      <td>2022-08-10</td>
+      <td><a href="https://youtu.be/hHoDNMT1Iug">Tema 1, Distribuciones conjuntas: Función de distribución y densidad</a></td>
+    </tr>
+    <tr>
+      <td>2022-08-15</td>
+      <td><a href="https://youtu.be/Hc_0uopAF_k">Tema 1, Distribuciones conjuntas: Marginales</a></td>
+    </tr>
+    <tr>
+      <td>2022-08-17</td>
+      <td><a href="https://youtu.be/DOAySY1Jy2Q">Tema 1, Distribuciones conjuntas: Independencia</a></td>
+    </tr>
+    <tr>
+      <td>2022-08-22</td>
+      <td><a href="https://youtu.be/UQ6kopGrKUo">Tema 1, Distribuciones conjuntas: Condicionales</a></td>
+    </tr>
+    <tr>
+      <td>2022-08-24</td>
+      <td><a href="https://youtu.be/UuEEweG57E4">Tema 1, Distribuciones conjuntas: Medidas de relación y transformaciones</a></td>
+    </tr>
+    <tr>
+      <td>2022-08-29</td>
+      <td><a href="https://youtu.be/OIUllbQz9r0">Tema 2, distribuciones muestrales: Introducción</a></td>
+    </tr>
+    <tr>
+      <td>2022-08-31</td>
+      <td><a href="https://youtu.be/sTbq_3zqiyI">Tema 2, distribuciones muestrales: Conceptos básicos</a></td>
+    </tr>
+    <tr>
+      <td>2022-09-05</td>
+      <td><a href="https://youtu.be/3lt04pHSx6Q">Tema 2, distribuciones muestrales: Parámetros, estadísticas y estimadores</a></td>
+    </tr>
+    <tr>
+      <td>2022-09-07</td>
+      <td><a href="https://youtu.be/4x8yeJECyHU">Tema 2, distribuciones muestrales: distribución muestra para la media</a></td>
+    </tr>
+    <tr>
+      <td>2022-09-12</td>
+      <td><a href="https://youtu.be/DiERXa8rolc">Tema 2, distribuciones muestrales: distribución muestral para la diferencia de medias</a></td>
+    </tr>
+    <tr>
+      <td>2022-09-14</td>
+      <td><a href="https://youtu.be/sJeZ37zTNyM">Tema 2, distribuciones muestrales: para la proporción, diferencia de proporciones</a></td>
+    </tr>
+    <tr>
+      <td>2022-09-19</td>
+      <td><a href="https://youtu.be/ldpArEvuB30">Tema 2, distribuciones muestrales: distribuciones chi2, t-student, Fisher</a></td>
+    </tr>
+    <tr>
+      <td>2022-09-21</td>
+      <td>[Día del estudiante]</td>
+    </tr>
+    <tr>
+      <td>2022-09-26</td>
+      <td>[Primer Parcial]</td>
+    </tr>
+    <tr>
+      <td>2022-09-28</td>
+      <td>[Consolidado de exámenes]</td>
+    </tr>
+    <tr>
+      <td>2022-10-03</td>
+      <td><a href="https://youtu.be/KHJHdcqiJ_g">Tema 3, estimaciones: Introducción, actividad classroom</a></td>
+    </tr>
+    <tr>
+      <td>2022-10-05</td>
+      <td><a href="https://youtu.be/V_4vhhH4aH0">Tema 3, estimaciones: Propiedades de los estimadores</a></td>
+    </tr>
+    <tr>
+      <td>2022-10-10</td>
+      <td><a href="https://youtu.be/uLWkyokduC8">Tema 3, estimaciones: Métodos de estimación</a></td>
+    </tr>
+    <tr>
+      <td>2022-10-12</td>
+      <td><a href="https://youtu.be/moH4Zm65Yeg">Tema 3, estimaciones: IC para la media</a></td>
+    </tr>
+    <tr>
+      <td>2022-10-17</td>
+      <td><a href="https://youtu.be/JxUWgE_06PM">Tema 3, estimaciones: Tamaño de muestra</a></td>
+    </tr>
+    <tr>
+      <td>2022-10-19</td>
+      <td><a href="https://youtu.be/Pew4qd8PgUk">Tema 3, estimaciones: IC para la diferencia de medias</a></td>
+    </tr>
+    <tr>
+      <td>2022-10-24</td>
+      <td>[Aniversario estadística]</td>
+    </tr>
+    <tr>
+      <td>2022-10-26</td>
+      <td>[Aniversario estadística]</td>
+    </tr>
+    <tr>
+      <td>2022-10-31</td>
+      <td><a href="https://youtu.be/jRoRa_nhBgw">Tema 3, estimaciones: IC para proporciones</a></td>
+    </tr>
+    <tr>
+      <td>2022-11-02</td>
+      <td>[Feriado]</td>
+    </tr>
+    <tr>
+      <td>2022-11-07</td>
+      <td><a href="https://youtu.be/s6alnMj42tM">Tema 3, estimaciones: IC para la varianza</a></td>
+    </tr>
+    <tr>
+      <td>2022-11-09</td>
+      <td><a href="https://youtu.be/EaGpv1TTIQ8">Tema 4, pruebas de hipótesis: Introducción</a></td>
+    </tr>
+    <tr>
+      <td>2022-11-14</td>
+      <td><a href="https://youtu.be/5m6ZUVY6Byc">Tema 4, pruebas de hipótesis: Sobre la media</a></td>
+    </tr>
+    <tr>
+      <td>2022-11-16</td>
+      <td>[Aniversario Informática]</td>
+    </tr>
+    <tr>
+      <td>2022-11-21</td>
+      <td><a href="https://youtu.be/s-7nMwCw7Ls">Tema 4, pruebas de hipótesis: Sobre la proporción</a></td>
+    </tr>
+    <tr>
+      <td>2022-11-23</td>
+      <td><a href="https://youtu.be/ny6nuDs5OLY">Tema 4, pruebas de hipótesis: Sobre la varianza</a></td>
+    </tr>
+    <tr>
+      <td>2022-11-28</td>
+      <td>[Segundo Parcial]</td>
+    </tr>
+    <tr>
+      <td>2022-11-30</td>
+      <td>[Revisión de segundo parcial]</td>
+    </tr>
+    <tr>
+      <td>2022-12-05</td>
+      <td>[Recuperatorio]</td>
+    </tr>
+    <tr>
+      <td>2022-12-07</td>
+      <td>[Examen final]</td>
+    </tr>
+    <tr>
+      <td>2022-12-12</td>
+      <td>[Clase de consultas]</td>
+    </tr>
+    <tr>
+      <td>2022-12-14</td>
+      <td>[Notas al sistema]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="sesiones-de-avance-en-youtube-i-2022">Sesiones de avance en Youtube (I-2022)</h2>
+
+<p>Lista de reproducción en youtube: <a href="https://youtube.com/playlist?list=PL1bQNHPTDXvKwICb0v-c_1EN_GvYJzcfQ">Aquí</a></p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1bQNHPTDXvKwICb0v-c_1EN_GvYJzcfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2022-02-02</td>
+      <td>[Preparación]</td>
+    </tr>
+    <tr>
+      <td>2022-02-07</td>
+      <td>[Preparación]</td>
+    </tr>
+    <tr>
+      <td>2022-02-09</td>
+      <td><a href="https://youtu.be/UGCdncNVmdE">Aquí</a> (Sin audio)</td>
+    </tr>
+    <tr>
+      <td>2022-02-14</td>
+      <td><a href="https://youtu.be/Zs5l0ibJZQo">Aquí</a> (Sin audio)</td>
+    </tr>
+    <tr>
+      <td>2022-02-16</td>
+      <td><a href="https://youtu.be/AxHJ7YYK3Ws">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-02-21</td>
+      <td><a href="https://youtu.be/PkO-rAD1uCI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-02-23</td>
+      <td><a href="https://youtu.be/7pSrx0nOVyE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-02-28</td>
+      <td>[Feriado]</td>
+    </tr>
+    <tr>
+      <td>2022-03-02</td>
+      <td><a href="https://youtu.be/oU-g6xwVEAE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-03-07</td>
+      <td><a href="https://youtu.be/Lwq1Uu9oi60">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-03-09</td>
+      <td><a href="https://youtu.be/UZhmjS7-550">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-03-14</td>
+      <td>[Ejercicios]</td>
+    </tr>
+    <tr>
+      <td>2022-03-16</td>
+      <td><a href="https://youtu.be/U5NrjJFyw_M">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-03-21</td>
+      <td><a href="https://drive.google.com/file/d/1-Ag7Uj-ysxVXImA3XFjakJ-5vPPp4Udm/view?usp=sharing">Aquí (drive &gt;8GB)</a></td>
+    </tr>
+    <tr>
+      <td>2022-03-23</td>
+      <td><a href="https://drive.google.com/file/d/1-9rEOdHtYEARRNojIMHH406mwUyaq1hK/view?usp=sharing">Aquí (drive &gt;8GB)</a></td>
+    </tr>
+    <tr>
+      <td>2022-03-28</td>
+      <td><a href="https://youtu.be/j3LPiR0CjL4">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-03-30</td>
+      <td>[Primer parcial]</td>
+    </tr>
+    <tr>
+      <td>2022-04-04</td>
+      <td>[Permiso por resfriado]</td>
+    </tr>
+    <tr>
+      <td>2022-04-06</td>
+      <td><a href="https://youtu.be/jdZVWIAi2b4">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-04-11</td>
+      <td><a href="https://youtu.be/MkUnZQxI0EI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-04-13</td>
+      <td><a href="https://youtu.be/C1cJhaoFen8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-04-18</td>
+      <td>[Entrega de notas parcial 1]</td>
+    </tr>
+    <tr>
+      <td>2022-04-20</td>
+      <td><a href="https://youtu.be/rchxAtYnAgU">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-04-25</td>
+      <td><a href="https://youtu.be/rI-dhtYi6Ow">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-04-27</td>
+      <td><a href="https://youtu.be/a4zQ_DxvCT0">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-05-02</td>
+      <td>[Feriado]</td>
+    </tr>
+    <tr>
+      <td>2022-05-04</td>
+      <td><a href="https://youtu.be/Hf1zo9YQi2g">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-05-09</td>
+      <td><a href="https://youtu.be/ml6HTLyl2_I">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-05-11</td>
+      <td><a href="https://youtu.be/YGZWATcGwKM">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-05-16</td>
+      <td><a href="https://youtu.be/TIlzpdjmGAU">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-05-18</td>
+      <td><a href="https://youtu.be/-AuNm6kEyG0">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-05-23</td>
+      <td><a href="https://youtu.be/YO5gCHbnyhM">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-05-25</td>
+      <td><a href="https://youtu.be/_Qs88KaVQFQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-05-30</td>
+      <td><a href="https://youtu.be/4aU51yncZAw">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2022-06-01</td>
+      <td>[Elecciones Informática]</td>
+    </tr>
+    <tr>
+      <td>2022-06-06</td>
+      <td>[Segundo Parcial]</td>
+    </tr>
+    <tr>
+      <td>2022-06-08</td>
+      <td>[Recuperatorio]</td>
+    </tr>
+    <tr>
+      <td>2022-06-13</td>
+      <td>[Examen final]</td>
+    </tr>
+    <tr>
+      <td>2022-06-15</td>
+      <td>[Entrega de notas, revisión]</td>
+    </tr>
+    <tr>
+      <td>2022-06-20</td>
+      <td>[Notas finales al sistema]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="sesiones-de-avance-en-youtube-ii-2021">Sesiones de avance en Youtube (II-2021)</h2>
+
+<p>Lista de reproducción en youtube: <a href="https://youtube.com/playlist?list=PL1bQNHPTDXvKrm6ablpSThdYu4Tywqi6q">Aquí</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2021-08-02</td>
+      <td>[Preparación]</td>
+    </tr>
+    <tr>
+      <td>2021-08-04</td>
+      <td>[Preparación]</td>
+    </tr>
+    <tr>
+      <td>2021-08-09</td>
+      <td><a href="https://youtu.be/sSEBiB76Sdo">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-08-11</td>
+      <td><a href="https://youtu.be/GP5BVQygirg">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-08-16</td>
+      <td><a href="https://youtu.be/ahuIxxRTkpU">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-08-18</td>
+      <td><a href="https://youtu.be/P4XWdCLOPTk">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-08-23</td>
+      <td><a href="https://youtu.be/Ou_-OJQ1Ows">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-08-25</td>
+      <td>[Segunda dosis]</td>
+    </tr>
+    <tr>
+      <td>2021-08-30</td>
+      <td><a href="https://youtu.be/Zr-9FpJOnkI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-09-01</td>
+      <td><a href="https://youtu.be/-bfkfhU6xB8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-09-06</td>
+      <td><a href="https://youtu.be/8VkhWKCzci0">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-09-08</td>
+      <td><a href="https://youtu.be/8NgBDv7ES8s">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-09-13</td>
+      <td><a href="https://youtu.be/rwyGe_rOGzI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-09-15</td>
+      <td><a href="https://youtu.be/IbqEJaenNt4">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-09-20</td>
+      <td><a href="https://youtu.be/8UFxMsGDSfA">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-09-22</td>
+      <td>[Primer Parcial]</td>
+    </tr>
+    <tr>
+      <td>2021-09-27</td>
+      <td><a href="https://youtu.be/Nh2yFo0EkZ4">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-09-29</td>
+      <td><a href="https://youtu.be/PAJLwfp1idg">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-10-04</td>
+      <td><a href="https://youtu.be/w8QNhNTWDSo">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-10-06</td>
+      <td><a href="https://youtu.be/zXWRlQTLRQY">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-10-11</td>
+      <td>[Actividad virtual]</td>
+    </tr>
+    <tr>
+      <td>2021-10-13</td>
+      <td><a href="https://youtu.be/Rei6Uk552_U">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-10-18</td>
+      <td><a href="https://youtu.be/sZjkIdjpwZ0">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-10-20</td>
+      <td><a href="https://youtu.be/EjDoth6YhoY">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-10-25</td>
+      <td><a href="https://youtu.be/jE-Zj4zyu7o">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-10-27</td>
+      <td><a href="https://youtu.be/zSacvLE3ibY">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-11-01</td>
+      <td>[Tolerancia todos santos]</td>
+    </tr>
+    <tr>
+      <td>2021-11-03</td>
+      <td><a href="https://youtu.be/k9mCTgPxnbY">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-11-08</td>
+      <td>[Elecciones FUL]</td>
+    </tr>
+    <tr>
+      <td>2021-11-10</td>
+      <td><a href="https://youtu.be/keu5B-9sfzc">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-11-15</td>
+      <td><a href="https://youtu.be/tX6nRDJFbJQ">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-11-17</td>
+      <td><a href="https://youtu.be/MwQLeV4sl6s">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-11-22</td>
+      <td><a href="https://youtu.be/hKg14qgSRNg">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-11-24</td>
+      <td><a href="https://youtu.be/H9gXF6zYWLU">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-11-29</td>
+      <td>[Segundo Parcial]</td>
+    </tr>
+    <tr>
+      <td>2021-12-01</td>
+      <td>[Entrega de notas]</td>
+    </tr>
+    <tr>
+      <td>2021-12-06</td>
+      <td>[Recuperatorio]</td>
+    </tr>
+    <tr>
+      <td>2021-12-08</td>
+      <td>[Examen Final]</td>
+    </tr>
+    <tr>
+      <td>2021-12-13</td>
+      <td>[Entrega de notas]</td>
+    </tr>
+    <tr>
+      <td>2021-12-15</td>
+      <td>[Notas al Sistema]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="sesiones-de-avance-en-youtube-i-2021">Sesiones de avance en Youtube (I-2021)</h2>
+
+<p>Lista de reproducción en youtube: <a href="https://youtube.com/playlist?list=PL1bQNHPTDXvJGTM3VUtqGHuvOFs_AFVbs">Aquí</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2021-02-08</td>
+      <td>[Invitación classroom]</td>
+    </tr>
+    <tr>
+      <td>2021-02-10</td>
+      <td>[Presentación de la materia]</td>
+    </tr>
+    <tr>
+      <td>2021-02-15</td>
+      <td>[Feriado]</td>
+    </tr>
+    <tr>
+      <td>2021-02-17</td>
+      <td><a href="https://youtu.be/4DUo-Q40YpE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-02-22</td>
+      <td><a href="https://youtu.be/vBvYbT-5m8o">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-02-24</td>
+      <td><a href="https://youtu.be/En2C3a1Tocg">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-01</td>
+      <td><a href="https://youtu.be/o31zQUTCduA">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-03</td>
+      <td>[Actividad virtual 1]</td>
+    </tr>
+    <tr>
+      <td>2021-03-08</td>
+      <td><a href="https://youtu.be/KjFLOToUTtE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-10</td>
+      <td><a href="https://youtu.be/KFK0RBgrzsA">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-15</td>
+      <td><a href="https://youtu.be/hvLAuqpRxu8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-17</td>
+      <td><a href="https://youtu.be/dwj4AM6gGyc">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-22</td>
+      <td><a href="https://youtu.be/mAudgr1676E">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-24</td>
+      <td><a href="https://youtu.be/nCzxV_V2GDc">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-03-29</td>
+      <td>[Primer Parcial]</td>
+    </tr>
+    <tr>
+      <td>2021-03-31</td>
+      <td>[Solución del examen]</td>
+    </tr>
+    <tr>
+      <td>2021-04-05</td>
+      <td><a href="https://youtu.be/XBPh9mJ4uP8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-07</td>
+      <td>[Elecciones Rector]</td>
+    </tr>
+    <tr>
+      <td>2021-04-12</td>
+      <td><a href="https://youtu.be/lYOjNvhAzBw">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-14</td>
+      <td>[Segunda vuelta: Elecciones Rector]</td>
+    </tr>
+    <tr>
+      <td>2021-04-19</td>
+      <td><a href="https://youtu.be/5yyuQQtX0O4">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-21</td>
+      <td><a href="https://youtu.be/tC6VGzR7Q28">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-26</td>
+      <td><a href="https://youtu.be/6yQJhWh84YE">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-04-28</td>
+      <td><a href="https://youtu.be/F0T6qm1fDjI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-03</td>
+      <td><a href="https://youtu.be/UXfnN60vXjY">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-05</td>
+      <td><a href="https://youtu.be/urkK1C64xHI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-10</td>
+      <td><a href="https://youtu.be/Qn2sw7Ez5ac">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-12</td>
+      <td><a href="https://youtu.be/MwAOpstpLMI">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-17</td>
+      <td><a href="https://youtu.be/TRrvt95PGng">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-19</td>
+      <td><a href="https://youtu.be/4v2xs4tcUB0">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-24</td>
+      <td><a href="https://youtu.be/aFmQKOw67bc">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-26</td>
+      <td><a href="https://youtu.be/qcfefj21eA4">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-05-31</td>
+      <td><a href="https://youtu.be/Xonri7m9da8">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-06-02</td>
+      <td><a href="https://youtu.be/HOoAIXlKtDw">Aquí</a></td>
+    </tr>
+    <tr>
+      <td>2021-06-07</td>
+      <td>[Segundo Parcial]</td>
+    </tr>
+    <tr>
+      <td>2021-06-09</td>
+      <td>[Entrega de notas y revisión]</td>
+    </tr>
+    <tr>
+      <td>2021-06-14</td>
+      <td>[EntRecuperatorio]</td>
+    </tr>
+    <tr>
+      <td>2021-06-16</td>
+      <td>[Examen Final]</td>
+    </tr>
+    <tr>
+      <td>2021-06-21</td>
+      <td>[Entrega de notas y revisión]</td>
+    </tr>
+    <tr>
+      <td>2021-06-23</td>
+      <td>[Publicación de notas finales]</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+
+</article>
+      </div>
+    </div>
+
+    <br/>
+<section id="footer">
+<div class="container-footer">
+  <div class="panel-footer">
+	  <div class="row">
+		<div class="col-sm-4">
+		    <h5>Acerca de mí</h5>	
+            <p>Alvaro Chirino<br/> Investigador y Docente<br/> Fundación Aru, UMSA, UCB
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Contacto</h5>	
+            <p><a href="mailto:achirino@aru.org.bo" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contacta a Alvaro</a> <br/> <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Ubicación</h5>	
+            <p>La Paz - Bolivia
+</p>
+		</div>
+	  </div>
+
+      <center><p>&copy 2025 Alvaro Limber Chirino Gutierrez </p></center>
+	</div>
+  </div>
+</div>
+
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
