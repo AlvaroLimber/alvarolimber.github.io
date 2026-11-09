@@ -14,7 +14,7 @@ listing:
   sort-ui: false
 ---
 
-Perfiles bibliográficos: [{{< ai orcid >}} ORCID](https://orcid.org/0000-0001-8686-7702) · [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=GK297qMAAAAJ) · [{{< ai researchgate >}} ResearchGate](https://www.researchgate.net/profile/Alvaro-Chirino-2)
+Perfiles bibliográficos: [{{< ai orcid >}} ORCID](https://orcid.org/0000-0001-8686-7702) · [{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=xrPAwRIAAAAJ) · [{{< ai researchgate >}} ResearchGate](https://www.researchgate.net/profile/Alvaro-Chirino-2)
 
 [{{< fa download >}} Descargar todas en BibTeX](publicaciones.bib){.btn .btn-outline-primary .btn-sm download="chirino_publicaciones.bib"}
 

@@ -23,22 +23,29 @@
 - title: Evaluación de los efectos de la regularización de la tenencia de tierra (1996–2023)
   authors: Chirino, A.
   year: 2025
-  venue: Cap. 5 en La Reforma Agraria en Cifras
+  venue: 'Cap. 5 en La Reforma Agraria en Cifras: El camino recorrido. Análisis exploratorio,
+    diagnóstico y evaluativo del proceso de saneamiento y titulación de tierra-territorio
+    en Bolivia, La Paz'
   categories:
   - Capítulo de libro
+  url: https://www.inra.gob.bo/wp-content/uploads/2025/10/Libro-de-la-Reforma-Agraria.pdf
   key: chirino2025tierra
   bibtex: |-
     @incollection{chirino2025tierra,
       author    = {Chirino, Alvaro},
       title     = {Evaluación de los efectos de la regularización de la tenencia de tierra (1996–2023)},
-      booktitle = {La Reforma Agraria en Cifras},
+      booktitle = {La Reforma Agraria en Cifras: El camino recorrido. Análisis exploratorio, diagnóstico y evaluativo del proceso de saneamiento y titulación de tierra-territorio en Bolivia},
+      editor    = {Fundación ARU},
+      publisher = {Instituto Nacional de Reforma Agraria (INRA)},
+      address   = {La Paz},
       chapter   = {5},
       year      = {2025},
-      keywords  = {Capítulo de libro}
+      keywords  = {Capítulo de libro},
+      url       = {https://www.inra.gob.bo/wp-content/uploads/2025/10/Libro-de-la-Reforma-Agraria.pdf}
     }
 - title: 'Aproximación del impacto del programa de saneamiento de tierras en Bolivia:
     BO-L1113'
-  authors: Chirino, A.
+  authors: Chirino, A., Villalpando Baptista, M. N. y Belzu, G.
   year: 2024
   venue: Revista ARU SEARCH, Vol. 4
   categories:
@@ -57,7 +64,7 @@
   key: chirino2024tierras
   bibtex: |-
     @article{chirino2024tierras,
-      author   = {Chirino, Alvaro},
+      author   = {Chirino, Alvaro and Villalpando Baptista, Mateo Nicolás and Belzu, Gilmar},
       title    = {Aproximación del impacto del programa de saneamiento de tierras en Bolivia: BO-L1113},
       journal  = {Revista ARU SEARCH},
       volume   = {4},
@@ -96,20 +103,24 @@
       abstract  = {El presente documento presenta el desarrollo de la currícula estadística en el sistema escolar y universitario en Bolivia, se realiza una revisión de la normativa vigente y se describen los contenidos vinculados a la estadística en el ciclo primario y secundario. Para el pregrado se describe el proceso del último plan de estudios en la Universidad Mayor de San Andrés y se incluye el perfil estadístico descrito mediante entrevistas a los directores de carrera de las dos únicas universidades que ofrecen el programa en estadística.}
     }
 - title: Currícula estadística en Bolivia, cambios en la última década
-  authors: Chirino, A.
+  authors: Chirino, A., Reyna Mamani, S. y Mamani, B.
   year: 2022
   venue: Revista Varianza, Instituto de Estadística Teórica y Aplicada (IETA), UMSA,
     Nro. 19
   categories:
   - Artículo
+  url: https://doi.org/10.53287/imny6054ru24w
+  doi: 10.53287/imny6054ru24w
   key: chirino2022varianza
   bibtex: |-
     @article{chirino2022varianza,
-      author   = {Chirino, Alvaro},
+      author   = {Chirino, Alvaro and Reyna Mamani, Sherli and Mamani, Beatriz},
       title    = {Currícula estadística en Bolivia, cambios en la última década},
       journal  = {Revista Varianza, Instituto de Estadística Teórica y Aplicada (IETA), UMSA},
       number   = {19},
       year     = {2022},
+      doi      = {10.53287/imny6054ru24w},
+      url      = {https://doi.org/10.53287/imny6054ru24w},
       keywords = {Artículo}
     }
 - title: 'Consecuencias de la ausencia del desayuno/merienda escolar: una evaluación
@@ -146,9 +157,25 @@
       file     = {aguilar21.pdf},
       abstract = {La investigación evalúa el impacto de la Alimentación Complementaria Escolar (desayuno/merienda escolar) sobre los gastos en alimentación de los hogares, salud y seguridad alimentaria, en el contexto de la suspensión de actividades escolares por la pandemia de COVID-19. Se emplea emparejamiento por puntaje de propensión (propensity score matching). Los resultados muestran que la recepción de la Alimentación Complementaria Escolar representa un alivio en el gasto en alimentación de los hogares y que su ausencia incrementa la probabilidad de que el hogar perciba cierto grado de inseguridad alimentaria.}
     }
-- title: El efecto del racionamiento de agua en el municipio de La Paz sobre los casos
-    de diarrea en niños menores a 5 años
+- title: 'Popularidad presidencial en América Latina: análisis de sentimiento en Twitter'
   authors: Chirino, A.
+  year: 2019
+  venue: Revista Varianza, Instituto de Estadística Teórica y Aplicada (IETA), UMSA
+  categories:
+  - Artículo
+  key: chirino2019twitter
+  bibtex: |-
+    @article{chirino2019twitter,
+      author   = {Chirino, Alvaro},
+      title    = {Popularidad presidencial en América Latina: análisis de sentimiento en Twitter},
+      journal  = {Revista Varianza, Instituto de Estadística Teórica y Aplicada (IETA), UMSA},
+      year     = {2019},
+      keywords = {Artículo}
+    }
+- title: 'El efecto del racionamiento de agua en el municipio de La Paz sobre los
+    casos de diarrea en niños menores a 5 años: una aplicación del método de diferencia
+    en diferencias'
+  authors: Chirino, A. y Almeida García, M. E.
   year: 2018
   venue: Revista Varianza, Instituto de Estadística Teórica y Aplicada (IETA), UMSA,
     Nro. 15
@@ -157,8 +184,8 @@
   key: chirino2018agua
   bibtex: |-
     @article{chirino2018agua,
-      author   = {Chirino, Alvaro},
-      title    = {El efecto del racionamiento de agua en el municipio de La Paz sobre los casos de diarrea en niños menores a 5 años},
+      author   = {Chirino, Alvaro and Almeida García, María Eugenia},
+      title    = {El efecto del racionamiento de agua en el municipio de La Paz sobre los casos de diarrea en niños menores a 5 años: una aplicación del método de diferencia en diferencias},
       journal  = {Revista Varianza, Instituto de Estadística Teórica y Aplicada (IETA), UMSA},
       number   = {15},
       year     = {2018},
@@ -191,6 +218,25 @@
       file     = {indigena2017.pdf},
       url      = {https://www.revistas.espol.edu.ec/index.php/compendium/article/view/273},
       abstract = {El Censo 2012 de Bolivia cambió el tipo de pregunta de auto pertenencia indígena respecto al censo de 2001, y los resultados oficiales mostraron una reducción del 20% en el indicador. El trabajo presenta un diseño experimental aplicado a 218 estudiantes universitarios, divididos aleatoriamente en dos grupos que recibieron la pregunta del censo 2012 o la del 2001. Mediante modelos logit y probit se encuentra una reducción del 12% en el indicador atribuible al cambio de la pregunta, lo que implica que ambas preguntas no son comparables, al menos en grupos con características similares al grupo experimental.}
+    }
+- title: '2 censos, 10 años de encuestas a hogares en Bolivia: tiempo de reponderar
+    y definir un diseño muestral comparable para los indicadores de bienestar'
+  authors: Chirino, A.
+  year: 2016
+  venue: Revista Varianza, Instituto de Estadística Teórica y Aplicada (IETA), UMSA,
+    Vol. 12, 25-33
+  categories:
+  - Artículo
+  key: chirino2016censos
+  bibtex: |-
+    @article{chirino2016censos,
+      author   = {Chirino, Alvaro},
+      title    = {2 censos, 10 años de encuestas a hogares en Bolivia: tiempo de reponderar y definir un diseño muestral comparable para los indicadores de bienestar},
+      journal  = {Revista Varianza, Instituto de Estadística Teórica y Aplicada (IETA), UMSA},
+      volume   = {12},
+      pages    = {25--33},
+      year     = {2016},
+      keywords = {Artículo}
     }
 - title: Migración interna en los municipios de Bolivia. Fichas municipales con el
     Censo de Población 2012
@@ -254,6 +300,39 @@
       url       = {https://isi-web.org/sites/default/files/import/files-2015/CPS077-P1-S.pdf},
       abstract  = {This paper proposes a sample design for the 2002–2012 period of the household survey series conducted by the National Institute of Statistics of Bolivia, aimed at optimal performance for moderate and extreme poverty indicators at departmental and national levels. Existing designs differ in stratification, clustering, sampling frame, allocation and sample size, hindering consistent interpretation of welfare trends; and the 2012 Census revealed a population structure different from previous projections, making it an ideal moment to reweight the sample.}
     }
+- title: Explicando cambios en bienestar, distribución del ingreso y pobreza en Bolivia
+    durante los años 2000
+  authors: Jiménez Pozo, W., Hernani-Limarino, W., Eid, A., Mena, G., Villarroel,
+    P., Uribe, A., Aguirre, R., Chirino, A., Tapia, T. y Aliaga, J.
+  year: 2015
+  venue: Fundación Aru
+  categories:
+  - Informe
+  key: jimenez2015explicando
+  bibtex: |-
+    @techreport{jimenez2015explicando,
+      author      = {Jiménez Pozo, Wilson and Hernani-Limarino, Werner and Eid, Ahmed and Mena, Gary and Villarroel, Paul and Uribe, Alejandra and Aguirre, Rodrigo and Chirino, Alvaro and Tapia, Tommy and Aliaga, Javier},
+      title       = {Explicando cambios en bienestar, distribución del ingreso y pobreza en Bolivia durante los años 2000},
+      institution = {Fundación Aru},
+      year        = {2015},
+      keywords    = {Informe}
+    }
+- title: Informe técnico final. Proyecto «Red Boliviana de Microdatos y Encuestas»
+    (segundo año)
+  authors: Chirino, A., Tito, C., Mamani, S. y Mamani, B.
+  year: 2014
+  venue: Fundación Aru
+  categories:
+  - Informe
+  key: chirino2014microdatos
+  bibtex: |-
+    @techreport{chirino2014microdatos,
+      author      = {Chirino, Alvaro and Tito, Carola and Mamani, Sherly and Mamani, Beatriz},
+      title       = {Informe técnico final. Proyecto «Red Boliviana de Microdatos y Encuestas» (segundo año)},
+      institution = {Fundación Aru},
+      year        = {2014},
+      keywords    = {Informe}
+    }
 - title: 'Una historia en el tiempo: encuestas de uso de tiempo en Bolivia'
   authors: Chirino, A.
   year: 2013
@@ -303,7 +382,7 @@
     Caso boliviano
   authors: Chirino, A.
   year: 2011
-  venue: Documento de trabajo
+  venue: Fundación Aru
   categories:
   - Documento de trabajo
   key: chirino2011desnutricion
@@ -311,7 +390,7 @@
     @techreport{chirino2011desnutricion,
       author      = {Chirino, Alvaro},
       title       = {Estimación de los indicadores de desnutrición infantil en micro niveles. Caso boliviano},
-      institution = {Documento de trabajo},
+      institution = {Fundación Aru},
       year        = {2011},
       keywords    = {Documento de trabajo}
     }

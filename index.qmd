@@ -61,7 +61,7 @@ Cursos de R, ciencia de datos, econometría y muestreo para equipos e institucio
 [{{< fa envelope >}}](mailto:achirino.stat@gmail.com "Correo")
 [{{< ai cv >}}](cv.qmd "CV")
 [{{< ai orcid >}}](https://orcid.org/0000-0001-8686-7702 "ORCID")
-[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=GK297qMAAAAJ "Google Scholar")
+[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=xrPAwRIAAAAJ "Google Scholar")
 [{{< fa brands github >}}](https://github.com/AlvaroLimber "GitHub")
 [{{< ai researchgate >}}](https://www.researchgate.net/profile/Alvaro-Chirino-2 "ResearchGate")
 [{{< fa brands linkedin >}}](https://www.linkedin.com/in/alvarolimber/ "LinkedIn")
