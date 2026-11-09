@@ -65,7 +65,7 @@ Cursos de R, ciencia de datos, econometría y muestreo para equipos e institucio
 [{{< fa brands github >}}](https://github.com/AlvaroLimber "GitHub")
 [{{< ai researchgate >}}](https://www.researchgate.net/profile/Alvaro-Chirino-2 "ResearchGate")
 [{{< fa brands linkedin >}}](https://www.linkedin.com/in/alvarolimber/ "LinkedIn")
-[{{< fa brands youtube >}}](https://www.youtube.com/@estadisticaaplicadaycienci663 "YouTube")
+[{{< fa brands youtube >}}](https://www.youtube.com/@alvarochirinog "YouTube")
 :::
 
 - **En curso** · Doctorado en Gestión del Desarrollo y Políticas Públicas, UMSA
