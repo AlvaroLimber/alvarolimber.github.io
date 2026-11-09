@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Estadística Social Aplicada (MAT-228) – Alvaro Limber Chirino Gutierrez</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-11651e4de64694f30cc5e0dd188db8c8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-d89bfff4ef66a1617592407c02c14913.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<meta name="author" content="Alvaro Limber Chirino Gutierrez">
+<meta name="keywords" content="estadística, Bolivia, muestreo, encuestas, evaluación de impacto, estimación en áreas pequeñas, minería de datos, R, alfabetización estadística, ISLP, Fundación Aru">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alvaro Limber Chirino Gutierrez",
+  "identifier": "https://orcid.org/0000-0001-8686-7702",
+  "alternateName": "Alvaro Chirino",
+  "url": "https://alvarolimber.github.io",
+  "image": "https://alvarolimber.github.io/images/headshot2026.jpg",
+  "jobTitle": "Investigador Senior",
+  "worksFor": {"@type": "Organization", "name": "Fundación Aru", "url": "https://www.aru.org.bo"},
+  "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidad Mayor de San Andrés"},
+  "address": {"@type": "PostalAddress", "addressLocality": "La Paz", "addressCountry": "BO"},
+  "knowsAbout": ["Estadística", "Diseño muestral", "Evaluación de impacto", "Estimación en áreas pequeñas", "Minería de datos", "R"],
+  "sameAs": [
+    "https://orcid.org/0000-0001-8686-7702",
+    "https://scholar.google.com/citations?user=GK297qMAAAAJ",
+    "https://github.com/AlvaroLimber",
+    "https://www.researchgate.net/profile/Alvaro-Chirino-2",
+    "https://www.linkedin.com/in/alvarolimber/",
+    "https://twitter.com/AlvaroChirinoG",
+    "https://www.youtube.com/@estadisticaaplicadaycienci663"
+  ]
+}
+</script>
+
+
+<link rel="stylesheet" href="../../styles/styles.css">
+<meta property="og:title" content="Estadística Social Aplicada (MAT-228) – Alvaro Limber Chirino Gutierrez">
+<meta property="og:description" content="Estadístico boliviano. Investigador Senior en Fundación Aru, docente universitario y Coordinador Nacional del ISLP en Bolivia.">
+<meta property="og:image" content="https://alvarolimber.github.io/docencia/cursos/images/headshot2026.jpg">
+<meta property="og:site_name" content="Alvaro Limber Chirino Gutierrez">
+<meta name="twitter:title" content="Estadística Social Aplicada (MAT-228) – Alvaro Limber Chirino Gutierrez">
+<meta name="twitter:description" content="Estadístico boliviano. Investigador Senior en Fundación Aru, docente universitario y Coordinador Nacional del ISLP en Bolivia.">
+<meta name="twitter:image" content="https://alvarolimber.github.io/docencia/cursos/images/headshot2026.jpg">
+<meta name="twitter:site" content="@AlvaroChirinoG">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../favicon.ico" alt="" class="navbar-logo light-content">
+    <img src="../../favicon.ico" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Alvaro Limber Chirino Gutierrez</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../sobre-mi.html"> 
+<span class="menu-text">Sobre mí</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publicaciones.html"> 
+<span class="menu-text">Publicaciones</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../charlas.html"> 
+<span class="menu-text">Charlas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../software.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docencia/index.html"> 
+<span class="menu-text">Docencia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/AlvaroLimber"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/alvarolimber/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@estadisticaaplicadaycienci663"> <i class="bi bi-youtube" role="img" aria-label="YouTube">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../blog/index.xml"> <i class="bi bi-rss" role="img" aria-label="RSS">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contenido</h2>
+   
+  <ul>
+  <li><a href="#fechas-importantes" id="toc-fechas-importantes" class="nav-link active" data-scroll-target="#fechas-importantes">Fechas Importantes</a></li>
+  <li><a href="#sesiones-de-avance-en-youtube" id="toc-sesiones-de-avance-en-youtube" class="nav-link" data-scroll-target="#sesiones-de-avance-en-youtube">Sesiones de avance en Youtube</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Estadística Social Aplicada (MAT-228)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">estadística</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1 de febrero de 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<ul>
+<li>Universidad: Universidad Mayor de San Andrés</li>
+<li>Carrera: Trabajo Social</li>
+<li>Nivel: Pregrado, Primer año</li>
+<li>Planificación: <a href="../../files/programas/mat228_2021.pdf">Aquí</a></li>
+<li>Apuntes de la materia: <a href="https://alvarolimber.github.io/MAT-228/_book/">Aquí</a></li>
+<li>Temas:
+<ul>
+<li><strong>Tema 1:</strong> Introducción a la Estadística y importancia para la parte Social</li>
+<li><strong>Tema 2:</strong> Estadística Descriptiva</li>
+<li><strong>Tema 3:</strong> Diseño de estudios estadísticos</li>
+<li><strong>Tema 4:</strong> Introducción a la inferencia Estadística</li>
+<li><strong>Tema 5:</strong> Estadística aplicada en Stata/SPSS/R</li>
+</ul></li>
+<li>Libro guía: Estadística Social, Humbert M, Blalock Jr.</li>
+</ul>
+<section id="fechas-importantes" class="level2">
+<h2 class="anchored" data-anchor-id="fechas-importantes">Fechas Importantes</h2>
+<ul>
+<li>Primer Parcial: 6 de mayo</li>
+<li>Segundo Parcial: 19 de agosto</li>
+<li>Defensa de proyecto: 12, 14 de octubre</li>
+<li>Recuperatorio: 19 de octubre</li>
+<li>Examen final: 26 de octubre</li>
+</ul>
+</section>
+<section id="sesiones-de-avance-en-youtube" class="level2">
+<h2 class="anchored" data-anchor-id="sesiones-de-avance-en-youtube">Sesiones de avance en Youtube</h2>
+<p>Lista de reproducción en youtube: <a href="https://youtube.com/playlist?list=PL1bQNHPTDXvLRA5foKaxdneSw3u9x-FT8">Aquí</a></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Fecha</th>
+<th>Enlace</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2021-02-09</td>
+<td>[Invitación classroom]</td>
+</tr>
+<tr class="even">
+<td>2021-02-11</td>
+<td>[Presentación de la materia]</td>
+</tr>
+<tr class="odd">
+<td>2021-02-16</td>
+<td>[Feriado]</td>
+</tr>
+<tr class="even">
+<td>2021-02-18</td>
+<td><a href="https://youtu.be/Q3GGsGDoLOI">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-02-23</td>
+<td><a href="https://youtu.be/_CTLAW2QsBQ">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-02-25</td>
+<td><a href="https://youtu.be/QHMc_i_ABvA">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-03-02</td>
+<td><a href="https://youtu.be/fyuo4bm9yW8">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-03-04</td>
+<td>[II Congreso de Estadística]</td>
+</tr>
+<tr class="odd">
+<td>2021-03-09</td>
+<td><a href="https://youtu.be/tQFwY964WDE">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-03-11</td>
+<td><a href="https://youtu.be/pLnxPuBepbc">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-03-16</td>
+<td><a href="https://youtu.be/dsS0SMkj2HM">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-03-18</td>
+<td><a href="https://youtu.be/n8I0nr9xgis">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-03-23</td>
+<td><a href="https://youtu.be/RAqZAIciRn0">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-03-25</td>
+<td><a href="https://youtu.be/GYVTe6gXTFs">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-03-30</td>
+<td><a href="https://youtu.be/0kKDGIT_3rg">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-04-01</td>
+<td>[Permiso para gestionar Matricula]</td>
+</tr>
+<tr class="odd">
+<td>2021-04-06</td>
+<td><a href="https://youtu.be/t2l32L3dY6U">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-04-08</td>
+<td><a href="https://youtu.be/z8h8Mo_ozn8">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-04-13</td>
+<td><a href="https://youtu.be/yb2l2Oz3tRU">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-04-15</td>
+<td><a href="https://youtu.be/DKUOksMK2OI">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-04-20</td>
+<td>[Lectura]</td>
+</tr>
+<tr class="even">
+<td>2021-04-22</td>
+<td><a href="https://youtu.be/rDD3WZebiHU">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-04-27</td>
+<td><a href="https://youtu.be/XAOsndvXHWw">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-04-29</td>
+<td><a href="https://youtu.be/0EzOU2OCt3k">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-05-04</td>
+<td><a href="https://youtu.be/ZlhjE9Gq6_o">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-05-06</td>
+<td><a href="https://youtu.be/gY2IOja0duU">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-05-11</td>
+<td><a href="https://youtu.be/WCfOtIoY0K4">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-05-13</td>
+<td><a href="https://youtu.be/5jz3i1HL9xs">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-05-18</td>
+<td><a href="https://youtu.be/vwSbJSBOuds">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-05-20</td>
+<td>[Primer Parcial]</td>
+</tr>
+<tr class="odd">
+<td>2021-05-25</td>
+<td><a href="https://youtu.be/1WAMvVOQ3z0">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-05-27</td>
+<td>[Día de la Madre]</td>
+</tr>
+<tr class="odd">
+<td>2021-06-01</td>
+<td><a href="https://youtu.be/rRNm9-Sqolg">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-06-03</td>
+<td><a href="">Feriado</a></td>
+</tr>
+<tr class="odd">
+<td>2021-06-08</td>
+<td><a href="https://youtu.be/ql3nhFhIU0Q">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-06-10</td>
+<td><a href="https://youtu.be/ejyKTruhPvg">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-06-15</td>
+<td><a href="https://youtu.be/d15S1m8tw7k">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-06-17</td>
+<td><a href="https://youtu.be/glYOVjeSows">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-06-22</td>
+<td><a href="https://youtu.be/exRHPwEUIFE">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-06-24</td>
+<td>[Permiso]</td>
+</tr>
+<tr class="odd">
+<td>2021-06-29</td>
+<td><a href="https://youtu.be/MctPQD1JlqY">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-07-01</td>
+<td><a href="https://youtu.be/zxjKPrLtJhs">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-07-06</td>
+<td><a href="https://youtu.be/O-mB1V7gmXI">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-07-08</td>
+<td><a href="https://youtu.be/eBy_K8hwhKw">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-07-13</td>
+<td>[Descanso pedagógico]</td>
+</tr>
+<tr class="even">
+<td>2021-07-15</td>
+<td>[Descanso pedagógico]</td>
+</tr>
+<tr class="odd">
+<td>2021-07-20</td>
+<td><a href="https://youtu.be/c-0lJsRw4Og">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-07-22</td>
+<td><a href="https://youtu.be/soSbqRa7nF0">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-07-27</td>
+<td><a href="https://youtu.be/jzSkkELcx2w">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-07-29</td>
+<td>[Actividad Virtual, TED]</td>
+</tr>
+<tr class="odd">
+<td>2021-08-03</td>
+<td><a href="https://youtu.be/hMC-Z0kob7c">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-08-05</td>
+<td><a href="https://youtu.be/01cIYav2oF4">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-08-10</td>
+<td><a href="https://youtu.be/7CnD5oqIylE">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-08-12</td>
+<td><a href="https://youtu.be/hAoudfvp08s">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-08-17</td>
+<td><a href="https://youtu.be/cIQsc1Hdy4o">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-08-19</td>
+<td>[Segundo parcial]</td>
+</tr>
+<tr class="odd">
+<td>2021-08-24</td>
+<td>[Actividad Virtual, solucionar el segundo parcial]</td>
+</tr>
+<tr class="even">
+<td>2021-08-26</td>
+<td><a href="https://youtu.be/m95SVoMsSDw">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-08-31</td>
+<td>[Definición de programa estadístico]</td>
+</tr>
+<tr class="even">
+<td>2021-09-02</td>
+<td><a href="https://youtu.be/uJZNDPkewe4">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-09-07</td>
+<td><a href="https://youtu.be/KC3phgqrK1U">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-09-09</td>
+<td><a href="https://youtu.be/mpr3rpmYTnY">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-09-14</td>
+<td><a href="https://youtu.be/9Ts4QCOUteg">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-09-16</td>
+<td><a href="https://youtu.be/EG-UkXFtACg">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-09-21</td>
+<td>[Día del estudiante]</td>
+</tr>
+<tr class="even">
+<td>2021-09-23</td>
+<td><a href="https://youtu.be/kwybnByma_M">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-09-28</td>
+<td><a href="https://youtu.be/u8ekecvpH-8">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-09-30</td>
+<td><a href="https://youtu.be/7RdB2QYiFWE">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-10-05</td>
+<td><a href="https://youtu.be/mB5BAfxpKCM">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-10-07</td>
+<td><a href="https://youtu.be/LTinfEOgx1w">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-10-12</td>
+<td>[Avance proyectos de investigación]</td>
+</tr>
+<tr class="even">
+<td>2021-10-14</td>
+<td>[Avance proyectos de investigación]</td>
+</tr>
+<tr class="odd">
+<td>2021-10-19</td>
+<td><a href="https://youtu.be/oQsP_Wlu-KE">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-10-21</td>
+<td><a href="https://youtu.be/i33vabHrF3c">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-10-26</td>
+<td><a href="https://youtu.be/HKhNn5HQPn4">Aquí</a></td>
+</tr>
+<tr class="even">
+<td>2021-10-28</td>
+<td><a href="https://youtu.be/n447nVpZNLI">Aquí</a></td>
+</tr>
+<tr class="odd">
+<td>2021-11-02</td>
+<td>[FERIADO]</td>
+</tr>
+<tr class="even">
+<td>2021-11-04</td>
+<td>[Recuperatorio]</td>
+</tr>
+<tr class="odd">
+<td>2021-11-09</td>
+<td>[Examen de notas]</td>
+</tr>
+<tr class="even">
+<td>2021-11-11</td>
+<td>[Entrega de notas]</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
+<section id="site-footer">
+  <div class="ftr-wrap">
+    <div class="ftr-grid">
+      <div>
+        <h5>Sobre mí</h5>
+        <p>Alvaro Chirino<br>Investigador y docente<br>Fundación Aru · UCB</p>
+      </div>
+      <div>
+        <h5>Contacto</h5>
+        <p><a href="mailto:achirino.stat@gmail.com">achirino.stat@gmail.com</a><br>
+        <a href="mailto:achirino@aru.org.bo">achirino@aru.org.bo</a></p>
+      </div>
+      <div>
+        <h5>Ubicación</h5>
+        <p>La Paz, Bolivia</p>
+      </div>
+    </div>
+    <hr>
+    <p class="small text-center">
+      © <span id="footer-year">2026</span> Alvaro Limber Chirino Gutierrez ·
+      Contenido bajo licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a> ·
+      Hecho con <a href="https://quarto.org">Quarto</a>
+    </p>
+  </div>
+</section>
+<script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/alvarolimber\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

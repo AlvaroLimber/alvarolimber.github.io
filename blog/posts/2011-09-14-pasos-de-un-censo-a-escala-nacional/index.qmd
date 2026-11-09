@@ -1,0 +1,41 @@
+---
+title: "Pasos de un CENSO a escala nacional (Parte I)"
+date: 2011-09-14
+categories: ["censo", "Mirada Estadística"]
+description: "Reflexionando acerca de lo que significa el CENSO para un estadístico, ahh… y para un país, hice un poco de memoria respecto a la bibliograf’ía…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2011). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2011/09/14/pasos-de-un-censo-a-escala-nacional-parte-i/).
+:::
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/09/ventanilla-no.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/09/ventanilla-no.png)Reflexionando acerca de lo que significa el CENSO para un estadístico, ahh... y para un país, hice un poco de memoria respecto a la bibliograf'ía existente de este tema, y me vino un recuerdo reciente de la biblioteca del INE-Bolivia ubicada en La Paz, donde gracias a la recomendación de una amiga que participo en el Censo Nacional de Población y Vivienda de 1992 llegue a buscar una publicación de de la [Census Bureau](http://www.census.gov/) que contenía alrededor de 12 volúmenes referidos al CENSO, al preguntar a la asistente de la bibliotecaria respecto a dicha publicación me tope con un "NO tenemos lo que usted pide", entonces volvi algo frustrado a mi oficina, le comente eso a mi amiga del CNPV-1992 y ella me acompaño nuevamente a la biblioteca y logramos esta vez hablar con la bibliotecaria que si sabia algo respecto a la publicacion, bajamos los tres a las bodegas de la biblioteca en busca los libros, y para suerte mia habia un lote de los 12 volumenes, algo maltratadas y empolvadas pero con informacion invaluable.
+
+Si bien es cierto que Naciones Unidas y otras instituciones internacionales tienen manuales respecto al Censo, esta colección que logre hallar es como el documento base que dio origen a todas las demás, fue como tener el primer articulo de muestreo escrito por Neyman.
+
+Dado que tenia un plazo para devolver los libros a la biblioteca (para que vuelvan a su lugar en la bodega), me tome un tiempo exclusivo para lograr acabar estos 12 volúmenes y entender todo el proceso, los componentes y salidas de un Censo a escala Nacional, que pretendo desarrollarlos en las siguientes entradas, con la finalidad que se comprenda la importancia de contar con una organización sistemática y técnica del proceso de un Censo. (Y sobre todo la importancia de la [presencia de estadísticos](https://miradaestadisticabolivia.wordpress.com/2011/09/06/el-censo-en-bolivia-y-el-papel-del-estadistico/) en este proceso)
+
+Así que, en base a mi formación como estadístico y los apuntes que fui tomando, pretendo desarrollar los siguientes temas en las próximas entradas:
+
+1.  Funciones esenciales del Censo
+2.  Definiciones y características de los Censos
+3.  Planificación, organización y administración de los Censos
+4.  Uso del muestreo en los Censos
+5.  Unidades, lugar y momento de empadronamiento de los Censos
+6.  Temas que son precisos investigar en los censos de población
+7.  Temas que son precisos investigar en los censos de habitación (vivienda)
+8.  Productos y servicios censales
+9.  Utilización de los datos del Censo
+10. Sistemas estadísticos integrados
+11. Pruebas censales
+12. Control de calidad
+
+<div>
+
+Todos ellos abocados a la temática del Censo, y como introducción les invito a ver el vídeo informativo del Censo preparado por el [Instituto Nacional de Estadística de Venezuela](http://www.ine.gob.ve/) para el Censo 2011 (que se encuentra ejecutando actualmente) como el proxis mas cercano que busco desarrollar de aquí en mas.
+
+</div>
+
+<div>
+
+</div>

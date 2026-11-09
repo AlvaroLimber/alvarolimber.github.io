@@ -1,0 +1,18 @@
+---
+title: "Errores de conteo entre datos preliminares y finales del Censo, Bolivia 1992, 2001 y 2012"
+date: 2013-08-16
+categories: ["R", "censo", "muestreo", "opinión", "pensamiento estadístico", "Mirada Estadística"]
+description: "La estadística como ciencia, siempre busca generar información con el mínimo de error posible, estos errores pueden ser errores sistemáticos o…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2013). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2013/08/16/errores-de-conteo-entre-datos-preliminares-y-finales-del-censo-bolivia-1992-2001-y-2012/).
+:::
+
+[![censo1](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/08/censo1.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/08/censo1.png)
+
+La estadística como ciencia, siempre busca generar información con el mínimo de error posible, estos errores pueden ser errores sistemáticos o errores aleatorios, los mas fuertes entre ellos son los errores sistemáticos, estos merman un resultado final si es que se presentan en el proceso de generación de la información. Todo es un aprendizaje, y cada operación estadística nos debiera nutrir de instrumentos para mejorar en los próximos.
+
+Hoy les presento algo que me me llama poderosamente la atención y que aun no logro encontrar alguna variable que explique estas variaciones. En Bolivia el año pasado se realizo el Censo Nacional de Poblacion y Vivienda 2012 (CNPV-2012) y es una costumbre presentar primero datos preliminares y posteriormente los datos oficiales, en este censo particularmente, sucedio algo inusual; el CNPV-2012 presenta el mayor error de conteo de los últimos 3 censos (1992, 2001, 2012) y la jerarquia en población de los departamentos, varian del dato preliminar al final. Buscando algunos antecedentes respecto a errores de conteo, se tiene que; el mayor error de conteo sucedio en Beni en el censo de 1992 y ahora son 7 departamentos que tienen errores de conteo mayores a los censos pasados.
+
+Los origenes de estas diferencias aun no cuentan con una explicación técnica y exhaustiva i.e. un documento que informe las variaciones de conteo por regiones, zonas censales, encuestadores, motivos principales de las variaciones, etc. Lo que resta hacia adelante es documentar lo ocurrido verificar las variaciones con la experiencia pasada y tomar las medidas necesarias para que esto no vuelva a suceder y ver si no existen sesgos sistemáticos en el proceso que puedan repercutir en los indicadores que se vayan a usar para la formualción de políticas públicas

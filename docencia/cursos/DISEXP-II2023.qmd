@@ -1,0 +1,35 @@
+---
+title: "Diseño de Experimentos"
+date: 2023-02-01
+categories: [diseños experimentales, causal]
+universidad: "UMSA"
+carrera: "Estadística"
+periodo: "II-2023"
+aliases:
+  - "/talks/2023/02/01/DISEXP-II2023.html"
+---
+
+* Universidad: Universidad Mayor de San Andrés
+* Carrera: Estadística
+* Periodo: II-2023
+* Planificación: [Aquí](../../files/programas/disexp_II2023.pdf)
+* Acerca del proyecto: Muy pronto
+* Apuntes de la materia: 
+
+## Unidades de aprendizaje (TEMAS)
+
+  1. Principios Básicos
+  2. Diseño completamente aleatorizado de efectos fijos
+  3. Comparación de tratamientos
+  4. Diseño completamente aleatorizado de efectos aleatorios
+  5. Diseños por bloques
+  6. Diseños factoriales
+  
+## Evaluación
+
+Formal
+
+  - 25% Primer Parcial: Temas 1, 2, 3
+  - 25% Segundo Parcial: Temas 4, 5, 6
+  - 30% Final: Todos los temas
+  - 20% Proyecto: Investigación aplicada con implementación de un experimento

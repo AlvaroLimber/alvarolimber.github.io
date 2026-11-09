@@ -1,0 +1,148 @@
+---
+title: "Funciones, definiciones y características esenciales del CENSO (PARTE II)"
+date: 2011-10-19
+categories: ["censo", "Mirada Estadística"]
+description: "I. FUNCIONES Entre las funciones mas relevantes y esenciales de un CENSO están: Distribución de la riqueza y el mejoramiento de la administración…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2011). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2011/10/19/funciones-definiciones-y-caracteristicas-esenciales-del-censo/).
+:::
+
+<div>
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/10/ideas1.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/10/ideas1.jpg)
+
+</div>
+
+<div>
+
+**I. FUNCIONES**
+
+</div>
+
+Entre las funciones mas relevantes y esenciales de un CENSO están:
+
+-   Distribución de la riqueza y el mejoramiento de la administración publica.
+-   Insumo básico para el sistema nacional de estadística, en el caso boliviano el fortalecimiento del SNIES (Sistema Nacional de información Estadística)
+-   Para un ámbito algo técnico estadístico, el Censo es la materia prima para la elaboración de distintos marco muestrales maestros.
+-   Provee de información a distintos niveles, y consecuente con la tecnología debiera permitir la georeferenciación con la cartografía proveniente de todo el operativo censal
+-   ***Fundamentalmente es el punto de partida para el análisis y la investigación.***
+
+<div>
+
+**II. DEFINICIONES Y** **CARACTERÍSTICAS**
+
+</div>
+
+<div>
+
+**A.** **DEFINICIÓN**
+
+</div>
+
+<div>
+
+En un CENSO de características amplias, se define dos unidades de interés: la persona y la vivienda, de esta manera se tiene las siguientes dos definiciones.
+
+</div>
+
+<div>
+
+-   **CENSO de población:** CENSO de población es el conjunto de las operaciones consistentes en recoger, recopilar, evaluar, analizar y publicar o divulgar de alguna otra forma datos demográficos, económicos y sociales relativo a todos los habitantes de un país o de una parte bien delimitada de un país, en un determinado momento.
+
+</div>
+
+<div>
+
+-   **CENSO de habitación (Vivienda):** CENSO de habitación es el conjunto de las operaciones consistentes en recoger, recopilar, evaluar, analizar y publicar o divulgar de alguna otra forma datos demográficos, económicos y sociales relativo a todos los locales de habitación y sus ocupantes en un país o de una parte bien delimitada de un país, en un determinado momento.
+
+<div>
+
+**B.** **CARACTERÍSTICAS**
+
+</div>
+
+<div>
+
+1.  Empadronamiento individual
+2.  Universalidad
+3.  Simultaneidad
+4.  Periodicidad
+
+</div>
+
+<div>
+
+**C. OBJETIVOS** **ESTRATÉGICOS**
+
+</div>
+
+<div>
+
+1.  **Contenido del CENSO:** Debe contener temas apropiados y de utilidad, oportunos, (Posible introducir nuevos temas) (Necesidad de los usuarios) ensayos.
+2.  **Efectos en el publico y en el personal encargado del CENSO:** Que los resultados sean fiables, aceptables, confidencial, el publico debe estar informado de los fines del censo.
+3.  **Resultados del CENSO:** De calidad, el error de cobertura y contenido debe ser mínimo, productos normalizados para su interpretación, debe lograrse acceso a los resultados georeferenciales, controlar errores de respuesta en zonas difíciles
+4.  **Eficiencia en función del costo.**
+
+</div>
+
+<div>
+
+**D. PROGRAMA INTEGRADO DE REUNIÓN Y RECOPILACIÓN**
+
+</div>
+
+<div>
+
+-   **Uso de los censos de Población**
+
+1.  Con fines de formulación de políticas, planificación y administración
+2.  Con fines de investigación
+3.  Uso en el comercio y la industria y el trabajo
+4.  Circunscripciones electorales
+5.  Marco muestral multiproposito
+
+-   **Usos de los censos de vivienda**
+
+1.  Para preparar estadísticas de referencia para viviendas
+2.  Políticas y programas de vivienda
+3.  Evaluación de la calidad de la vivienda
+
+-   **Relación entre los censos de población y vivienda**
+
+1.  Ventaja en la simultaneidad de ambos censos
+
+-   **Relación de los censos de población y habitación con las encuestas intercensales por muestreo**
+
+1.  Realización de encuestas por muestreo que captan información de numerosos temas
+2.  Proporciona el Marco Muestral Maestro
+3.  Similaridad en los conceptos manejados en el censo y las encuestas
+
+-   **Relación del censo de población y habitación con otros censos y otras investigaciones** **estadísticas**
+
+1.  Censo agropecuario
+2.  Censo de establecimientos
+3.  Censo de edificios
+4.  Sistemas de estadísticas corrientes de habitación
+5.  Registro civil y estadísticas vitales
+
+</div>
+
+<div>
+
+**E. PLANTEAMIENTOS** **METODOLÓGICOS**
+
+</div>
+
+<div>
+
+1.  **Planteamiento tradicional:** Se refiere a un operativo transversal, que moviliza a todo el país, e involucra un periodo amplio de planificación, operación y evaluación.
+2.  **Planteamiento basado en el registro:** A través de registros administrativos altamente confiables y oportunos (actualización constante), las ventajas son la reducción de los costos donde el control sobre la actualización es el mas relevante
+3.  **Censo continuado:** El censo no se lo realiza en un día, sino en periodos largos a lo largo de los años
+4.  **Empadronamiento tradicional con actualización anuales de las características:** El fin es realizar un censo no tan elaborado sino mas puntual a temas de conteo y que sea una encuesta bastante robusta la capture la información necesaria
+5.  **Otros diseños censales alternativos**
+
+</div>
+
+</div>

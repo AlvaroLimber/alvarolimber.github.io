@@ -1,0 +1,34 @@
+---
+title: "Sinergia entre el censo y las encuestas nacionales"
+date: 2012-03-29
+categories: ["censo", "muestreo", "opinión", "pensamiento estadístico", "Mirada Estadística"]
+description: "Presentarles el artículo de opinión que realice para pagina siete, referente a la sinergia que debe existir entre el Censo y las distintas encuesta…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2012). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2012/03/29/sinergia-entre-el-censo-y-las-encuestas-nacionales/).
+:::
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/03/sin.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/03/sin.jpg)
+
+Presentarles el [artículo de opinión](http://www.paginasiete.bo/2012-03-29/Opinion/Destacados/18Opi00229-03-12-P720120327JUE.aspx) que realice para pagina siete, referente a la sinergia que debe existir entre el Censo y las distintas encuesta que se realizan en un país, en este caso bajo el contexto del próximo censo en Bolivia.
+
+Desde 2001 hasta ahora se ha sobrepasado el periodo intercensal óptimo de 10 años y no se puede seguir dilatando el Censo Nacional de Población y Vivienda (CNPV) previsto para este 2012, asimismo está pendiente el Censo Agropecuario con un periodo intercensal de más de 28 años y un censo de establecimientos económicos.
+
+El censo es la herramienta básica de soporte para los futuros relevamientos de información y, por ende, una fuente muy importante para la generación de investigación basada en cifras y datos.
+
+Desde un punto vista técnico, las diferentes instituciones internacionales que velan la calidad de un proceso estadístico, tales como la CEPAL, la Eurostat, la Bureau of Census de Estados Unidos y otros organismos, recomiendan que "se debe generar sinergia entre el operativo censal y las diferentes rondas de encuestas nacionales que se realizan".
+
+"Sinergia" debe ser entendida como un proceso bidireccional que inyecta energía entre dos procesos, es decir que las rondas de encuestas deben apoyar al censo y éste a su vez debe apoyar a las encuestas. Una buena encuesta depende de un buen censo, y viceversa.
+
+En Bolivia se realizan varias encuestas para medir temáticas variadas, entre las que destacan las encuestas dirigidas a hogares, como la anual Medición de las Condiciones de Vida (Mecovi), la Encuesta Nacional de Demografía y Salud (ENDSA), que se ejecuta cada cinco años aproximadamente y las encuestas especiales (trabajo infantil, de uso de la coca, empleo y la encuesta de uso de tiempo) que se hacen de manera esporádica.
+
+Por otra parte, también están las sectoriales, como la Encuesta Nacional Agropecuaria (ENA) y en el ámbito económico un sinfín de encuestas destinadas a los establecimientos económicos.
+
+Más allá de generar información específica, las encuestas deben permitir al Instituto Nacional de Estadística (INE) probar y optimizar herramientas, estrategias y procesos que pueden ser utilizados y ajustados para el censo. Es recomendable probar las preguntas en las boletas de las encuestas, ensayar estrategias de transcripción, actualizar paulatinamente la cartografía y crear un flujo de trabajo de las encuestas hacia el censo; es decir, "sinergia".
+
+Más importante aún es el flujo del censo hacia las encuestas, por un hecho indiscutible y completamente técnico: el censo provee el marco maestro de muestreo para las futuras encuestas de la próxima década, y en el caso del censo agropecuario, para más de un cuarto de siglo. Por eso, un operativo censal inadecuado e impreciso genera un sesgo sistemático que irá en desmedro de la calidad y rigurosidad metodológica de las futuras encuestas.
+
+Por este motivo, se debe trabajar con mucho cuidado y detalle en el desarrollo del operativo censal, y se debe ser muy riguroso en el armado de los futuros marcos maestros de muestreo de viviendas, agropecuario y el de establecimientos, porque será garantía de encuestas de calidad, oportunas y coherentes.
+
+El INE no está a cargo exclusivamente de los operativos censales, sino también de generar y presentar las estadísticas, y mientras no planifica el censo, se supone que levanta información por medio de encuestas que alimentan y refuerzan el motor de investigaciones del país.

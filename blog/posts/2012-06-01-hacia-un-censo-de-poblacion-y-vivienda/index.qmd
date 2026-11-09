@@ -1,0 +1,60 @@
+---
+title: "Hacia un Censo de Población y Vivienda con calidad y pertinencia, Bolivia 2012"
+date: 2012-06-01
+categories: ["censo", "pensamiento estadístico", "Mirada Estadística"]
+description: "Aqui les dejo el borrador del documeto de calidad que realice en la Mesa de calidad de la Ruta del Censo 2012 La información estadística es muy…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2012). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2012/06/01/hacia-un-censo-de-poblacion-y-vivienda-con-calidad-y-pertinencia-bolivia-2012/).
+:::
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/dardos.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/dardos.jpg)
+
+Aqui les dejo el borrador del documeto de calidad que realice en la Mesa de calidad de la Ruta del Censo 2012
+
+La información estadística es muy importante y relevante para distintos actores internos y externos de un país, la pertinencia y calidad del dato será un ingrediente sumamente importante para que las decisiones que se tomen estén basadas en un contexto coherente. Existen diversas fuentes de información estadística, estas son:
+
+-   Censos (Cobertura total de una población)
+-   Encuestas por Muestreo (Cobertura parcial de una población)
+-   Registros administrativos (Cobertura total de una población)
+
+Estas tres fuentes se diferencian por tiempo y cobertura. Las tres fuentes son peculiares y útiles en un determinado contexto, las encuestas permiten abordar temáticas complejas, volatiles y diversas, los registros administrativos son útiles en información de salud y hechos vitales (nacimientos y muertes) y el censo es la herramienta de planicación por excelencia.
+
+**Control de calidad**
+
+La característica de tener un censo cada diez años limita la capacidad de mejorar la experiencia del manejo de un operativo de esta naturaleza, por ende se debe explotar al máximo este momento buscando lograr ganar la mayor experiencia posible para mejorar los próximos operativos. El énfasis en lograr tener un control de calidad en las distintas actividades censales obedece a la necesidad de contar con herramientas estadísticas que midan la calidad de un\
+proceso y retroalimenten al mismo.\
+La experiencia obtenida por los pasados censos en Bolivia y latinoamérica muestran la necesidad de mejorar ciertas actividades censales en particular, así mismo, se debe ir deniendo los actores primordiales que validen ciertas herramientas\
+y procesos estadísticos.
+
+La experiencia ganada de un operativo censal es una de las enseñanzas mas valiosas para un país, dado que permite conocer su realidad en cifras, sin embargo, la utilidad del censo como tal no queda en el operativo y el simple recuento de la población, sino que es un instrumento edicador de herramientas estadísticas nuevas y funciona como insumo para mejorar otros procesos estadísticos futuros y pasados del país, realizando esta division se presenta a continuación los procesos que emplean al censo como insumo o como materia prima, que es de suma importancia se realice con máxima prioridad al nalizar un operativo censal.
+
+-   Materia prima .
+
+1.  Marco muestral encuestas periódicas
+2.  Marco muestral encuestas especiales
+3.  Sistema geo-referencial de información estadística
+
+-   Insumo .
+
+1.  Proyecciones demográcas
+2.  Reajuste de los factores de expansion de las encuestas pasadas
+3.  Motor de las investigaciones del país
+
+**Omisión censal**
+
+Otra característica que vale la pena mencionar es la omisión censal, esta incidencia afecta de manera sustancial al concepto mismo de reconocimiento, dado que una persona omitida es una persona no reconocida por el estado, los siguientes gráficos muestran la omisión censal existente en las rondas de encuestas de 1990 y 2000 en países de la región.
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/oc90.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/oc90.jpg)
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/oc00.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/oc00.jpg)
+
+Ambas figuras nos muestran que Bolivia se sitúa en un punto medio entre los otros países respecto a la omisión, además de percibir una disminución de una ronda a otra, la omisión censal esta caracterizada según ONU, 2008, por factores endógenos y exógenos al operativo, los endógenos muestran una falta de control de calidad en los procesos de cartografía y el empadronamiento (duplicación, omisión), en el caso particular de omisión de viviendas esta relacionado estrictamente a dos factores, la pertinencia del proceso cartográco i.e. la distancia en tiempo entre la actualización cartográca y el empadronamiento, el otro factor es una cartografía con un sesgo de sub cobertura. En el caso de omisión de personas puede responder a factores relacionadas a la idiosincrasia de la gente (exógeno) o a un mal control de la residencia habitual en la boleta (endógeno)
+
+**Recomendaciones**
+
+Una característica muy común en la antesala de un censo es la prominente aparición de diferentes sectores de la sociedad que buscan incorporar en la boleta censal algunas preguntas que den cierta información de sus sectores, estas intenciones no pueden ser cubiertas por una boleta que persiguen un objetivo censal, sin embargo, existen herramientas estadísticas que han permitido a otras países lograr la inclusion de estos sectores en el proceso censal, esto se logra a través del diseño de un cuestionario extendido o largo que se aplica mediante técnicas de muestreo estadístico, Bolivia no tienen ninguna experiencia al respecto, pero a razón de que la demanda de diferentes sectores se ha incrementado y la constitución política del estado dene una variedad de temas a medir, seria un logro estadístico muy grande para el país poder contar con una boleta extendida para este próximo censo.
+
+En general, se debe tener la misión y vision de lograr un censo de calidad que transparente todo el proceso censal y establezca parámetros de calidad para futuros procesos, buscar también que la información sea difundida y publicada\
+en un periodo mínimo de tiempo, es decir buscar un proceso pertinente.

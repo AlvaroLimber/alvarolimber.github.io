@@ -1,0 +1,28 @@
+<%
+const esc = (x) => String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'&#10;');
+let lastYear = null;
+for (const item of items) {
+const y = item.year;
+const cat = item.categories ? item.categories[0] : '';
+let h = '';
+if (y !== lastYear) { lastYear = y; h += '<h3 class="pub-year anchored" id="y' + y + '">' + y + '</h3>'; }
+h += '<div class="pub-item" ' + metadataAttrs(item) + '><div>';
+if (item.authors) h += item.authors + ' (' + y + '). ';
+if (item.autor) h += item.autor + ' (' + y + '). ';
+h += '<span class="pub-title">' + item.title + '</span>. ';
+if (item.venue) h += '<span class="pub-venue">' + item.venue + '</span>.';
+h += '</div><div class="pub-links">';
+for (const c of (item.categories || [])) h += '<span class="badge text-bg-light border">' + c + '</span> ';
+if (item.pdf) h += '<a class="badge text-bg-primary" href="' + item.pdf + '" target="_blank"><i class="bi bi-file-earmark-pdf"></i> PDF</a> ';
+if (item.url) h += '<a class="badge text-bg-secondary" href="' + item.url + '" target="_blank"><i class="bi bi-link-45deg"></i> Web</a> ';
+if (item.doi) h += '<a class="badge text-bg-info" href="https://doi.org/' + item.doi + '" target="_blank">DOI</a> ';
+h += '</div>';
+if (item.abstract) h += '<details><summary>Resumen</summary><p>' + item.abstract + '</p></details>';
+if (item.bibtex) {
+  h += '<details><summary>BibTeX</summary><pre>' + esc(item.bibtex) + '</pre></details>';
+}
+h += '</div>';
+%>
+<%= h %>
+
+<% } %>

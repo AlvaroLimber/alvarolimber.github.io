@@ -1,0 +1,112 @@
+---
+title: "Docencia"
+aliases:
+  - "/teaching/index.html"
+  - "/blogs/index.html"
+  - "/posts.html"
+listing:
+  - id: cursos
+    contents: "cursos/*.qmd"
+    type: table
+    sort: "date desc"
+    fields: [title, universidad, carrera, periodo, categories]
+    field-display-names:
+      title: "Materia"
+      universidad: "Universidad"
+      carrera: "Carrera"
+      periodo: "Periodo"
+      categories: "Temas"
+    filter-ui: true
+    sort-ui: [title, periodo, universidad]
+  - id: tesis
+    contents: ../datos/tesis.yml
+    template: ../_listings/publicaciones.ejs
+    sort: "year desc"
+---
+
+## Cursos actuales
+
+| Materia | Universidad | Carrera | Nivel |
+|---|---|---|---|
+| Minería de Datos I | Universidad Católica Boliviana | Economía e Inteligencia de Negocios | Pregrado |
+| Minería de Datos II | Universidad Católica Boliviana | Economía e Inteligencia de Negocios | Pregrado |
+| Psicoestadística | Universidad Católica Boliviana | Psicología | Pregrado |
+| Investigación Cuantitativa | Universidad Católica Boliviana | Psicología | Pregrado |
+
+: {.striped .hover}
+
+## Apuntes en línea
+
+Libros de apuntes abiertos de mis materias, escritos en R / Quarto.
+
+::: {.grid}
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-4}
+::: {.notes-card}
+[Minería de Datos](https://alvarolimber.github.io/data_mining/_book/)  
+[UCB · Economía e Inteligencia de Negocios]{.small}
+:::
+:::
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-4}
+::: {.notes-card}
+[Psicoestadística](https://alvarolimber.github.io/psicoestad-stica/_book/)  
+[UCB · Psicología]{.small}
+:::
+:::
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-4}
+::: {.notes-card}
+[Minería de datos con R](https://alvarolimber.github.io/EST-384/DataMining/_book/)  
+[UMSA · Estadística]{.small}
+:::
+:::
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-4}
+::: {.notes-card}
+[Big Data en R](https://alvarolimber.github.io/EST-383/bigdata/_book/)  
+[UMSA · Estadística]{.small}
+:::
+:::
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-4}
+::: {.notes-card}
+[Estadística I](https://alvarolimber.github.io/EST-133/_book/)  
+[UMSA · Informática]{.small}
+:::
+:::
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-4}
+::: {.notes-card}
+[Estadística II](https://alvarolimber.github.io/EST-145/_book/)  
+[UMSA · Informática]{.small}
+:::
+:::
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-4}
+::: {.notes-card}
+[Estadística (Biología)](https://alvarolimber.github.io/EST-104/apuntes_v1/_book/)  
+[UMSA · Biología]{.small}
+:::
+:::
+::: {.g-col-12 .g-col-sm-6 .g-col-lg-4}
+::: {.notes-card}
+[Estadística Social](https://alvarolimber.github.io/MAT-228/_book/)  
+[UMSA · Trabajo Social]{.small}
+:::
+:::
+:::
+
+## Trayectoria docente
+
+- **UCB (2022 – actual):** Minería de Datos I y II; Psicoestadística (2025–2026); Investigación Cuantitativa (2026).
+- **UMSA, Postgrado en Informática (2024):** Preparación de datos y análisis exploratorio, Maestría en Inteligencia Artificial y Data Science.
+- **UMSA, Carrera de Estadística (2016 – 2025):** Estadística I y II, Diseños Experimentales, Muestreo I, Estadística Social, Bioestadística, Big Data (pregrado y postgrado), Minería de Datos (maestría), Programación Estadística, Simulación y Modelaje Estadístico, Sistemas de Información Estadística, Indicadores Económicos I y II.
+- **Cursos y capacitaciones:** Econometría con R (EGPP, 2025); Análisis de datos en R (UCB, 2021); Evaluación de Impacto de Políticas Públicas (ILAIPP, Asunción, 2017); Muestreo, Diplomado en Estadística Matemática (Universidad Técnica de Oruro, 2016).
+
+## Tesis dirigidas
+
+Proyectos de grado en los que fui tutor. ¿Buscas tutor en muestreo, inferencia causal o machine learning? [Escríbeme](mailto:achirino.stat@gmail.com).
+
+::: {#tesis}
+:::
+
+## Archivo de cursos
+
+Páginas con programa, apuntes, evaluación y clases grabadas de cada curso.
+
+::: {#cursos}
+:::

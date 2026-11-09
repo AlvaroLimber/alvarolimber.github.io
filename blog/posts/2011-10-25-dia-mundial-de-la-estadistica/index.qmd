@@ -1,0 +1,41 @@
+---
+title: "Día Mundial de la Estadística"
+date: 2011-10-25
+categories: ["pensamiento estadístico", "Mirada Estadística"]
+description: "Muchos estadísticos a nivel mundial recordaran que el pasado 20 de octubre de 2010, se celebraba por primera vez en la historia el día mundial de la…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2011). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2011/10/25/dia-mundial-de-la-estadistica-2015/).
+:::
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/10/wsd_logo-copia.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/10/wsd_logo-copia.png)
+
+Muchos estadísticos a nivel mundial recordaran que el pasado 20 de octubre de 2010, se celebraba por primera vez en la historia el día mundial de la estadística, la comisión de estadística de las Naciones Unidas fue la promotora de lograr este reconocimiento a nivel mundial y así mismo la encargada de organizar diferentes actividades a nivel internacional promoviendo que cada país promocione y celebre ese día.
+
+El pasado 20 de octubre de 2011 mire con extrañeza al menos en mi país, celebraciones por esta fecha, digo con extrañeza ya que en la [sesión 42](http://unstats.un.org/unsd/statcom/doc11/Report-Final-S.pdf) de la comisión de estadísticas de las Naciones Unidas celebradas en febrero de este año, entre sus consideraciones definió que el día mundial de la estadística debiera celebrarse cada 2 o 5 años, tal como se muestra en los puntos tratados en esa reunión (Mas abajo), es así que el próximo día de celebración podría ser el 2015, por lo tanto, no existió de manera oficial tal día este año, lo que nos queda tal vez es tratar de estar mas informados.
+
+Día Mundial de la Estadística
+
+La Comisión de Estadística:
+
+1.  Expresó su satisfacción y su agradecimiento por el hecho de que la observancia del Día Mundial de la Estadística hubiera sido un éxito a nivel mundial y hubiera tenido una repercusión positiva en el reconocimiento de la importancia de las estadísticas oficiales.
+2.  Encomió a la División de Estadística de las Naciones Unidas por haber proporcionado instrumentos útiles y haber apoyado las celebraciones en todo el mundo
+3.  Tomó nota de la recomendación de asignar tiempo suficiente para la preparación de las celebraciones a nivel nacional y mundial.
+4.  Observó que, aunque los actos celebrados con ocasión del Día Mundial de la Estadística en 2010 habían llegado a una amplia audiencia, era preciso prestar más atención para obtener aún más cobertura de los medios de comunicación en conmemoraciones futuras.
+5.  Alentó a que se siguieran observando días de la estadística a nivel nacional y regional, que habían demostrado tener un efecto positivo en la divulgación de la función de las estadísticas.
+6.  Tomó nota de las propuestas de observar el Día Mundial de la Estadística de manera periódica, con una amplia preferencia en favor de un intervalo de dos o cinco años.
+7.  Pidió a la División de Estadística de las Naciones Unidas que, en consulta con la Mesa de la Comisión de Estadística, formulase una propuesta acerca de la periodicidad de la observancia y sus modalidades, incluida la posibilidad de que la Asamblea General aprobase una resolución, e informara a la Comisión en su 43° período de sesiones sobre esa propuesta.
+
+<div>
+
+-   **CASO BOLIVIANO 2010**
+
+</div>
+
+<div>
+
+La celebración de este día en el caso de Bolivia estuvo acompañado de una iniciativa del Instituto Nacional de Estadística en la organización de la [primera feria institucional de información estadística](http://www.eclac.org/deype/noticias/noticias/1/39441/BO_FeriaInternacional-Informacion.pdf), esta feria fue realizada en los distintos departamentos de Bolivia y coordinada por las oficinas departamentales del INE, la carrera de Estadística de La Paz estuvo también presente en la feria presentando algo del material intelectual que realiza, la organización de este día no fue algo novedosa ni llamativa para la sociedad y se perdió otra oportunidad de alimentar la conciencia estadística de nuestro querido país, para el próximo día mundial de la estadística esperemos exista un mayor esfuerzo de conmover a las masas (existe tiempo para preparar algo bueno) y lograr aquellas palabras que Herbert George Wells, dijo:\
+**"Llegará el día en el que el pensamiento estadístico será una condición tan necesaria para la convivencia eficiente como la capacidad de leer y escribir"**
+
+</div>

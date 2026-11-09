@@ -1,0 +1,17 @@
+---
+title: "Charlas y presentaciones"
+description: "Conferencias invitadas, ponencias en congresos y cursos dictados."
+aliases:
+  - "/talks/index.html"
+listing:
+  id: charlas
+  contents: datos/charlas.yml
+  template: _listings/publicaciones.ejs
+  sort: "year desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+---
+
+::: {#charlas}
+:::

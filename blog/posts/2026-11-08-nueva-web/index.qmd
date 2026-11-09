@@ -1,0 +1,10 @@
+---
+title: "Estrené nueva web"
+description: "Migré mi página personal a Quarto: ahora reúne publicaciones, cursos y materiales en un solo lugar."
+date: 2026-11-08
+categories: [noticias]
+---
+
+Migré esta página a [Quarto](https://quarto.org), lo que me permite escribirla directamente desde RStudio, con código en R reproducible dentro de cada entrada.
+
+Aquí encontrarás mis [publicaciones](../../../publicaciones.qmd), los materiales de mis [cursos](../../../docencia/index.qmd) y las novedades de los proyectos en los que trabajo.

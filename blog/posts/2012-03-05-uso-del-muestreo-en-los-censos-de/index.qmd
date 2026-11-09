@@ -1,0 +1,67 @@
+---
+title: "Uso del muestreo en los Censos de Población y Vivienda (PARTE IV)"
+date: 2012-03-05
+categories: ["censo", "muestreo", "Mirada Estadística"]
+description: "Se debe tener siempre claro las potenciales errores asociados a cada técnica estadística, no es de extrañar la afirmación de que a mayor cobertura…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2012). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2012/03/05/uso-del-muestreo-en-los-censos-de-poblacion-y-vivienda-parte-iv/).
+:::
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/03/golden-rule-title.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/03/golden-rule-title.jpg)
+
+Se debe tener siempre claro las potenciales errores asociados a cada técnica estadística, no es de extrañar la afirmación de que a mayor cobertura poblacional mayor el error de cobertura y a menor cobertura poblacional mayor error de muestreo. Por ende, se hace de suma importancia verificar los errores de cobertura asociados a un censo, a través de una encuesta por muestreo, buscando siempre controlar de la mejor forma los errores estadísticos asociados a este.
+
+**A. Características de las operaciones de muestreo aceptables**
+
+1.  -   **Exactitud y precisión:** Debe hacerse la diferencia entre estos dos conceptos; la exactitud es medida por el margen de error, i.e. la distancia entre el parámetro y el estimador, la precisión es medida con el error estándar y se refiere al nivel de dispersión.
+
+<div>
+
+"Si bien pueden adoptarse técnicas para estimar las varianzas, la técnica concreta que se utilice deberá reflejar el diseño de la muestra utilizada"
+
+</div>
+
+1.  -   **Recursos censales:** El éxito del muestreo en el censo esta enmarcado en el uso juicioso del equipo disponible y el enfoque de mejora de calidad., deberán responderse las preguntas ¿Es posible (costo)?, ¿Es necesario (competencia)?. Se hace de suma importancia la presencia indiscutible de un estadístico especialista en muestreo, para la orientación de este proceso.
+
+**B. El muestreo como parte integrante del censo**
+
+El muestreo llega a ser e instrumento auditor de cada fase del proceso y busca integrarlo y mejorarlo, las ramas en las que se desenvuelve son:
+
+1.  -   **Pruebas de los métodos censales:** Sirve para elegir entre varias alternativas y metodos posibles. "Se prueba la viabilidad de herramientas" en situaciones especificas o generales. Para medir eficiencia se debe utilizar procedimientos de muestreo.
+
+<!-- -->
+
+1.  -   **Enumeración de temas además de aquellos para los que se considera necesario un empadronamiento completo:** Se tienen dos posibles alternativas para utilización de muestreo en temas especiales dentro de la boleta censal, a partir de la utilización de una boleta larga.
+
+    1.  Se designa por anticipado un conjunto sistemático de hogares que recibirán un formulario largo (Control estadístico riguroso). Se tiene un menor error de muestreo pero se debe trabajar bastante en la capacitación
+    2.  Se designa muestras en zonas de empadronamiento largo. Se tiene mayor manejo en campo, tiene un incremento en varianza.
+
+<!-- -->
+
+1.  -   **Encuestas de verificación y comprobación:** Es uno de los procesos mas importantes dentro de un censo, debe pensarse en un método apropiado de muestreo , calcular con cierto grado de fiabilidad la sub-estimación del censo, a distintos niveles, pensar tal vez en una encuesta con cobertura sub-nacional, entre los requisitos mas importantes están:
+
+    1.  El tiempo entre el censo y la encuesta debe ser mínimo
+    2.  Debe ser un proceso independiente al del censo
+    3.  Debe estar al margen de todas las personas involucradas en el operativo del censo
+    4.  Debe tener su propio sistema de procesamiento y evaluación
+    5.  Como herramienta imprescindible para la corrección de los errores en el censo y verificar correlaciones debe agendarse dentro del cronograma.
+
+<div>
+
+1.  -   **Programa de garantía y mejoramiento de la calidad:** Las medidas de calidad comienzan antes del empadronamiento, diseño de cuestionarios, pruebas experimentales, revisión y codificación de los cuestionarios,tabulaciones, se debe buscar "Patrones sistemáticos" y "Sistemas sencillos de registros"
+
+<!-- -->
+
+1.  -   **Tabulación anticipada de determinados temas:** Pueden realizarse a través de muestreo, para tener los tabulados de forma oportuna obteniendo una muestra de la población total.
+
+<!-- -->
+
+1.  -   **Elaboración y tabulación definitivas:** Se disponen de herramientas como CsPro y IMPS que permiten el manejo de grandes cantidades de datos.
+
+</div>
+
+**C. El censo como base para ulteriores encuestas por muestreo o programasde encuestas**
+
+El censo proporciona el marco maestro de muestreo, por lo tanto se debe exigir exactitud, exhaustividad y actualidad, buscar formas de sinergia, flujo, simbiosis entre el censo y otros procesos estadísticos (Encuestas)

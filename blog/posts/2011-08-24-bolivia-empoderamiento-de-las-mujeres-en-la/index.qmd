@@ -1,0 +1,20 @@
+---
+title: "Bolivia: Empoderamiento de las mujeres en la jefatura del hogar"
+date: 2011-08-24
+categories: ["R", "muestreo", "Mirada Estadística"]
+description: "Realizando algunos cálculos con las ENDSA 1989-2008, encontré este dato que me pareció interesante publicarlo. Fuente: Elaboración propia con…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2011). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2011/08/24/bolivia-empoderamiento-de-las-mujeres-en-la-jefatura-del-hogar/).
+:::
+
+Realizando algunos cálculos con las ENDSA 1989-2008, encontré este dato que me pareció interesante publicarlo.\
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/08/jefe.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/08/jefe.png)\
+**Fuente:** Elaboración propia con información de la Encuesta Nacional de Demografía y Salud
+
+Este resultado se obtiene a través de las pregunta en los cuestionarios de la ENDSA, en la cual se pregunta: El sexo del jefe del hogar.
+
+Sin duda el gráfico revela una tendencia algo obvia de los cambios que están ocurriendo a lo largo del tiempo en nuestro pais, en este caso, el empoderamiento de las mujeres en cuanto a la jefatura del hogar.
+
+Si bien el salto no es brusco, se evidencia una pendiente positiva. Esperando que en los próximos años la jefatura del hogar este concentrada de manera equitativa, o tal ves el empoderamiento llegue mas allá y las mujeres sean las jefas de hogar en su mayoría.

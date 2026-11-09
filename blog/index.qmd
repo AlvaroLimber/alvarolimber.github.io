@@ -1,0 +1,16 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+  date-format: "D [de] MMMM, YYYY"
+page-layout: full
+title-block-banner: false
+---
+
+Incluye el archivo de mi antiguo blog *Mirada Estadística* (2011–2015), sobre censos, encuestas y estadísticas públicas en Bolivia.
+
+Análisis breves y novedades también en [{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/alvarolimber/recent-activity/all/).

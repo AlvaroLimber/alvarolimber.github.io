@@ -1,0 +1,26 @@
+---
+title: "Exijo al menos una “fe de erratas” en el Censo 2012 de Bolivia"
+date: 2013-10-05
+categories: ["censo", "muestreo", "opinión", "pensamiento estadístico", "Mirada Estadística"]
+description: "La coyuntura del censo ya duro casi dos años, esto porque las observaciones existentes comenzarón desde el momento de la planificación y el…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2013). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2013/10/05/exijo-al-menos-una-fe-de-erratas-en-el-censo-2012-de-bolivia/).
+:::
+
+[![the eraser](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/10/errata.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/10/errata.jpg)
+
+La coyuntura del censo ya duro casi dos años, esto porque las observaciones existentes comenzarón desde el momento de la planificación y el hermetismo del INE (según otras fuentes). Sin embargo, la posición en este momento es completamente cerrada a que los resultados del censo son los definitivos y el unico instrumento para conocer como estamos es la publicación del INE del 31 de Julio de 2013 "BOLIVIA características de población y vivienda Censo Nacional de Población y Vivienda 2012" y el mismo documento no es tan perfecto los Cuadros 2.2 (Página 8), 5.9 (Página 21) y 5 (Página 29) mencionan que son por área (asumo urbano rural), pero en niguna parte de las mencionadas tablas se realiza esa distinción EXIJO UN FE DE ERRATAS!!!!!
+
+Si bien el título es algo pomposo, solo sirve de estrategia para llamar la atención, dado que el error que mencione es algo trivial que no tiene la mayor implicacia. Ahora el objetivo de este artículo es ahondar en dos detalles que despiertan mi atención en base a esta observación que se centra en (1) el concepto Urbano Rural (2) Cual es la historia verdadera de estos 10 años pasados en tema de los inidicadores dado el ritmo de crecmiiento que plantea este censo.
+
+**(1) Concepto Urbano -- Rural:**
+
+\
+Un documento reciente de Naciones unidas (Hacia una nueva definición de "rural" con fines estadísticos en América Latina, 2011) menciona que definir el concepto y dimensiones de lo Urbano- Rural no es algo trivial sino mas bien tiene una importancia para la política publica, dado que en estas áreas se focalizan programas de alivio a la pobreza porque se cree que son más vulnerables. En Bolivia el concepto Urbano Rural aun no está acuñado en la perfección y una de las divisiones mas usuales es la que divide a las poblaciones menores (localidades) en unidades en base a su población; Ciudades capitales, ciudades intermedias, centros poblados, Áreas dispersas, donde las tres primeras pueden caer en el denominativo Urbano y lo disperso (lo desconocido) es lo rural. Que basados en este criterio hay un a infinidad de nuevos cambios que plantearía este nuevo censo, que no necesariamente significaría que localidades antes rurales y ahora urbanos estén en mejores condiciones. Por ello es necesario, homogenizar un criterio al interior del país que sea compatible con los países de la región con la finalidad de poder ser comprables en el tiempo y en el espacio.
+
+**(2) La historia Pasada.**
+
+\
+Las Encuestas a hogares de la ultima década trabajaron en base a las proyecciones provenientes del censo del 2001, ahora, el censo 2012 nos revela el crecimiento "real (si la auditoria revela que son confiables los datos)" de estos últimos diez años, lo que implicaría tener que calcular todos los indicadores de educación, pobreza, salud, etc. En base al verdadero ritmo de crecimiento y ver la variación de estos indicadores. Tener en mente que en base a estos indicadores se arman las Metas del milenio. Por ello, queda pendiente ver la historia real (ajustada) pasada y empezar a analizar esos resultados

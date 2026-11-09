@@ -1,0 +1,1742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Blog – Alvaro Limber Chirino Gutierrez</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-11651e4de64694f30cc5e0dd188db8c8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-d89bfff4ef66a1617592407c02c14913.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>html{ scroll-behavior: smooth; }</style>
+<meta name="author" content="Alvaro Limber Chirino Gutierrez">
+<meta name="keywords" content="estadística, Bolivia, muestreo, encuestas, evaluación de impacto, estimación en áreas pequeñas, minería de datos, R, alfabetización estadística, ISLP, Fundación Aru">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alvaro Limber Chirino Gutierrez",
+  "identifier": "https://orcid.org/0000-0001-8686-7702",
+  "alternateName": "Alvaro Chirino",
+  "url": "https://alvarolimber.github.io",
+  "image": "https://alvarolimber.github.io/images/headshot2026.jpg",
+  "jobTitle": "Investigador Senior",
+  "worksFor": {"@type": "Organization", "name": "Fundación Aru", "url": "https://www.aru.org.bo"},
+  "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidad Mayor de San Andrés"},
+  "address": {"@type": "PostalAddress", "addressLocality": "La Paz", "addressCountry": "BO"},
+  "knowsAbout": ["Estadística", "Diseño muestral", "Evaluación de impacto", "Estimación en áreas pequeñas", "Minería de datos", "R"],
+  "sameAs": [
+    "https://orcid.org/0000-0001-8686-7702",
+    "https://scholar.google.com/citations?user=GK297qMAAAAJ",
+    "https://github.com/AlvaroLimber",
+    "https://www.researchgate.net/profile/Alvaro-Chirino-2",
+    "https://www.linkedin.com/in/alvarolimber/",
+    "https://twitter.com/AlvaroChirinoG",
+    "https://www.youtube.com/@estadisticaaplicadaycienci663"
+  ]
+}
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles/styles.css">
+<link rel="alternate" type="application/rss+xml" title="Alvaro Limber Chirino Gutierrez" href="index.xml" data-external="1"><meta property="og:title" content="Blog – Alvaro Limber Chirino Gutierrez">
+<meta property="og:description" content="Estadístico boliviano. Investigador Senior en Fundación Aru, docente universitario y Coordinador Nacional del ISLP en Bolivia.">
+<meta property="og:image" content="https://alvarolimber.github.io/blog/images/headshot2026.jpg">
+<meta property="og:site_name" content="Alvaro Limber Chirino Gutierrez">
+<meta name="twitter:title" content="Blog – Alvaro Limber Chirino Gutierrez">
+<meta name="twitter:description" content="Estadístico boliviano. Investigador Senior en Fundación Aru, docente universitario y Coordinador Nacional del ISLP en Bolivia.">
+<meta name="twitter:image" content="https://alvarolimber.github.io/blog/images/headshot2026.jpg">
+<meta name="twitter:site" content="@AlvaroChirinoG">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../favicon.ico" alt="" class="navbar-logo light-content">
+    <img src="../favicon.ico" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Alvaro Limber Chirino Gutierrez</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Inicio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../sobre-mi.html"> 
+<span class="menu-text">Sobre mí</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../publicaciones.html"> 
+<span class="menu-text">Publicaciones</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../charlas.html"> 
+<span class="menu-text">Charlas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../software.html"> 
+<span class="menu-text">Software</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../docencia/index.html"> 
+<span class="menu-text">Docencia</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/AlvaroLimber"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/alvarolimber/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@estadisticaaplicadaycienci663"> <i class="bi bi-youtube" role="img" aria-label="YouTube">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../blog/index.xml"> <i class="bi bi-rss" role="img" aria-label="RSS">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(26)</span></div><div class="category" data-category="Y2Vuc28=">censo <span class="quarto-category-count">(17)</span></div><div class="category" data-category="ZWxlY3RvcmFs">electoral <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TGFUZVg=">LaTeX <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ==">Mirada Estadística <span class="quarto-category-count">(25)</span></div><div class="category" data-category="bXVlc3RyZW8=">muestreo <span class="quarto-category-count">(11)</span></div><div class="category" data-category="bm90aWNpYXM=">noticias <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3BpbmklQzMlQjNu">opinión <span class="quarto-category-count">(8)</span></div><div class="category" data-category="cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv">pensamiento estadístico <span class="quarto-category-count">(14)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="U3RhdGE=">Stata <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Blog</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Incluye el archivo de mi antiguo blog <em>Mirada Estadística</em> (2011–2015), sobre censos, encuestas y estadísticas públicas en Bolivia.</p>
+<p>Análisis breves y novedades también en <a href="https://www.linkedin.com/in/alvarolimber/recent-activity/all/"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i> LinkedIn</a>.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="bm90aWNpYXM=" data-listing-date-sort="1794110400000" data-listing-file-modified-sort="1794179327363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
+<div class="thumbnail"><a href="../blog/posts/2026-11-08-nueva-web/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2026-11-08-nueva-web/index.html" class="no-external">Estrené nueva web</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bm90aWNpYXM='); return false;">noticias</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2026-11-08-nueva-web/index.html" class="no-external">
+<p>Migré mi página personal a Quarto: ahora reúne publicaciones, cursos y materiales en un solo lugar.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2026-11-08-nueva-web/index.html" class="no-external">
+<div class="listing-date">
+8 de noviembre, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="ZWxlY3RvcmFsJTJDb3BpbmklQzMlQjNuJTJDcGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNvJTJDTWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ==" data-listing-date-sort="1416542400000" data-listing-file-modified-sort="1794184105219" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="519">
+<div class="thumbnail"><a href="../blog/posts/2014-11-21-el-alto-un-municipio-complejo-en-sus/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2014-11-21-el-alto-un-municipio-complejo-en-sus/index.html" class="no-external">El Alto, un municipio complejo en sus preferencias electorales</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWxlY3RvcmFs'); return false;">electoral</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2014-11-21-el-alto-un-municipio-complejo-en-sus/index.html" class="no-external">
+<p>El 2015 se vienen las elecciones sub nacionales en Bolivia, y uno de los municipios mas intrigantes en cuanto a su preferencia electoral sera El…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2014-11-21-el-alto-un-municipio-complejo-en-sus/index.html" class="no-external">
+<div class="listing-date">
+21 de noviembre, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="UiUyQ2NlbnNvJTJDTWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ==" data-listing-date-sort="1415937600000" data-listing-file-modified-sort="1794184104776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="615">
+<div class="thumbnail"><a href="../blog/posts/2014-11-14-movimientos-migratorios-internos-a-nivel-departamental-bolivia/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2014-11-14-movimientos-migratorios-internos-a-nivel-departamental-bolivia/index.html" class="no-external">Movimientos migratorios internos, a nivel departamental, Bolivia 2001 – 2012</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2014-11-14-movimientos-migratorios-internos-a-nivel-departamental-bolivia/index.html" class="no-external">
+<p>Según el Diccionario Demográfico Multilingüe de la Unión Internacional para el Estudio Científico de la Población (iTtECP): “Se da el nombre de…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2014-11-14-movimientos-migratorios-internos-a-nivel-departamental-bolivia/index.html" class="no-external">
+<div class="listing-date">
+14 de noviembre, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="ZWxlY3RvcmFsJTJDTWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ==" data-listing-date-sort="1413345600000" data-listing-file-modified-sort="1794184104294" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="640">
+<div class="thumbnail"><a href="../blog/posts/2014-10-15-elecciones-bolivia-2014-un-diagnostico-de-la/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2014-10-15-elecciones-bolivia-2014-un-diagnostico-de-la/index.html" class="no-external">Elecciones Bolivia 2014, un diagnóstico de la victoria de EVO con información municipal de las pasadas elecciones</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWxlY3RvcmFs'); return false;">electoral</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2014-10-15-elecciones-bolivia-2014-un-diagnostico-de-la/index.html" class="no-external">
+<p>El pasado domingo 12 de Octubre se celebraron las elecciones Nacionales en Bolivia, a la fecha de este articulo (14 de Octubre 2014) aun no existe…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2014-10-15-elecciones-bolivia-2014-un-diagnostico-de-la/index.html" class="no-external">
+<div class="listing-date">
+15 de octubre, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="ZWxlY3RvcmFsJTJDTWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ==" data-listing-date-sort="1411099200000" data-listing-file-modified-sort="1794184103919" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="288">
+<div class="thumbnail"><a href="../blog/posts/2014-09-19-el-comportamiento-electoral-municipal-en-las-elecciones/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2014-09-19-el-comportamiento-electoral-municipal-en-las-elecciones/index.html" class="no-external">El Comportamiento Electoral Municipal en las Elecciones Nacionales de 2002, 2005 y 2009 en Bolivia</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWxlY3RvcmFs'); return false;">electoral</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2014-09-19-el-comportamiento-electoral-municipal-en-las-elecciones/index.html" class="no-external">
+<p>El próximo 12 de Octubre de 2014 se celebran las Elecciones Nacionales en Bolivia, existen 5 frentes políticos en competencia. Considero que es un…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2014-09-19-el-comportamiento-electoral-municipal-en-las-elecciones/index.html" class="no-external">
+<div class="listing-date">
+19 de septiembre, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="b3BpbmklQzMlQjNuJTJDTWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ==" data-listing-date-sort="1407124800000" data-listing-file-modified-sort="1794184103536" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="958">
+<div class="thumbnail"><a href="../blog/posts/2014-08-04-sobre-las-encuestas-politicas-en-bolivia/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2014-08-04-sobre-las-encuestas-politicas-en-bolivia/index.html" class="no-external">Sobre las encuestas políticas en Bolivia</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2014-08-04-sobre-las-encuestas-politicas-en-bolivia/index.html" class="no-external">
+<p>Las encuestas electorales en nuestro país están lejos de convertirse en un referente confiable de las preferencias políticas reales, mientras no…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2014-08-04-sobre-las-encuestas-politicas-en-bolivia/index.html" class="no-external">
+<div class="listing-date">
+4 de agosto, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="Y2Vuc28lMkNvcGluaSVDMyVCM24lMkNwZW5zYW1pZW50byUyMGVzdGFkJUMzJUFEc3RpY28lMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1386475200000" data-listing-file-modified-sort="1794184103213" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="421">
+<div class="thumbnail"><a href="../blog/posts/2013-12-08-encuesta-a-hogares-2012-bolivia/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2013-12-08-encuesta-a-hogares-2012-bolivia/index.html" class="no-external">Encuesta a Hogares 2012 – Bolivia</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2013-12-08-encuesta-a-hogares-2012-bolivia/index.html" class="no-external">
+<p>El pasado 26 de Noviembre de 2013 el Instituto Nacional de Estadística de Bolivia publico la Encuesta a Hogares 2012, esta encuesta se realiza…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2013-12-08-encuesta-a-hogares-2012-bolivia/index.html" class="no-external">
+<div class="listing-date">
+8 de diciembre, 2013
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="Y2Vuc28lMkNtdWVzdHJlbyUyQ29waW5pJUMzJUIzbiUyQ3BlbnNhbWllbnRvJTIwZXN0YWQlQzMlQURzdGljbyUyQ01pcmFkYSUyMEVzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1380945600000" data-listing-file-modified-sort="1794184102829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="519">
+<div class="thumbnail"><a href="../blog/posts/2013-10-05-exijo-al-menos-una-fe-de-erratas/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2013-10-05-exijo-al-menos-una-fe-de-erratas/index.html" class="no-external">Exijo al menos una “fe de erratas” en el Censo 2012 de Bolivia</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2013-10-05-exijo-al-menos-una-fe-de-erratas/index.html" class="no-external">
+<p>La coyuntura del censo ya duro casi dos años, esto porque las observaciones existentes comenzarón desde el momento de la planificación y el…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2013-10-05-exijo-al-menos-una-fe-de-erratas/index.html" class="no-external">
+<div class="listing-date">
+5 de octubre, 2013
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="UiUyQ2NlbnNvJTJDbXVlc3RyZW8lMkNvcGluaSVDMyVCM24lMkNwZW5zYW1pZW50byUyMGVzdGFkJUMzJUFEc3RpY28lMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1378353600000" data-listing-file-modified-sort="1794184102420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
+<div class="thumbnail"><a href="../blog/posts/2013-09-05-tendencias-y-crecimientos-de-los-censos-en/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2013-09-05-tendencias-y-crecimientos-de-los-censos-en/index.html" class="no-external">Tendencias y crecimientos de los censos en Bolivia</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2013-09-05-tendencias-y-crecimientos-de-los-censos-en/index.html" class="no-external">
+<p>Sin duda que un evento como el censo de población y vivienda deja bastante evidencia para describir los cambios que atraviesa un país, cambios de…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2013-09-05-tendencias-y-crecimientos-de-los-censos-en/index.html" class="no-external">
+<div class="listing-date">
+5 de septiembre, 2013
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="UiUyQ2NlbnNvJTJDbXVlc3RyZW8lMkNvcGluaSVDMyVCM24lMkNwZW5zYW1pZW50byUyMGVzdGFkJUMzJUFEc3RpY28lMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1376625600000" data-listing-file-modified-sort="1794184102061" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295">
+<div class="thumbnail"><a href="../blog/posts/2013-08-16-errores-de-conteo-entre-datos-preliminares-y/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2013-08-16-errores-de-conteo-entre-datos-preliminares-y/index.html" class="no-external">Errores de conteo entre datos preliminares y finales del Censo, Bolivia 1992, 2001 y 2012</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2013-08-16-errores-de-conteo-entre-datos-preliminares-y/index.html" class="no-external">
+<p>La estadística como ciencia, siempre busca generar información con el mínimo de error posible, estos errores pueden ser errores sistemáticos o…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2013-08-16-errores-de-conteo-entre-datos-preliminares-y/index.html" class="no-external">
+<div class="listing-date">
+16 de agosto, 2013
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="Y2Vuc28lMkNtdWVzdHJlbyUyQ3BlbnNhbWllbnRvJTIwZXN0YWQlQzMlQURzdGljbyUyQ01pcmFkYSUyMEVzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1370404800000" data-listing-file-modified-sort="1794184101733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="502">
+<div class="thumbnail"><a href="../blog/posts/2013-06-05-los-censos-no-son-perfectos-pero-deben/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2013-06-05-los-censos-no-son-perfectos-pero-deben/index.html" class="no-external">Los Censos no son Perfectos, pero deben ser transparentes</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2013-06-05-los-censos-no-son-perfectos-pero-deben/index.html" class="no-external">
+<p>Cualquier censo de población, vivienda, establecimientos económicos, agropecuario u otra unidad de análisis, significa un gran esfuerzo y desafío…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2013-06-05-los-censos-no-son-perfectos-pero-deben/index.html" class="no-external">
+<div class="listing-date">
+5 de junio, 2013
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="Y2Vuc28lMkNtdWVzdHJlbyUyQ3BlbnNhbWllbnRvJTIwZXN0YWQlQzMlQURzdGljbyUyQ01pcmFkYSUyMEVzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1364875200000" data-listing-file-modified-sort="1794184101306" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="509">
+<div class="thumbnail"><a href="../blog/posts/2013-04-02-censo-encuestas-por-muestreo-y-el-criterio/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2013-04-02-censo-encuestas-por-muestreo-y-el-criterio/index.html" class="no-external">Censo, encuestas por muestreo y el criterio de representatividad</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2013-04-02-censo-encuestas-por-muestreo-y-el-criterio/index.html" class="no-external">
+<p>En noviembre del pasado año se celebro en Bolivia el maximo evento estadístico que un país puede llevar acabo, se realizo el Censo Nacioal de…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2013-04-02-censo-encuestas-por-muestreo-y-el-criterio/index.html" class="no-external">
+<div class="listing-date">
+2 de abril, 2013
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="TGFUZVglMkNjZW5zbyUyQ211ZXN0cmVvJTJDcGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNvJTJDTWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ==" data-listing-date-sort="1347854400000" data-listing-file-modified-sort="1794184100797" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="578">
+<div class="thumbnail"><a href="../blog/posts/2012-09-17-censos-encuestas-a-hogares-disenos-muestrales-y/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2012-09-17-censos-encuestas-a-hogares-disenos-muestrales-y/index.html" class="no-external">Censos, encuestas a hogares, diseños muestrales y el desafío de un sistema integrado en Bolivia</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGFUZVg='); return false;">LaTeX</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2012-09-17-censos-encuestas-a-hogares-disenos-muestrales-y/index.html" class="no-external">
+<p>Dado que el tema del censo esta siendo muy comentado en el ultimo tiempo en Bolivia, recorde que en mi trabajo de grado de la Universidad escribi…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2012-09-17-censos-encuestas-a-hogares-disenos-muestrales-y/index.html" class="no-external">
+<div class="listing-date">
+17 de septiembre, 2012
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="U3RhdGElMkNtdWVzdHJlbyUyQ29waW5pJUMzJUIzbiUyQ3BlbnNhbWllbnRvJTIwZXN0YWQlQzMlQURzdGljbyUyQ01pcmFkYSUyMEVzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1347076800000" data-listing-file-modified-sort="1794184100472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="691">
+<div class="thumbnail"><a href="../blog/posts/2012-09-08-dia-internacional-de-la-alfabetizacion/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2012-09-08-dia-internacional-de-la-alfabetizacion/index.html" class="no-external">Día Internacional de la alfabetización</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3RhdGE='); return false;">Stata</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2012-09-08-dia-internacional-de-la-alfabetizacion/index.html" class="no-external">
+<p>Parafrasenado el mensaje del Secretario General Naciones Unidas Ban Ki-moon, en conmemoración de este día: La alfabetización proporciona herramientas…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2012-09-08-dia-internacional-de-la-alfabetizacion/index.html" class="no-external">
+<div class="listing-date">
+8 de septiembre, 2012
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="Y2Vuc28lMkNwZW5zYW1pZW50byUyMGVzdGFkJUMzJUFEc3RpY28lMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1340596800000" data-listing-file-modified-sort="1794184100087" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="313">
+<div class="thumbnail"><a href="../blog/posts/2012-06-25-la-necesidad-de-aplicar-un-control-de/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2012-06-25-la-necesidad-de-aplicar-un-control-de/index.html" class="no-external">La necesidad de aplicar un control de calidad al Censo 2012 en Bolivia</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2012-06-25-la-necesidad-de-aplicar-un-control-de/index.html" class="no-external">
+<p>Tener un censo cada diez años limita la capacidad de mejorar la experiencia del manejo de un operativo de esta naturaleza, por ende se debe explotar…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2012-06-25-la-necesidad-de-aplicar-un-control-de/index.html" class="no-external">
+<div class="listing-date">
+25 de junio, 2012
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="Y2Vuc28lMkNwZW5zYW1pZW50byUyMGVzdGFkJUMzJUFEc3RpY28lMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1338523200000" data-listing-file-modified-sort="1794184099693" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="810">
+<div class="thumbnail"><a href="../blog/posts/2012-06-01-hacia-un-censo-de-poblacion-y-vivienda/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2012-06-01-hacia-un-censo-de-poblacion-y-vivienda/index.html" class="no-external">Hacia un Censo de Población y Vivienda con calidad y pertinencia, Bolivia 2012</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2012-06-01-hacia-un-censo-de-poblacion-y-vivienda/index.html" class="no-external">
+<p>Aqui les dejo el borrador del documeto de calidad que realice en la Mesa de calidad de la Ruta del Censo 2012 La información estadística es muy…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2012-06-01-hacia-un-censo-de-poblacion-y-vivienda/index.html" class="no-external">
+<div class="listing-date">
+1 de junio, 2012
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="Y2Vuc28lMkNwZW5zYW1pZW50byUyMGVzdGFkJUMzJUFEc3RpY28lMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1336708800000" data-listing-file-modified-sort="1794184099341" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="621">
+<div class="thumbnail"><a href="../blog/posts/2012-05-11-en-marcha-un-nuevo-proceso-censal-chile/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2012-05-11-en-marcha-un-nuevo-proceso-censal-chile/index.html" class="no-external">En marcha un nuevo proceso censal, Chile 2012</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2012-05-11-en-marcha-un-nuevo-proceso-censal-chile/index.html" class="no-external">
+<p>El pasado 9 de abril Chile empezó un nuevo proceso censal, la principal peculiaridad de este nuevo censo es que ya no se lo realizara en un solo día…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2012-05-11-en-marcha-un-nuevo-proceso-censal-chile/index.html" class="no-external">
+<div class="listing-date">
+11 de mayo, 2012
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="Y2Vuc28lMkNtdWVzdHJlbyUyQ29waW5pJUMzJUIzbiUyQ3BlbnNhbWllbnRvJTIwZXN0YWQlQzMlQURzdGljbyUyQ01pcmFkYSUyMEVzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1332993600000" data-listing-file-modified-sort="1794184098960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="555">
+<div class="thumbnail"><a href="../blog/posts/2012-03-29-sinergia-entre-el-censo-y-las-encuestas/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2012-03-29-sinergia-entre-el-censo-y-las-encuestas/index.html" class="no-external">Sinergia entre el censo y las encuestas nacionales</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BpbmklQzMlQjNu'); return false;">opinión</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2012-03-29-sinergia-entre-el-censo-y-las-encuestas/index.html" class="no-external">
+<p>Presentarles el artículo de opinión que realice para pagina siete, referente a la sinergia que debe existir entre el Censo y las distintas encuesta…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2012-03-29-sinergia-entre-el-censo-y-las-encuestas/index.html" class="no-external">
+<div class="listing-date">
+29 de marzo, 2012
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="Y2Vuc28lMkNtdWVzdHJlbyUyQ01pcmFkYSUyMEVzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1330920000000" data-listing-file-modified-sort="1794184098605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="685">
+<div class="thumbnail"><a href="../blog/posts/2012-03-05-uso-del-muestreo-en-los-censos-de/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2012-03-05-uso-del-muestreo-en-los-censos-de/index.html" class="no-external">Uso del muestreo en los Censos de Población y Vivienda (PARTE IV)</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2012-03-05-uso-del-muestreo-en-los-censos-de/index.html" class="no-external">
+<p>Se debe tener siempre claro las potenciales errores asociados a cada técnica estadística, no es de extrañar la afirmación de que a mayor cobertura…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2012-03-05-uso-del-muestreo-en-los-censos-de/index.html" class="no-external">
+<div class="listing-date">
+5 de marzo, 2012
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="Y2Vuc28lMkNtdWVzdHJlbyUyQ01pcmFkYSUyMEVzdGFkJUMzJUFEc3RpY2E=" data-listing-date-sort="1322020800000" data-listing-file-modified-sort="1794184098221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="663">
+<div class="thumbnail"><a href="../blog/posts/2011-11-23-planificacion-organizacion-y-administracion-de-los-censos/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2011-11-23-planificacion-organizacion-y-administracion-de-los-censos/index.html" class="no-external">Planificación, organización y administración de los censos de población y vivienda (PARTE III)</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2011-11-23-planificacion-organizacion-y-administracion-de-los-censos/index.html" class="no-external">
+<p>Para empezar, definamos las faces de un CENSO: Labor preparatoria Empadronamiento Elaboración de los datos Creación de las bases de datos y la…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2011-11-23-planificacion-organizacion-y-administracion-de-los-censos/index.html" class="no-external">
+<div class="listing-date">
+23 de noviembre, 2011
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNvJTJDTWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ==" data-listing-date-sort="1319515200000" data-listing-file-modified-sort="1794184097826" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="606">
+<div class="thumbnail"><a href="../blog/posts/2011-10-25-dia-mundial-de-la-estadistica/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2011-10-25-dia-mundial-de-la-estadistica/index.html" class="no-external">Día Mundial de la Estadística</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGVuc2FtaWVudG8lMjBlc3RhZCVDMyVBRHN0aWNv'); return false;">pensamiento estadístico</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2011-10-25-dia-mundial-de-la-estadistica/index.html" class="no-external">
+<p>Muchos estadísticos a nivel mundial recordaran que el pasado 20 de octubre de 2010, se celebraba por primera vez en la historia el día mundial de la…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2011-10-25-dia-mundial-de-la-estadistica/index.html" class="no-external">
+<div class="listing-date">
+25 de octubre, 2011
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="Y2Vuc28lMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1318996800000" data-listing-file-modified-sort="1794184097172" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="674">
+<div class="thumbnail"><a href="../blog/posts/2011-10-19-funciones-definiciones-y-caracteristicas-esenciales-del-censo/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2011-10-19-funciones-definiciones-y-caracteristicas-esenciales-del-censo/index.html" class="no-external">Funciones, definiciones y características esenciales del CENSO (PARTE II)</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2011-10-19-funciones-definiciones-y-caracteristicas-esenciales-del-censo/index.html" class="no-external">
+<p>I. FUNCIONES Entre las funciones mas relevantes y esenciales de un CENSO están: Distribución de la riqueza y el mejoramiento de la administración…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2011-10-19-funciones-definiciones-y-caracteristicas-esenciales-del-censo/index.html" class="no-external">
+<div class="listing-date">
+19 de octubre, 2011
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-categories="Y2Vuc28lMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1315972800000" data-listing-file-modified-sort="1794184096623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="470">
+<div class="thumbnail"><a href="../blog/posts/2011-09-14-pasos-de-un-censo-a-escala-nacional/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2011-09-14-pasos-de-un-censo-a-escala-nacional/index.html" class="no-external">Pasos de un CENSO a escala nacional (Parte I)</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2011-09-14-pasos-de-un-censo-a-escala-nacional/index.html" class="no-external">
+<p>Reflexionando acerca de lo que significa el CENSO para un estadístico, ahh… y para un país, hice un poco de memoria respecto a la bibliograf’ía…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2011-09-14-pasos-de-un-censo-a-escala-nacional/index.html" class="no-external">
+<div class="listing-date">
+14 de septiembre, 2011
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="Y2Vuc28lMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1315281600000" data-listing-file-modified-sort="1794184096279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="559">
+<div class="thumbnail"><a href="../blog/posts/2011-09-06-el-censo-en-bolivia-y-el-papel/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2011-09-06-el-censo-en-bolivia-y-el-papel/index.html" class="no-external">El CENSO en Bolivia y el papel del Estadístico</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2Vuc28='); return false;">censo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2011-09-06-el-censo-en-bolivia-y-el-papel/index.html" class="no-external">
+<p>Recientemente el Instituto Nacional de Estadística de Bolivia a generado en su pagina web una pestaña dirigida a la contratación de personal para las…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2011-09-06-el-censo-en-bolivia-y-el-papel/index.html" class="no-external">
+<div class="listing-date">
+6 de septiembre, 2011
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="UiUyQ211ZXN0cmVvJTJDTWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ==" data-listing-date-sort="1314158400000" data-listing-file-modified-sort="1794184095907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="thumbnail"><a href="../blog/posts/2011-08-24-bolivia-empoderamiento-de-las-mujeres-en-la/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2011-08-24-bolivia-empoderamiento-de-las-mujeres-en-la/index.html" class="no-external">Bolivia: Empoderamiento de las mujeres en la jefatura del hogar</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXVlc3RyZW8='); return false;">muestreo</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2011-08-24-bolivia-empoderamiento-de-las-mujeres-en-la/index.html" class="no-external">
+<p>Realizando algunos cálculos con las ENDSA 1989-2008, encontré este dato que me pareció interesante publicarlo. Fuente: Elaboración propia con…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2011-08-24-bolivia-empoderamiento-de-las-mujeres-en-la/index.html" class="no-external">
+<div class="listing-date">
+24 de agosto, 2011
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="25" data-categories="TGFUZVglMkNNaXJhZGElMjBFc3RhZCVDMyVBRHN0aWNh" data-listing-date-sort="1313553600000" data-listing-file-modified-sort="1794184095548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="181">
+<div class="thumbnail"><a href="../blog/posts/2011-08-17-bibtex-estilo-normas-apa/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2011-08-17-bibtex-estilo-normas-apa/index.html" class="no-external">Bibtex, Estilo normas apa</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGFUZVg='); return false;">LaTeX</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWlyYWRhJTIwRXN0YWQlQzMlQURzdGljYQ=='); return false;">Mirada Estadística</div>
+
+</div>
+<div class="delink listing-description"><a href="../blog/posts/2011-08-17-bibtex-estilo-normas-apa/index.html" class="no-external">
+<p>La librería que pueden utilizar en Latex para lograr la bibliografía estilo APA es apacite, y se implementa de la siguiente forma:…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../blog/posts/2011-08-17-bibtex-estilo-normas-apa/index.html" class="no-external">
+<div class="listing-date">
+17 de agosto, 2011
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No hay resultados</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
+<section id="site-footer">
+  <div class="ftr-wrap">
+    <div class="ftr-grid">
+      <div>
+        <h5>Sobre mí</h5>
+        <p>Alvaro Chirino<br>Investigador y docente<br>Fundación Aru · UCB</p>
+      </div>
+      <div>
+        <h5>Contacto</h5>
+        <p><a href="mailto:achirino.stat@gmail.com">achirino.stat@gmail.com</a><br>
+        <a href="mailto:achirino@aru.org.bo">achirino@aru.org.bo</a></p>
+      </div>
+      <div>
+        <h5>Ubicación</h5>
+        <p>La Paz, Bolivia</p>
+      </div>
+    </div>
+    <hr>
+    <p class="small text-center">
+      © <span id="footer-year">2026</span> Alvaro Limber Chirino Gutierrez ·
+      Contenido bajo licencia <a href="https://creativecommons.org/licenses/by/4.0/deed.es">CC BY 4.0</a> ·
+      Hecho con <a href="https://quarto.org">Quarto</a>
+    </p>
+  </div>
+</section>
+<script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/alvarolimber\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

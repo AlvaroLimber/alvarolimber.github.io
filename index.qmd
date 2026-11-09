@@ -1,0 +1,87 @@
+---
+pagetitle: "Alvaro Chirino Gutierrez · Estadístico"
+title-block-banner: false
+page-layout: full
+toc: false
+listing:
+  id: recientes
+  contents:
+    - "blog/posts/**/*.qmd"
+    - "docencia/cursos/*.qmd"
+  sort: "date desc"
+  max-items: 4
+  template: _listings/recientes.ejs
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-7}
+
+### ¡Bienvenido!
+
+Soy Álvaro Chirino Gutiérrez, estadístico boliviano. Uso los datos para entender y mejorar realidades sociales: diseño encuestas, evalúo programas y enseño estadística. Creo que una sociedad mejor informada decide mejor, por eso también promuevo la alfabetización estadística.
+
+Soy **Investigador Senior de [Fundación Aru](https://www.aru.org.bo)** (Director Ejecutivo 2021–2024), docente de la **Universidad Católica Boliviana** y **Coordinador Nacional del [ISLP](https://islp-bolivia.github.io/)** en Bolivia. He coordinado más de 35 estudios con UNICEF, UNFPA, FAO, PNUD, BID, UNODC y otras instituciones. [Más sobre mí →](sobre-mi.qmd)
+
+### ¿En qué puedo colaborar?
+
+::: {.grid .services}
+::: {.g-col-12 .g-col-sm-6 .service}
+{{< fa clipboard-list >}} **Diseño muestral y encuestas**  
+Marcos, estratificación, tamaño de muestra, ponderadores y operativos de campo.
+:::
+::: {.g-col-12 .g-col-sm-6 .service}
+{{< fa scale-balanced >}} **Evaluación de impacto**  
+Líneas de base, diseños experimentales y cuasiexperimentales, matching.
+:::
+::: {.g-col-12 .g-col-sm-6 .service}
+{{< fa map-location-dot >}} **Pobreza y áreas pequeñas**  
+Pobreza multidimensional, estimación en áreas pequeñas, modelos bayesianos.
+:::
+::: {.g-col-12 .g-col-sm-6 .service}
+{{< fa chalkboard-user >}} **Capacitación**  
+Cursos de R, ciencia de datos, econometría y muestreo para equipos e instituciones.
+:::
+:::
+
+[{{< fa envelope >}} Conversemos](mailto:achirino.stat@gmail.com){.btn .btn-primary .btn-sm} [{{< fa brands linkedin >}} Conectemos en LinkedIn](https://www.linkedin.com/in/alvarolimber/){.btn .btn-outline-primary .btn-sm}
+
+:::
+
+::: {.g-col-12 .g-col-md-5}
+
+::: {.profile-card}
+![](images/headshot2026.jpg){.headshot fig-alt="Foto de Alvaro Chirino"}
+
+#### MSc. Alvaro Limber Chirino Gutierrez {.unnumbered .unlisted}
+
+[Investigador Senior · Fundación Aru]{.role}
+
+::: {.profile-links}
+[{{< fa envelope >}}](mailto:achirino.stat@gmail.com "Correo")
+[{{< ai cv >}}](cv.qmd "CV")
+[{{< ai orcid >}}](https://orcid.org/0000-0001-8686-7702 "ORCID")
+[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=GK297qMAAAAJ "Google Scholar")
+[{{< fa brands github >}}](https://github.com/AlvaroLimber "GitHub")
+[{{< ai researchgate >}}](https://www.researchgate.net/profile/Alvaro-Chirino-2 "ResearchGate")
+[{{< fa brands linkedin >}}](https://www.linkedin.com/in/alvarolimber/ "LinkedIn")
+[{{< fa brands youtube >}}](https://www.youtube.com/@estadisticaaplicadaycienci663 "YouTube")
+:::
+
+- **En curso** · Doctorado en Gestión del Desarrollo y Políticas Públicas, UMSA
+- **2021** · MSc. Modelaje Matemático, UMSA
+- **2011** · Lic. Estadística, UMSA
+:::
+
+::: {.news-card}
+#### Últimas entradas {.unnumbered .unlisted}
+
+::: {#recientes}
+:::
+
+[Ver todo el blog →](blog/index.qmd) · [Ver cursos →](docencia/index.qmd)
+:::
+
+:::
+
+:::

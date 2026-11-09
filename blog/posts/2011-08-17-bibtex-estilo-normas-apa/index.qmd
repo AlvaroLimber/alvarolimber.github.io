@@ -1,0 +1,54 @@
+---
+title: "Bibtex, Estilo normas apa"
+date: 2011-08-17
+categories: ["LaTeX", "Mirada Estadística"]
+description: "La librería que pueden utilizar en Latex para lograr la bibliografía estilo APA es apacite, y se implementa de la siguiente forma:…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2011). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2011/08/17/bibtex-estilo-normas-apa/).
+:::
+
+La librería que pueden utilizar en Latex para lograr la bibliografía estilo APA es apacite, y se implementa de la siguiente forma:
+
+\\documentclass{article}\
+**\\usepackage{apacite}**\
+\\begin{document}\
+**\\bibliographystyle{apacite}\
+\\bibliography{Bibliografia}\
+**\
+\\nocite{\*} % si quieren que todas las referencias de su bibtex aparezcan en el documento
+
+\\end{document}
+
+donde Bibliografia es su archivo con extensión .bib
+
+Personalmente tuve la dificultad que bajo este estilo yo ponía algo así en el archivo .bib:
+
+\@TECHREPORT{repor,\
+author={Claes Andersson},\
+Institution={Statistitiska centralbyrán Statistics Sweden},\
+TITLE= {Informe para la misión de corto plazo ante el **Instituto Nacional de Estadística La Paz, Bolivia**},\
+year={2010},\
+address={Sweden}}
+
+y el resultado era este:
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/08/apa2.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/08/apa2.png)
+
+Como verán el problema es que todo el titulo que yo definí me lo puso en minúsculas, excepto la primera letra de mi titulo, eso no seria un problema si no hubiera el nombre de mi país dentro del titulo
+
+Así que la solución para esto fue:
+
+\@TECHREPORT{repor,\
+author={Claes Andersson},\
+Institution={Statistitiska centralbyrán Statistics Sweden},\
+TITLE= {{I}nforme para la misión de corto plazo ante el {I}nstituto {N}acional de {E}stadística {L}a {P}az, {B}olivia},\
+year={2010},\
+address={Sweden}}
+
+y el resultado quedo así:
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/08/apa11.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/08/apa11.png)
+
+Esto fue dedicado a los que tienen problemas con la librería apacite y la salido del titulo en minúsculas.

@@ -1,0 +1,129 @@
+---
+title: "Censos, encuestas a hogares, diseños muestrales y el desafío de un sistema integrado en Bolivia"
+date: 2012-09-17
+categories: ["LaTeX", "censo", "muestreo", "pensamiento estadístico", "Mirada Estadística"]
+description: "Dado que el tema del censo esta siendo muy comentado en el ultimo tiempo en Bolivia, recorde que en mi trabajo de grado de la Universidad escribi…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2012). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2012/09/17/censos-encuestas-a-hogares-disenos-muestras-y-un-desafio-hacia-un-sistema-integrado/).
+:::
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/e1.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/e1.png)
+
+Dado que el tema del censo esta siendo muy comentado en el ultimo tiempo en Bolivia, recorde que en mi trabajo de grado de la Universidad escribi algo relacionado a las encuestas a hogares, donde menciono varios aspectos asociados de estas encuestas con el CENSO, y como escribi esto por el 2010 me parece un instrumento tecnico que puede aportar algo a las personas que quieran conocer mas el mundo del muestreo, las encuestas a hogares y por supuesto u censo.
+
+Mi trabajo titula:
+
+**"CONSTRUCCIÓN DE LA METODOLOGÍA MARCO PARA DISEÑOS MUESTRALES EN ENCUESTAS DIRIGIDAS A HOGARES INSTITUTO NACIONAL DE ESTADÍSTICA BOLIVIA"**
+
+Mi trabajo en PDF [aqu](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/metodologia-marco.pdf)í, y para los interesados en Latex tengo todo mi trabajo en LATEX y si quieren me escriben y se los mando.[\
+](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/metodologia-marco.pdf)
+
+El contenido es:
+
+1\. INTRODUCCIÓN\
+1.1. ANTECEDENTES\
+1.2. PROBLEMA\
+1.3. OBJETIVOS\
+1.3.1. Objetivo general\
+1.3.2. Objetivos especícos\
+1.4. JUSTIFICACIÓN\
+1.5. DELIMITACIONES\
+2. METODOLÓGICA MARCO\
+2.1. POBLACIÓN OBJETIVO Y POBLACIÓN INVESTIGADA\
+2.2. MARCO MUESTRAL\
+2.2.1. Marco de áreas\
+2.2.2. Marco de lista\
+2.2.3. Marco múltiple\
+2.2.4. Perturbaciones en el Marco de muestreo\
+2.2.5. Actualización del marco muestral\
+2.3. UNIDADES ESTADÍSTICAS\
+2.3.1. Unidad de Observación\
+2.3.2. Unidad de información\
+2.3.3. Unidad de muestreo\
+2.4. TIPOS DE COBERTURA\
+2.4.1. Cobertura Espacial\
+2.4.2. Cobertura Temática\
+2.4.3. Cobertura Temporal\
+2.5. TÉCNICAS DE MUESTREO\
+2.5.1. Muestreo Aleatorio Simple\
+2.5.2. Muestreo Estratificado\
+2.5.3. Muestreo Sistemático\
+2.5.4. Muestreo Proporcional al tamaño\
+2.5.5. Muestreo Multi-etápico\
+2.5.6. Muestreo por Conglomerados\
+2.5.7. Muestreo en Ocasiones Sucesivas\
+2.5.8. Muestreo Longitudinal\
+2.6. LAS VARIABLES EN ENCUESTAS A HOGARES\
+2.7. ESTRATIFICACIÓN EN LAS ENCUESTAS A HOGARES\
+2.8. CONGLOMERADOS EN ENCUESTAS A HOGARES\
+2.9. MUESTREO POR ETAPAS EN LAS ENCUESTAS A HOGARES . . 19\
+2.10. DOMINIOS DE ESTUDIO VS ESTRATIFICACIÓN . . . . . . . . . . 20\
+2.11. LA PRUEBA PILOTO\
+2.12. EL TAMAÑO DE LA MUESTRA\
+2.12.1. Variables endógenas\
+2.12.2. Variables exógenas\
+2.12.3. El error de muestreo\
+2.12.4. El margen de error y el nivel de conabilidad\
+2.12.5. El efecto de la no respuesta\
+2.12.6. El efecto del diseño muestral\
+2.13. FACTORES DE EXPANSIÓN Y SUS AJUSTES\
+2.13.1. Incidencias de campo \|\
+2.13.2. Actualización de conglomerados\
+2.13.3. Proyecciones Demográficas\
+2.14. ESTIMADORES Y ESTIMACIONES\
+2.14.1. Distribución de probabilidades del estimador\
+2.15. EL ERROR TOTAL EN UNA ENCUESTA POR MUESTREO\
+2.15.1. Modelo de Hansen. Hurwitz y Bershad\
+2.15.2. Estimación de las componentes de la varianza total de respuesta y el índice de inconsistencia\
+2.16. ENCUESTAS TRANSVERSALES Y LONGITUDINALES\
+2.16.1. Encuestas transversales\
+2.16.2. Encuestas longitudinales\
+3. DIAGNÓSTICO DE LAS ENCUESTAS A HOGARES\
+3.1. ORGANIZACIÓN\
+3.2. OBJETIVOS DE LAS ENCUESTAS\
+3.3. EL MARCO MUESTRAL\
+3.3.1. Variables de división político administrativa\
+3.3.2. Variables de división geográca\
+3.3.3. Variables de división estadística\
+3.3.4. Variables auxiliares de apoyo\
+3.3.5. Variables de estratificación\
+3.4. LA ESTRATIFICACIÓN\
+3.5. LOS NIVELES DE DESAGREGACIÓN\
+3.6. CONGLOMERADOS EMPLEADOS\
+3.7. ETAPAS DENTRO DEL DISEÑO\
+3.8. EL TAMAÑO DE LA MUESTRA\
+3.9. EL EFECTO DE LA CONGLOMERACIÓN\
+3.10. DISTRIBUCIÓN Y ASIGNACIÓN DE LA MUESTRA\
+3.11. PROBABILIDADES Y MÉTODOS DE SELECCIÓN\
+3.12. LOS FACTORES DE EXPANSIÓN\
+3.13. RENDIMIENTO DE LA MUESTRA E INCIDENCIAS\
+4. HACIA UN SISTEMA INTEGRADO DE ENCUESTAS A HOGARES\
+4.1. MARCO MUESTRAL\
+4.1.1. Insumos del CNPV para la construcción del Marco Maestro de Muestreo (MMM)\
+4.1.2. Un ejemplo del evidente cambio en el marco muestral\
+4.2. DOMINIOS DE ESTUDIO Y NIVELES DE DESAGREGACIÓN\
+4.2.1. Dominios departamentales y provinciales\
+4.2.2. Dominios municipales\
+4.2.3. Dominio Indígena originaria campesina\
+4.3. ESTRATIFICACIÓN\
+4.3.1. Estraticación geográfica\
+4.3.2. Estraticación por nivel de elegibilidad\
+4.3.3. Estraticación indígena originaria campesina\
+4.3.4. Asignación de la muestra\
+4.4. CONGLOMERACIÓN Y DEFINICIÓN DE LAS UPM\
+4.4.1. Áreas cartografiadas\
+4.5. NÚMERO DE ETAPAS\
+4.6. TAMAÑO DE MUESTRA\
+4.7. EL ESQUEMA DE SELECCIÓN Y EL EFECTO PPT\
+4.8. ERRORES MUESTRALES\
+4.8.1. Estimación del error muestral a través de la varianza teórica\
+4.8.2. El estimador- y sus componentes\
+4.8.3. Error muestral en un diseño de dos etapas\
+4.8.4. Caso de un muestreo sistemático PPT\
+4.9. DISEÑO BASE DE LAS FUTURAS ENCUESTAS A HOGARES\
+4.10. UNA OPCIÓN LATENTE EN ENCUESTAS PERIÓDICAS, LA MUESTRA MAESTRA\
+5. CONCLUSIONES Y RECOMENDACIONES FINALES\
+5.1. CONCLUSIONES\
+5.2. RECOMENDACIONES

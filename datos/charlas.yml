@@ -1,0 +1,64 @@
+# Charlas, ponencias y cursos dictados. Copie un bloque para agregar.
+# categories: Invitada | Ponencia | Curso dictado
+- title: "Mesa de trabajo: Perspectivas del voto"
+  year: 2025
+  venue: "Friedrich Ebert Stiftung (FES), La Paz"
+  categories: [Invitada]
+- title: "Análisis de la primera vuelta y proyección de resultados para la segunda vuelta — Elecciones Nacionales 2025"
+  year: 2025
+  venue: "Seminario académico, La Paz"
+  categories: [Ponencia]
+- title: "Ciclo de Seminarios de Inteligencia Artificial y Ciencia de Datos: Bicentenario hacia el futuro"
+  year: 2025
+  venue: "La Paz"
+  categories: [Ponencia]
+- title: "Capacitación en Econometría con R"
+  year: 2025
+  venue: "Escuela de Gestión Pública Plurinacional (EGPP)"
+  categories: [Curso dictado]
+- title: "Feria FCPN a Puertas Abiertas"
+  year: 2024
+  venue: "Carrera de Estadística, UMSA"
+  categories: [Ponencia]
+- title: "Currícula estadística en Bolivia, cambios en la era del big data"
+  year: 2022
+  venue: "11th International Conference on Teaching Statistics (ICOTS11), Rosario, Argentina"
+  categories: [Invitada]
+  pdf: papers/ICOTS11_249_CHIRINOG.pdf
+- title: "Lineamientos curriculares y la calidad educativa en la Educación Técnica Tecnológica Productiva en los ámbitos de Educación Alternativa y Especial"
+  year: 2022
+  venue: "12vo Encuentro Internacional de Educación Alternativa y Especial, Bolivia"
+  categories: [Invitada]
+- title: "Herramientas para la investigación estadística"
+  year: 2022
+  venue: "Ciclo de conferencias, Carrera de Estadística, UMSA"
+  categories: [Ponencia]
+- title: "Análisis de datos en R (proyectista y docente)"
+  year: 2021
+  venue: "Universidad Católica Boliviana"
+  categories: [Curso dictado]
+- title: "2das Jornadas Académicas Vocacionales"
+  year: 2021
+  venue: "FUL – UMSA"
+  categories: [Ponencia]
+- title: "Curso presencial en Evaluación de Impacto de Políticas Públicas"
+  year: 2017
+  venue: "Iniciativa Latinoamericana de Investigación para las Políticas Públicas (ILAIPP), Asunción, Paraguay"
+  categories: [Curso dictado]
+- title: "2 Census, 10 years of household surveys in Bolivia. Time to re-weight and define a comparable sample design for welfare indicators"
+  year: 2015
+  venue: "60th World Statistics Congress, Río de Janeiro, Brasil"
+  categories: [Ponencia]
+  pdf: papers/CPS077-P1-S.pdf
+- title: "Taller de Herramientas Computacionales para el área de estadística"
+  year: 2014
+  venue: "Facultad de Ciencias Puras y Naturales, UMSA"
+  categories: [Curso dictado]
+- title: "A history in time: time use surveys in Bolivia"
+  year: 2013
+  venue: "35th Conference of the International Association for Time Use Research (IATUR), Río de Janeiro, Brasil"
+  categories: [Ponencia]
+- title: "Primer Congreso Nacional de Estadística Aplicada"
+  year: 2012
+  venue: "Bolivia"
+  categories: [Ponencia]

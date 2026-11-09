@@ -1,0 +1,117 @@
+---
+title: "Alvaro Limber Chirino Gutierrez"
+subtitle: "Estadístico · Investigador Senior, Fundación Aru · La Paz, Bolivia"
+pagetitle: "CV · Alvaro Chirino"
+bibliography: publicaciones.bib
+csl: apa.csl
+nocite: "@*"
+toc: true
+toc-title: "Secciones"
+format:
+  html:
+    title-block-banner: false
+  typst:
+    toc: false
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 1.8cm
+    fontsize: 10pt
+    citeproc: true
+format-links: false
+---
+
+::: {.content-visible when-format="html"}
+[{{< fa file-pdf >}} Descargar CV en PDF](cv.pdf){.btn .btn-primary .btn-sm target="_blank"}
+:::
+
+[achirino.stat\@gmail.com](mailto:achirino.stat@gmail.com) · [alvarolimber.github.io](https://alvarolimber.github.io) · ORCID [0000-0001-8686-7702](https://orcid.org/0000-0001-8686-7702) · [GitHub: AlvaroLimber](https://github.com/AlvaroLimber) · [LinkedIn](https://www.linkedin.com/in/alvarolimber/)
+
+## Perfil
+
+Estadístico con más de 15 años de experiencia en diseño muestral, encuestas de hogares, evaluación de impacto y medición de pobreza en Bolivia. Ha coordinado más de 35 estudios para organismos internacionales (UNICEF, UNFPA, FAO, PNUD, BID, UNODC, FIDA), gobiernos y universidades. Docente universitario de pregrado y postgrado en estadística, minería de datos y métodos cuantitativos. Coordinador Nacional del International Statistical Literacy Project (ISLP) en Bolivia.
+
+**Especialidades:** diseño y análisis de muestras complejas · evaluación de impacto · estimación en áreas pequeñas · estadística bayesiana · minería de datos y machine learning · programación estadística en R.
+
+## Formación académica
+
+- **En curso** — Doctorado en Gestión del Desarrollo y Políticas Públicas, Universidad Mayor de San Andrés (UMSA)
+- **2021** — Magíster en Ciencias en Modelaje Matemático, UMSA. Tesis: *Un indicador dinámico basado en componentes principales como alternativa al índice de necesidades básicas insatisfechas en los censos. Caso de estudio: Bolivia*
+- **2011** — Licenciatura en Estadística, UMSA
+- **2011 – 2016** — Diplomados en Análisis Matemático de Datos y Fundamentos de Modelaje Matemático (UMSA), Evaluación de Políticas Sociales (UCB) y Educación Superior (UMSA)
+
+## Experiencia profesional
+
+- **2025 – actual** — Investigador Senior, Fundación Aru
+- **2021 – 2024** — Director Ejecutivo, Fundación Aru
+- **2013 – 2021** — Coordinador de la Unidad de Microdatos y Encuestas, Fundación Aru
+- **2011 – 2013** — Investigador, Fundación Aru
+- **2010 – 2011** — Especialista en muestreo, Unidad de Calidad Estadística, Instituto Nacional de Estadística (INE)
+
+## Docencia universitaria
+
+- **Universidad Católica Boliviana (2022 – actual).** Minería de Datos I y II (Economía e Inteligencia de Negocios); Psicoestadística e Investigación Cuantitativa (Psicología).
+- **Universidad Mayor de San Andrés (2016 – 2025).** Carrera de Estadística: Estadística I y II, Muestreo I, Diseños Experimentales, Bioestadística, Estadística Social, Análisis de Datos Masivos, Programación Estadística, Simulación y Modelaje, Sistemas de Información Estadística. Postgrado: Preparación de datos y análisis exploratorio (Maestría en IA y Data Science, 2024).
+- **Otros.** Muestreo, Diplomado en Estadística Matemática (Universidad Técnica de Oruro, 2016); Evaluación de Impacto de Políticas Públicas (ILAIPP, Asunción, 2017).
+
+## Proyectos de investigación seleccionados
+
+- **2024** — Diagnóstico de Cuidados Obstétricos y Neonatales de Emergencia (CONE) en Bolivia. UNFPA. *Coordinador General*
+- **2024** — Experiencias y percepciones sobre el embarazo en adolescentes y sus causas. UNFPA. *Coordinador General*
+- **2024** — Evaluación del impacto del programa de saneamiento de tierras en Bolivia. BID. *Coordinador General*
+- **2024** — Auditoría Local de Seguridad Ciudadana en el Municipio de El Alto. UNODC. *Coordinador General*
+- **2021** — Pobreza multidimensional de hogares indígenas de la Chiquitania con enfoque de género. FAO. *Coordinador General*
+- **2020** — Paquetes de soluciones multidimensionales para medir la pobreza en el Altiplano Sur de Oruro. PNUD. *Coordinador Técnico*
+- **2020** — Monitoreo de Desempeño Humanitario (HPM) de la respuesta de UNICEF. UNICEF. *Especialista cuantitativo*
+- **2020** — Sistemas de clasificación étnica y actitudes políticas. Universidad de Princeton. *Coordinador General*
+- **2019** — Índice de Progreso Social (IPS) del Departamento de Tarija. Gobierno Autónomo Departamental de Tarija. *Coordinador Técnico*
+- **2019** — Muestreo y levantamiento para la evaluación del Proyecto ACCESOS. FIDA. *Coordinador Técnico*
+- **2018** — Línea de base del Programa de Cooperación de UNICEF en Bolivia 2018–2022. UNICEF. *Coordinador Técnico*
+- **2016 – 2017** — Evaluaciones de impacto de programas de formación técnica (COSUDE) y educación financiera (Banco Unión). *Coordinador Técnico*
+
+## Consultorías y capacitación
+
+- **2025** — Capacitación en Econometría con R. Escuela de Gestión Pública Plurinacional (EGPP).
+- **2025** — Expositor, mesa de trabajo *Perspectivas del voto*. Friedrich Ebert Stiftung (FES).
+- **2021** — Línea base para la evaluación del PEI 2017–2021. Banco de Desarrollo Productivo (BDP).
+- **2021** — Proyectista y docente del curso *Análisis de datos en R*. Universidad Católica Boliviana.
+
+## Tesis dirigidas
+
+- **2024** — Predicción de la rentabilidad de los bancos múltiples en Bolivia: comparación de modelos predictivos. Economía, UCB.
+- **2024** — Evaluación de impacto del programa de alimentación complementaria escolar con diseños cuasiexperimentales (2017–2019). Estadística, UMSA.
+- **2024** — Modelo binomial negativo con filtro espacial para factores del delito en La Paz, 2012–2022. Estadística, UMSA.
+- **2024** — Post-estratificación y ranking en las encuestas de hogares 2011–2014 para estimar la incidencia de pobreza. Estadística, UMSA.
+- **2023** — Métodos de agrupamiento para identificar comunidades rurales resilientes en La Paz. Estadística, UMSA.
+- **2023** — Regresión lineal con errores normal sesgada y t de Student sesgada aplicada al índice de masa corporal. Estadística, UMSA.
+- **2021** — Bootstrap generalizado aplicado a los estimadores del ingreso del hogar. Estadística, UMSA.
+- **2017** — Métodos de clasificación multivariados en puntos de venta. Estadística, UMSA.
+
+## Publicaciones
+
+::: {#refs}
+:::
+
+## Ponencias seleccionadas
+
+- **2025** — Análisis de la primera vuelta y proyección de resultados para la segunda vuelta, Elecciones Nacionales 2025. Seminario académico, La Paz.
+- **2025** — Ciclo de Seminarios de Inteligencia Artificial y Ciencia de Datos: Bicentenario hacia el futuro. La Paz.
+- **2022** — Currícula estadística en Bolivia, cambios en la era del big data. 11th International Conference on Teaching Statistics (ICOTS11), Argentina. *Ponencia invitada*.
+- **2022** — Lineamientos curriculares y calidad educativa en la Educación Técnica Tecnológica Productiva. 12vo Encuentro Internacional de Educación Alternativa y Especial, Bolivia. *Ponencia invitada*.
+- **2015** — 2 Census, 10 years of household surveys in Bolivia. 60th World Statistics Congress (ISI), Brasil.
+- **2013** — A history in time: time use surveys in Bolivia. 35th IATUR Conference, Brasil.
+
+## Formación complementaria
+
+Sampling, Weighting and Estimation (GESIS, Alemania, 2016) · Advanced Topics in Survey Sampling e Introduction to Structural Equation Modeling (IBGE–ENCE, Brasil, 2015) · Practical Bayes for Beginners (ISI World Statistics Congress, 2017) · Evaluación de Impacto, cursos básico e intermedio (CEDLAS–GRADE, 2013–2014) · ArcGIS aplicado a la cartografía estadística (2024).
+
+## Membresías y servicio académico
+
+- Coordinador Nacional del International Statistical Literacy Project (ISLP–IASE) en Bolivia.
+- Miembro regular del International Statistical Institute (ISI).
+- Jurado de la XI Feria Científica de la Carrera de Economía, UPEA (2023).
+
+## Idiomas y herramientas
+
+- **Idiomas:** español (nativo), inglés (avanzado).
+- **Software:** R (Shiny, Quarto), Stata, SPSS, Python, Julia, Redatam, Povmap · LaTeX · QGIS, ArcGIS · Power BI, Looker Studio.

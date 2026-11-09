@@ -1,0 +1,27 @@
+---
+title: "Tendencias y crecimientos de los censos en Bolivia"
+date: 2013-09-05
+categories: ["R", "censo", "muestreo", "opinión", "pensamiento estadístico", "Mirada Estadística"]
+description: "Sin duda que un evento como el censo de población y vivienda deja bastante evidencia para describir los cambios que atraviesa un país, cambios de…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2013). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2013/09/05/tendencias-y-crecimientos-de-los-censos-en-bolivia/).
+:::
+
+[![crecimiento21](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/09/crecimiento21.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/09/crecimiento21.png)
+
+Sin duda que un evento como el censo de población y vivienda deja bastante evidencia para describir los cambios que atraviesa un país, cambios de carácter más estructural. Dentro de este abanico de evidencia y posibilidades, el primer acercamiento a los datos de un censo es tradicionalmente los cambios demográficos. Interesa mucho conocer como estos cambios se explican a lo largo de la vida de un país.
+
+Hoy les presento dos gráficos, el primero (el de arriba) cuenta un poco la historia a través de los últimos 5 censos respecto el crecimiento interesal por departamento y el segundo grafico (el de abajo) muestra un contraste entre las proyecciones bajo los ritmos de crecimiento de los dos últimos censos (se emplea un crecimiento de tipo exponencial al 21 de noviembre de cada año).
+
+Los resultados importantes del primer grafico son:
+
+\(1\) La desaceleración en crecimiento en los departamentos de Santa Cruz, Tarija, Cochabamba y Chuquisaca\
+(2) La explosión en crecimiento que registra pando desde el censo del 92\
+(3) La caída en el crecimiento de 6 departamentos del censo 2001 al 2012\
+(4) Finalmente, el crecimiento de Chuquisaca que esta por debajo de un crecimiento vegetativo
+
+Respecto al grafico de abajo, la apreciación mas grande es ver que la caída en crecimiento de los cortes de edad más joven es bastante fuerte y existe una tendencia importante de los cortes de edad avanzada a crecer más de lo esperado que con el ritmo de crecimiento pasado. Este grafico apertura un poco el debate a validar este fenómeno tan brusco que presenta Bolivia en este censo, donde los grupos muy jóvenes caen de manera muy fuerte y cortes de edad más centradas tienden a proyectar a un crecimiento mayor al proyectado en el pasado. La respuesta a este fenómeno aun se queda sin respuesta dado que estos gráficos se elaboraron con la información básica que presento el INE el pasado 31 de Julio. Este podrá ser enriquecido en la medida que se de a conocer los datos de divisiones subnacionales inferiores (municipios) y en lo posible se aclare esta controversia de no contar con una herramienta que pueda cuantificar el error de cobertura del pasado censo e identifique dicho error por tramos de edad.
+
+[![proy_grupo1](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/09/proy_grupo1.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/09/proy_grupo1.png)

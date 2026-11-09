@@ -1,0 +1,82 @@
+project:
+  type: website
+  output-dir: docs
+  # Genera datos/publicaciones.yml a partir de publicaciones.bib
+  pre-render: R/bib2yml.R
+  # Solo se renderiza lo que está aquí (evita que README.md o los .html viejos se procesen)
+  render:
+    - "*.qmd"
+    - "docencia/**/*.qmd"
+    - "blog/**/*.qmd"
+  resources:
+    - "papers/"
+    - "files/"
+    - "images/"
+    - "publicaciones.bib"
+    - ".nojekyll"
+
+lang: es
+
+website:
+  title: "Alvaro Limber Chirino Gutierrez"
+  description: "Estadístico boliviano. Investigador Senior en Fundación Aru, docente universitario y Coordinador Nacional del ISLP en Bolivia."
+  site-url: "https://alvarolimber.github.io"
+  repo-url: "https://github.com/AlvaroLimber/alvarolimber.github.io"
+  favicon: favicon.ico
+  image: images/headshot2026.jpg
+  open-graph: true
+  twitter-card:
+    site: "@AlvaroChirinoG"
+  search: true
+  page-navigation: true
+  reader-mode: false
+  back-to-top-navigation: true
+
+  navbar:
+    background: dark
+    logo: favicon.ico
+    left:
+      - text: Inicio
+        href: index.qmd
+      - text: Sobre mí
+        href: sobre-mi.qmd
+      - text: Publicaciones
+        href: publicaciones.qmd
+      - text: Charlas
+        href: charlas.qmd
+      - text: Software
+        href: software.qmd
+      - text: Docencia
+        href: docencia/index.qmd
+      - text: Blog
+        href: blog/index.qmd
+    right:
+      - text: CV
+        href: cv.qmd
+      - icon: github
+        href: https://github.com/AlvaroLimber
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/alvarolimber/
+        aria-label: LinkedIn
+      - icon: youtube
+        href: https://www.youtube.com/@estadisticaaplicadaycienci663
+        aria-label: YouTube
+      - icon: rss
+        href: blog/index.xml
+        aria-label: RSS
+
+format:
+  html:
+    theme:
+      dark: [darkly, styles/common.scss, styles/dark.scss]
+      light: [flatly, styles/common.scss, styles/light.scss]
+    css: styles/styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header: _includes/head.html
+    include-after-body: _includes/footer.html
+
+execute:
+  freeze: auto

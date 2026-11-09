@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Alvaro Limber Chirino Gutierrez</title>
+<link>https://alvarolimber.github.io/blog/</link>
+<atom:link href="https://alvarolimber.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Estadístico boliviano. Investigador Senior en Fundación Aru, docente universitario y Coordinador Nacional del ISLP en Bolivia.</description>
+<image>
+<url>https://alvarolimber.github.io/images/headshot2026.jpg</url>
+<title>Alvaro Limber Chirino Gutierrez</title>
+<link>https://alvarolimber.github.io/blog/</link>
+</image>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Sun, 08 Nov 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Estrené nueva web</title>
+  <link>https://alvarolimber.github.io/blog/posts/2026-11-08-nueva-web/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Migré esta página a <a href="https://quarto.org">Quarto</a>, lo que me permite escribirla directamente desde RStudio, con código en R reproducible dentro de cada entrada.</p>
+<p>Aquí encontrarás mis <a href="../../../publicaciones.html">publicaciones</a>, los materiales de mis <a href="../../../docencia/index.html">cursos</a> y las novedades de los proyectos en los que trabajo.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>noticias</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2026-11-08-nueva-web/</guid>
+  <pubDate>Sun, 08 Nov 2026 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>El Alto, un municipio complejo en sus preferencias electorales</title>
+  <link>https://alvarolimber.github.io/blog/posts/2014-11-21-el-alto-un-municipio-complejo-en-sus/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2014). <a href="https://miradaestadisticabolivia.wordpress.com/2014/11/21/el-alto-un-municipio-complejo-en-sus-preferencias-electorales/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/eleccion_001.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/eleccion_001.png" class="img-fluid" alt="eleccion_001"></a>El 2015 se vienen las elecciones sub nacionales en Bolivia, y uno de los municipios mas intrigantes en cuanto a su preferencia electoral sera El Alto, esto por dos simples razones, (1) en las elecciones 2005 el partido que gano fue el Plan Progreso (PP) con mas del 50%, logrando la re-elección del alcalde, en la misma elección el MAS logro cerca del 17%. El candidato conocido como Pepelucho del PP se postulo luego, en las elecciones de 2010 como gobernador del departamento de La Paz, donde, gano pero fue revocado por medio de un referendum, (2) Las ultimas elecciones municipales fueron el 2010, donde dada la ausencia del partido Plan Progreso, los principales partidos en las elecciones fueron el MAS con el candidato Edgar Patana, el UN con la candidata Soledad Chapeton y el MSM con el candidato Abel Mamani. Esa elección la gano el MAS pero con un apretado resultado que no llego ni al 40%, muchos analistas coinciden que su victoria no se debe a un aspecto estrictamente personal, sino mas bien, a un efecto derrame provocado por la popularidad del Presidente Evo Morales que en las elecciones Nacionales de 2009 logra en El Alto un apoyo de mas del 70%, sin embargo, un año después ese apoyo no se refleja tan nitidamente en las elecciones de Alcalde.</p>
+<p>Es por ello que resulta interesante analizar como voto el El Alto la pasada elección, es así que diseñe el gráfico que muestra la votación en porcentajes en cada zona de El Alto en orden del partido que logro mas apoyo. Se consideran las tres primeras fuerzas, el MAS (de color azul), UN (de color amarillo) y el MSM (de color verde), las 3 lineas verticales de la derecha son el porcentaje obtenido por cada partido en cada zona, en la primera linea vertical se anotan las zonas y se dibuja un punto rojo, cuyo tamaño expresa la importancia de la zona, entendiendo como importancia, la cantidad de votantes.</p>
+<p>Se aprecia claramente la inexistencia de un apoyo solido a algún partido especifico por zona, y dada la coyuntura nos encontramos en una situación similar a la anterior elección, el MAS viene de ganar las elecciones nacionales el 2014 con un porcentaje elevado en la ciudad de El Alto.</p>
+<p>Sin ningún candidato proclamado hasta el momento parece una recomendación coherente buscar un personaje diferente a los establecidos en la pasada elección puesto que polariza el voto y no logra un poyo contundente del Municipio, a menos que se piense y se tenga alguna certeza de que alguno de los tres pasados candidatos a logrado incrementar su caudal de voto de manera significativa. De manera personal considero que la polarización se debió a que 2 de los candidatos representaban a sectores específicos y esa característica contribuyo a esa división, eso, basado en que el 2005 Pepelucho gano fácilmente con mas del 50% y el no tenia ninguna afiliación o sesgo evidente a un sector en especifico. El ejemplo de que ese modelo funciona es la alcaldía de La Paz con Revilla.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>electoral</category>
+  <category>opinión</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2014-11-21-el-alto-un-municipio-complejo-en-sus/</guid>
+  <pubDate>Fri, 21 Nov 2014 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Movimientos migratorios internos, a nivel departamental, Bolivia 2001 – 2012</title>
+  <link>https://alvarolimber.github.io/blog/posts/2014-11-14-movimientos-migratorios-internos-a-nivel-departamental-bolivia/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2014). <a href="https://miradaestadisticabolivia.wordpress.com/2014/11/14/movimientos-migratorios-internos-a-nivel-departamental-bolivia-2001-2012/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p>Según el Diccionario Demográfico Multilingüe de la Unión Internacional para el Estudio Científico de la<br>
+Población (iTtECP): “Se da el nombre de migración o movimiento migratorio, al desplazamiento, con traslado de residencia de los individuos, desde un lugar de origen a un lugar de destino o llegada y que implica atravesar<br>
+los límites de una división geográfica”. Entendiendo como migración interna ese mismo desplazamiento, pero al interior de un país y entre sus unidades político administrativas (UPA).</p>
+<p>Existen tambien 2 principales conceptos dentro de la definición de migración: la inmigración y la emigración; la inmigración puede entenderse como el volúmen de personas que llegan a una unidad político administriva y provienen de otra y la emigración es el volúmen de personas que salen de una unidad político administrativa y se van a otras. En base al tiempo de permanencia en la UPA después del desplazamiento se definen algunos indicadores:</p>
+<ol type="1">
+<li>Migración de toda la vida: Total de personas que residen en una UPA distinta a la de UPA de nacimiento.</li>
+<li>Migración reciente: Total de personas que residen en un UPA distinta a la residencia que tenían 5 años antes</li>
+<li>Migración habitual: Total de personas que estan en un UPA distinta a la que reciden habitualmente</li>
+</ol>
+<p>Otro indicador interesante es el Saldo Migratorio, este se define como:</p>
+<p>SM(i)=total(inmigrantes(i))-total(emigrantes(i))</p>
+<p>Con SM(i) es el saldo migratoria de la UPA i. Este indicador puede ser “&gt;0” lo que implica que la UPA “i” es una unidad “atractiva” para desplazarse y si “SM(i)&lt;0” implica que la unidad “i” es “expulsora” puesto que los que se van (emigrantes) son mayores a los que llegan (inmigrantes).</p>
+<p>Finalmente, las fuentes de información para obtener estos indicadores pueden ser: (1) Registros administrativos, (2) Encuestas Nacionales y (3) Censo de Población, cada una con características particulares que permiten conocer los indicadores de migración.</p>
+<p>Este articulo presenta la migración de toda la vida, reciente y habitual para Bolivia, empleando a los Censos de Población 2001 y 2012, la UPA de interés corresponde a los departamentos, esta unidad es la primera unidad político administrativa despues del Estado Central, Bolivia tiene 9 departamentos. Con la finalidad de observar los desplazamientos de manera mas visual se empleo gráficos circulares que muestran los desplazamientos (generados en R). Estos gráficos muestran la inmigración y emigración por departamento además de presentar los saldos migratorios. Tener en cuenta que Bolivia tiene una población de 10,059,856 habitantes.</p>
+<p><strong>MIGRACIÓN DE TODA LA VIDA:</strong> Por los saldos migratorios se evidencia que los departamentos de Santa Cruz, Tarija, Pando y Cochabamba son las UPA atractivas, y parece que la tendencia no cambio de un censo a otro, siendo Santa Cruz el Departamento con un mayor saldo positivo (casi medio millon), otro caso interesante es el de Pando, que logra para el 2012 un saldo migratorio de 6 veces mas que el 2001. Finalmente. La Paz, Potosi y Beni, que tienen saldos negativos presentan una fuerte migración interna, esto es, existen desplazamientos entre sus municipios al interior de esos departamentos (los municipios son las UPA menores)</p>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mvida01_001.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mvida01_001.png" class="img-fluid" alt="mvida01_001"></a> <a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mvida12_001.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mvida12_001.png" class="img-fluid" alt="mvida12_001"></a></p>
+<p><strong>MIGRACIÓN DE RECIENTE:</strong> Similar a la migración de todo la vida en el signo de los saldos migratorios, salvo el caso de Oruro que pasa de tener un saldo negativo de -15824 en 2001 a 162 el 2012<strong>.</strong></p>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mreciente01_001.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mreciente01_001.png" class="img-fluid" alt="mreciente01_001"></a> <a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mreciente12_001.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mreciente12_001.png" class="img-fluid" alt="mreciente12_001"></a></p>
+<p><strong>MIGRACIÓN HABITUAL:</strong> Claramente los saldos migratorios varian de signo y magnitud de un censo a otro, lo llamativo de los gráficos es el fuerte desplazamiento interno en los departamentos, que puede deberse al fenomeno propio del Censo, donde mucha gente posiblemente se desplaza a otros municipios para hacerse censar, no por nada el censo se considera como la mayor movilización civil de una Nación en tiempos de paz.</p>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mhabitual01_001.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mhabitual01_001.png" class="img-fluid" alt="mhabitual01_001"></a> <a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mhabitual12_001.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mhabitual12_001.png" class="img-fluid" alt="mhabitual12_001"></a></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>R</category>
+  <category>censo</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2014-11-14-movimientos-migratorios-internos-a-nivel-departamental-bolivia/</guid>
+  <pubDate>Fri, 14 Nov 2014 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Elecciones Bolivia 2014, un diagnóstico de la victoria de EVO con información municipal de las pasadas elecciones</title>
+  <link>https://alvarolimber.github.io/blog/posts/2014-10-15-elecciones-bolivia-2014-un-diagnostico-de-la/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2014). <a href="https://miradaestadisticabolivia.wordpress.com/2014/10/15/elecciones-bolivia-2014-un-diagnostico-de-la-victoria-de-evo-con-informacion-municipal-de-las-pasadas-elecciones/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p>El pasado domingo 12 de Octubre se celebraron las elecciones Nacionales en Bolivia, a la fecha de este articulo (14 de Octubre 2014) aun no existe los resultados oficiales, sin embargo, por las bocas de urna y los recuentos rápidos se sabe que el Movimiento al Socialismo (MAS) logro la victoria con alrededor del 60%. Al iniciar la campaña política era algo evidente que el MAS tenia un importante apoyo, dado que en las elecciones de 2009 logro un 64%.</p>
+<p>En este articulo pretendo hacer un diagnostico simple y sencillo de los antecedentes que marcaron la votación. Como motivación presento el gráfico siguiente que muestra la trayectoria municipal en el apoyo al MAS desde 1997 (Donde el MAS no participo) y concluye en la elección 2009, hay 3 momentos en el tiempo que refleja el gráfico, el cambio de 1997 al 2002 (rojo), el cambio de 2002 a 2005 (azul) y el cambio de 2005 a 2009 (negro), en todos los casos el eje horizontal corresponde al primer año y el vertical al segundo año, las flechas guindas marca la trayectoria de los municipios con mayor peso electoral (para el 2014) y el tamaño de los puntos expresa de manera visual ese peso electoral, también se emplea un código por encima de los puntos, este codigo corresponde a la identificación de los municipios, por ejemplo; 10101=Sucre, 20101=La Paz, 20105=El Alto, 30101=Cochabamba, 40101=Oruro, 50101= Potosi, 60101=Tarija, 70101=Santa Cruz, 80101=Trinidad. En al mayoría de los casos los puntos visibles son los municipios principales de cada departamento.</p>
+<p>Claramente se observa que el municipio de Santa Cruz es el mas importante electoralmente, seguido de La Paz, El Alto, etc. Respecto a las trayectorias es importante notar que en la mayoría de los casos existe una pendiente positiva, cada año electoral el apoyo municipal fue creciendo, el único caso visible de caída en el apoyo es el del municipio de Sucre (10101) que de un apoyo superior al 50% en 2005 cae al 40%, este efecto puede deberse a la asamblea constituyente que se desarrollo por esos años y que tuvo sede en Sucre y existieron ciertas tensiones políticas. Santa Cruz es el municipio mas relevante en cuanto a su peso electoral, sin embargo, es el municipio con el mas lento apoyo hacia el MAS, esto pudo haber sido el motivo por el cual existió una campaña tan insistente en esa región y los resultados actuales tienden a validar este argumento.</p>
+<p>Un aspecto que llama la atención en los resultados parciales de las elecciones 2014 es la baja en el apoyo en el departamento de La Paz, donde los municipios de La Paz y El Alto son los que aportan el mayor peso electoral, una explicación algo burda de esta baja puede ser simplemente el hecho de que no existió una campaña tan agresiva en esta región, dado que el apoyo en el 2009 se encontraba por encima del 80% en El Alto y cerca del 60% en La Paz, uno podría intuir que de existir una baja no seria tan acelerada y era estrategicamente mas eficiente insistir en Santa Cruz.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/10/trayectoria_mas.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/10/trayectoria_mas.png" class="img-fluid figure-img"></a></p>
+<figcaption>trayectoria_mas</figcaption>
+</figure>
+</div>
+<p>Para finalizar, presento un gráfico que muestra las tendencias de apoyo de los municipios a lo largo de las elecciones, cada linea representa a un municipio de los 339 que existen, las elecciones del 1997 marcan el inicio de apoyo en 0% dado que el MAS no participo y las flechas muestran el avance en el apoyo en porcentajes en la recta horizontal que limita de 0 a 100, en la mayoría o casi todos los casos se observa que de 2002 a 2005 el % de apoyo se incremento, y de 2005 a 2009 sucedió algo similar con la particularidad de que varios municipios bajaron su apoyo.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/10/otra_tray.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/10/otra_tray.png" class="img-fluid figure-img"></a></p>
+<figcaption>otra_tray</figcaption>
+</figure>
+</div>
+<p>Espero sus comentarios, y a seguir mirando los datos…</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>electoral</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2014-10-15-elecciones-bolivia-2014-un-diagnostico-de-la/</guid>
+  <pubDate>Wed, 15 Oct 2014 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>El Comportamiento Electoral Municipal en las Elecciones Nacionales de 2002, 2005 y 2009 en Bolivia</title>
+  <link>https://alvarolimber.github.io/blog/posts/2014-09-19-el-comportamiento-electoral-municipal-en-las-elecciones/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2014). <a href="https://miradaestadisticabolivia.wordpress.com/2014/09/19/el-comportamiento-electoral-municipal-en-las-elecciones-nacional-de-2002-2005-y-2009-en-bolivia/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p>El próximo 12 de Octubre de 2014 se celebran las Elecciones Nacionales en Bolivia, existen 5 frentes políticos en competencia. Considero que es un aspecto a destacar es la reducción de candidatos participantes, puesto que en elecciones pasadas como la de 1993 existían 14 candidatos.</p>
+<p>Otro detalle interesante es que 3 de los 5 candidatos presidenciales actuales ya participaron en elecciones pasadas también como candidatos presidenciales, tal es el caso de Evo Morales (4ta participación), Doria Medina (3ra Participación) y Jorge Quiroga (2da Participación).</p>
+<p>A unas cuantas semanas de las elecciones están circulando por los medio los resultados de intensión de voto para esta elección, y como era de esperar los tres candidatos con mas apoyo son los que participaron al menos una vez en las elecciones pasadas.</p>
+<p>Como estadístico, es llamativo tratar de predecir los resultados de las próximas elecciones, puesto que existen los insumos para hacer una predicción decente, espero terminar el modelo antes de las elecciones y publicarlo a pocos días de la elección, pero mientras trabajo en eso, he preparado un limitado y rápido análisis descriptivo multivariante a nivel de los municipios para cada departamento, con la intensión de identificar las agrupaciones de municipios respecto al apoyo a dos candidatos: Evo Morales y Doria Medina en las ultimas 3 elecciones Nacionales, 2002, 2005 y 2009. Se realizo un análisis cluster, se identificaron 3 grupos en base al análisis y se obtuvieron los porcentajes de apoyo para cada grupo en cada una de las elecciones Nacionales. Las figuras siguientes resumen los resultados encontrados, dejo al criterio de los lectores la interpretación y si existe alguna pregunta no duden en escribirme o comentar el articulo.</p>
+<p><strong>CHUQUISACA</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun1.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun1.png" class="img-fluid figure-img"></a></p>
+<figcaption>masun1</figcaption>
+</figure>
+</div>
+<p><strong>LA PAZ</strong><br>
+<a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun2.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun2.png" class="img-fluid" alt="masun2"></a></p>
+<p><strong>COCHABAMBA</strong><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun3.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun3.png" class="img-fluid" alt="masun3"></a></p>
+<p><strong>ORURO</strong><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun4.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun4.png" class="img-fluid" alt="masun4"></a></p>
+<p><strong>POTOSI</strong><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun5.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun5.png" class="img-fluid" alt="masun5"></a></p>
+<p><strong>TARIJA</strong><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun6.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun6.png" class="img-fluid" alt="masun6"></a></p>
+<p><strong>SANTA CRUZ</strong><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun7.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun7.png" class="img-fluid" alt="masun7"></a></p>
+<p><strong>BENI</strong><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun8.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun8.png" class="img-fluid" alt="masun8"></a></p>
+<p><strong>PANDO</strong><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun9.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun9.png" class="img-fluid" alt="masun9"></a></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>electoral</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2014-09-19-el-comportamiento-electoral-municipal-en-las-elecciones/</guid>
+  <pubDate>Fri, 19 Sep 2014 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Sobre las encuestas políticas en Bolivia</title>
+  <link>https://alvarolimber.github.io/blog/posts/2014-08-04-sobre-las-encuestas-politicas-en-bolivia/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2014). <a href="https://miradaestadisticabolivia.wordpress.com/2014/08/04/sobre-las-encuestas-politicas-en-bolivia/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/08/encu.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/08/encu.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>encu</figcaption>
+</figure>
+</div>
+<p>Las encuestas electorales en nuestro país están lejos de convertirse en un referente confiable de las preferencias políticas reales, mientras no incluyan los procesos electorales históricos que moldean corrientes políticas en las distintas regiones de Bolivia.</p>
+<p>Acá les dejo un articulo que escribí para La Razón este domingo 3 de Agosto.</p>
+<p>Previo a un proceso electoral siempre aparecen las consultoras de encuestas, sondeos, opinión política, entre otros, que buscan dar un panorama de los posibles resultados; éstos siempre se convierten en un tema mediático entre los principales actores de estas elecciones (partidos, medios de comunicación y agrupaciones); la crítica a estos estudios siempre está orientada a dos hechos: el primero, cuánto se equivocaron en elecciones pasadas, y el segundo, que la cobertura y poblaciones entrevistadas no representan a la población. ¿Cuánto de cierto existe en estas afirmaciones?</p>
+<p>Muchas empresas encuestadoras escudan la confianza de sus resultados en principios estadísticos, mencionando que sus estudios tienen márgenes de error controlados, niveles de confiabilidad altos y fueron recolectados de todas las áreas del país. A raíz de estas declaraciones y sus resultados posteriores la práctica de hacer encuestas de este estilo fue degradada y fuertemente cuestionada por la población, a tal punto que se expresa en ocasiones que las encuestas no son confiables.</p>
+<p>La mayor parte de la información que recoge el país para la construcción de indicadores de bienestar, seguimiento a programa, y otros, provienen de encuestas y sus resultados no son tan cuestionados como los de las encuestas políticas; entonces, se podría decir que ¿las encuestas políticas son las ovejas negras de la teoría de muestreo en la estadística?</p>
+<p>La experiencia de otros países nos dan interesantes lecciones sobre las encuestas políticas. En los Estados Unidos, por ejemplo, ya se tienen identificados los Estados que son los que definirán el resultado en las elecciones; lo que obtienen las encuestas se aparta en porcentajes despreciables del resultado de las elecciones. Obviamente este caso no es comparable con el nuestro por la naturaleza misma del sistema bipartidista estadounidense, pero nos muestra que la investigación en el área de encuestas políticas ha evolucionado a niveles muy altos. Entonces, es una duda válida y no trivial preguntarse cómo se debe manejar los resultados de las encuestas políticas en nuestro país.</p>
+<p>A continuación listo dos criterios personales que se pueden usar para desconfiar de los resultados de algunas encuestas políticas:</p>
+<p>1. “La encuesta es un sondeo que se hizo en lugares estratégicos del país”; detrás de estos estudios no hay ningún principio estadístico y sus resultados están sesgados a la planificación del que lo hizo.</p>
+<p>2. “El margen de error es del 5%, los resultados son representativos a nivel departamental y la muestra total es menor a 10.000 personas”; ni el INE (Instituto Nacional de Estadística) logra estos resultados en la encuesta a hogares y tiene una muestra de casi 32.000 personas (Encuesta de Hogares 2012).</p>
+<p>INSUMOS. El querer pronosticar un resultado electoral a través de encuestas políticas es muy complejo y requiere de muchos insumos, se debe contar con una base de información de los resultados de al menos las últimas cuatro elecciones generales al nivel de los asientos electorales, esto, para tener una idea de la corriente política de los distintos lugares y cómo estas evolucionan según la coyuntura que se atraviese.</p>
+<p>Sin ir muy lejos, en la elección de 2002, cuando fue la primera participación del Movimiento Al Socialismo (MAS), éste logró una votación mayor al 50% de votos válidos en 48 municipios del país; éstos mantuvieron esa votación superior al 50% en las elecciones de 2005 y 2009. Así, tal situación podrá implicar que es muy probable que la proporción de apoyo de estos municipios se mantenga para estas elecciones. Por otro lado, en el caso del Unidad Nacional (UN) en 2005, que fue también su primera participación, logró una votación superior al 50% en dos municipios, pero para el 2009 en estas mismas circunscripciones logró menos del 10% de votos. Estos dos ejemplos evidencian que la dinámica del voto es una variable muy compleja de entender, sin embargo, eso no significa que no se lo pueda hacer.</p>
+<p>Las encuestas electorales en nuestro país están lejos de convertirse en un referente confiable de las preferencias políticas reales mientras no incluyan los procesos electorales históricos que moldean corrientes políticas en las regiones de Bolivia.</p>
+<p>Un dato para tener en cuenta para esta elección: en las últimas elecciones de 2009 el MAS logró más del 50% de votos en 267 municipios; de éstos, 216 ya lo apoyaban en esa intensidad en 2005. Se puede creer que este apoyo va en ascenso, como también es válido pensar que las variables de ahora son diferentes y el apoyo va a caer, lo único que no se debe perder de vista es que la única evidencia sobre cómo se comporta electoralmente la población ya fue registrada en anteriores elecciones y no considerar esta información en la planificación de las encuestas electorales es un error imperdonable dentro de la metodología de investigación estadística.</p>
+<p>Para concluir, las encuestas políticas por más buenas intenciones que tengan, si no tienen una fuerte y rigurosa metodología estadística por detrás, simplemente no sirven y mal informan a la población; es mejor e incluso más confiable mirar el conjunto de los procesos electorales anteriores. Las encuestas políticas en nuestro país seguirán siendo las ovejas negras en el quehacer estadístico mientras no dirijan más esfuerzo a la mejora de sus métodos de investigación. Mi recomendación a la población y a los partidos políticos en general es que antes de mirar los resultados de las encuestas electorales comprendan los comportamientos históricos del voto en espacios locales, y si aún quieren mirar las encuestas, desconfíen de sus resultados cuando observen algunos de los dos criterios presentados.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>opinión</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2014-08-04-sobre-las-encuestas-politicas-en-bolivia/</guid>
+  <pubDate>Mon, 04 Aug 2014 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Encuesta a Hogares 2012 – Bolivia</title>
+  <link>https://alvarolimber.github.io/blog/posts/2013-12-08-encuesta-a-hogares-2012-bolivia/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2013). <a href="https://miradaestadisticabolivia.wordpress.com/2013/12/08/encuesta-a-hogares-2012-bolivia/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/12/images-1.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/12/images-1.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>images (1)</figcaption>
+</figure>
+</div>
+<p>El pasado 26 de Noviembre de 2013 el Instituto Nacional de Estadística de Bolivia publico la <a href="http://www.ine.gob.bo:8081/Webine10/enchogares1.aspx">Encuesta a Hogares 2012</a>, esta encuesta se realiza aproximadamente el ultimo trimestre de cada año, particularmente el 2012 fue diferente para Bolivia en el entendido que el 21 de Noviembre de 2012 se realizo el Censo Nacional de Población y Vivienda 2012. Lo extraño aun es que los factores de expansión de la Encuesta a Hogares 2012 dan cuenta de un población mayor en casi 500000 Hab. a la del Censo 2012.</p>
+<p>Esta anomalía ya la había comentado antes pero con la Encuesta a Hogares 2011, y es preocupante pensar que aun no se han corregido estas dificultades, seguir con estos factores implicara seguir teniendo indicadores de pobreza, salud, educación, etc. con un sesgo aun desconocido. Los resultados de estos dos operativos estadísticos llevados a cabo por la misma institución en un casi paralelo espacio de tiempo es:</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Departamento</td>
+<td style="text-align: left;">EH 2012</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Chuquisaca</td>
+<td style="text-align: left;">673526</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">La Paz</td>
+<td style="text-align: left;">2932613</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Cochabamba</td>
+<td style="text-align: left;">1947185</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Oruro</td>
+<td style="text-align: left;">458328</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Potosi</td>
+<td style="text-align: left;">799276</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Tarija</td>
+<td style="text-align: left;">550617</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Santa Cruz</td>
+<td style="text-align: left;">2962797</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Beni</td>
+<td style="text-align: left;">462547</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Pando</td>
+<td style="text-align: left;">87662</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Total</td>
+<td style="text-align: left;">10874551</td>
+</tr>
+</tbody>
+</table>
+<p>Las recomendaciones respecto estos temas siguen siendo:</p>
+<ol type="1">
+<li>Re-calcular los factores de expansión de la seria de las Encuestas a Hogares 2002-2012, considerando el factor teorico y un ajuste por proyección a los resultados del censo 2012 estimando el sesgo introducido por este ajuste.</li>
+<li>Para evitar depender demasiado de las proyecciones considerar la expansión que permite el muestreo de las Encuesta a Hogares</li>
+</ol>
+<p>Me encuentro trabajando en unos ponderadores nuevos para toda la serie, priorizando en el diseño de la muestra y tratando de estimar el sesgo que provocan el ajuste por proyecciones en el caso Boliviano, con la intención de generar los indicadores mas relevantes y presentar el grado de confiabilidad estadística que tienen. Lo publicare mas adelante cuando logre documentar todo el trabajo y sea un aporte para la investigación con este tipo de bases en Bolivia.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>opinión</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2013-12-08-encuesta-a-hogares-2012-bolivia/</guid>
+  <pubDate>Sun, 08 Dec 2013 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Exijo al menos una “fe de erratas” en el Censo 2012 de Bolivia</title>
+  <link>https://alvarolimber.github.io/blog/posts/2013-10-05-exijo-al-menos-una-fe-de-erratas/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2013). <a href="https://miradaestadisticabolivia.wordpress.com/2013/10/05/exijo-al-menos-una-fe-de-erratas-en-el-censo-2012-de-bolivia/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/10/errata.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/10/errata.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>the eraser</figcaption>
+</figure>
+</div>
+<p>La coyuntura del censo ya duro casi dos años, esto porque las observaciones existentes comenzarón desde el momento de la planificación y el hermetismo del INE (según otras fuentes). Sin embargo, la posición en este momento es completamente cerrada a que los resultados del censo son los definitivos y el unico instrumento para conocer como estamos es la publicación del INE del 31 de Julio de 2013 “BOLIVIA características de población y vivienda Censo Nacional de Población y Vivienda 2012” y el mismo documento no es tan perfecto los Cuadros 2.2 (Página 8), 5.9 (Página 21) y 5 (Página 29) mencionan que son por área (asumo urbano rural), pero en niguna parte de las mencionadas tablas se realiza esa distinción EXIJO UN FE DE ERRATAS!!!!!</p>
+<p>Si bien el título es algo pomposo, solo sirve de estrategia para llamar la atención, dado que el error que mencione es algo trivial que no tiene la mayor implicacia. Ahora el objetivo de este artículo es ahondar en dos detalles que despiertan mi atención en base a esta observación que se centra en (1) el concepto Urbano Rural (2) Cual es la historia verdadera de estos 10 años pasados en tema de los inidicadores dado el ritmo de crecmiiento que plantea este censo.</p>
+<p><strong>(1) Concepto Urbano – Rural:</strong></p>
+<p><br>
+Un documento reciente de Naciones unidas (Hacia una nueva definición de “rural” con fines estadísticos en América Latina, 2011) menciona que definir el concepto y dimensiones de lo Urbano- Rural no es algo trivial sino mas bien tiene una importancia para la política publica, dado que en estas áreas se focalizan programas de alivio a la pobreza porque se cree que son más vulnerables. En Bolivia el concepto Urbano Rural aun no está acuñado en la perfección y una de las divisiones mas usuales es la que divide a las poblaciones menores (localidades) en unidades en base a su población; Ciudades capitales, ciudades intermedias, centros poblados, Áreas dispersas, donde las tres primeras pueden caer en el denominativo Urbano y lo disperso (lo desconocido) es lo rural. Que basados en este criterio hay un a infinidad de nuevos cambios que plantearía este nuevo censo, que no necesariamente significaría que localidades antes rurales y ahora urbanos estén en mejores condiciones. Por ello es necesario, homogenizar un criterio al interior del país que sea compatible con los países de la región con la finalidad de poder ser comprables en el tiempo y en el espacio.</p>
+<p><strong>(2) La historia Pasada.</strong></p>
+<p><br>
+Las Encuestas a hogares de la ultima década trabajaron en base a las proyecciones provenientes del censo del 2001, ahora, el censo 2012 nos revela el crecimiento “real (si la auditoria revela que son confiables los datos)” de estos últimos diez años, lo que implicaría tener que calcular todos los indicadores de educación, pobreza, salud, etc. En base al verdadero ritmo de crecimiento y ver la variación de estos indicadores. Tener en mente que en base a estos indicadores se arman las Metas del milenio. Por ello, queda pendiente ver la historia real (ajustada) pasada y empezar a analizar esos resultados</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>muestreo</category>
+  <category>opinión</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2013-10-05-exijo-al-menos-una-fe-de-erratas/</guid>
+  <pubDate>Sat, 05 Oct 2013 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Tendencias y crecimientos de los censos en Bolivia</title>
+  <link>https://alvarolimber.github.io/blog/posts/2013-09-05-tendencias-y-crecimientos-de-los-censos-en/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2013). <a href="https://miradaestadisticabolivia.wordpress.com/2013/09/05/tendencias-y-crecimientos-de-los-censos-en-bolivia/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/09/crecimiento21.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/09/crecimiento21.png" class="img-fluid figure-img"></a></p>
+<figcaption>crecimiento21</figcaption>
+</figure>
+</div>
+<p>Sin duda que un evento como el censo de población y vivienda deja bastante evidencia para describir los cambios que atraviesa un país, cambios de carácter más estructural. Dentro de este abanico de evidencia y posibilidades, el primer acercamiento a los datos de un censo es tradicionalmente los cambios demográficos. Interesa mucho conocer como estos cambios se explican a lo largo de la vida de un país.</p>
+<p>Hoy les presento dos gráficos, el primero (el de arriba) cuenta un poco la historia a través de los últimos 5 censos respecto el crecimiento interesal por departamento y el segundo grafico (el de abajo) muestra un contraste entre las proyecciones bajo los ritmos de crecimiento de los dos últimos censos (se emplea un crecimiento de tipo exponencial al 21 de noviembre de cada año).</p>
+<p>Los resultados importantes del primer grafico son:</p>
+<p>(1) La desaceleración en crecimiento en los departamentos de Santa Cruz, Tarija, Cochabamba y Chuquisaca<br>
+(2) La explosión en crecimiento que registra pando desde el censo del 92<br>
+(3) La caída en el crecimiento de 6 departamentos del censo 2001 al 2012<br>
+(4) Finalmente, el crecimiento de Chuquisaca que esta por debajo de un crecimiento vegetativo</p>
+<p>Respecto al grafico de abajo, la apreciación mas grande es ver que la caída en crecimiento de los cortes de edad más joven es bastante fuerte y existe una tendencia importante de los cortes de edad avanzada a crecer más de lo esperado que con el ritmo de crecimiento pasado. Este grafico apertura un poco el debate a validar este fenómeno tan brusco que presenta Bolivia en este censo, donde los grupos muy jóvenes caen de manera muy fuerte y cortes de edad más centradas tienden a proyectar a un crecimiento mayor al proyectado en el pasado. La respuesta a este fenómeno aun se queda sin respuesta dado que estos gráficos se elaboraron con la información básica que presento el INE el pasado 31 de Julio. Este podrá ser enriquecido en la medida que se de a conocer los datos de divisiones subnacionales inferiores (municipios) y en lo posible se aclare esta controversia de no contar con una herramienta que pueda cuantificar el error de cobertura del pasado censo e identifique dicho error por tramos de edad.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/09/proy_grupo1.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/09/proy_grupo1.png" class="img-fluid figure-img"></a></p>
+<figcaption>proy_grupo1</figcaption>
+</figure>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>R</category>
+  <category>censo</category>
+  <category>muestreo</category>
+  <category>opinión</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2013-09-05-tendencias-y-crecimientos-de-los-censos-en/</guid>
+  <pubDate>Thu, 05 Sep 2013 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Errores de conteo entre datos preliminares y finales del Censo, Bolivia 1992, 2001 y 2012</title>
+  <link>https://alvarolimber.github.io/blog/posts/2013-08-16-errores-de-conteo-entre-datos-preliminares-y/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2013). <a href="https://miradaestadisticabolivia.wordpress.com/2013/08/16/errores-de-conteo-entre-datos-preliminares-y-finales-del-censo-bolivia-1992-2001-y-2012/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/08/censo1.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/08/censo1.png" class="img-fluid figure-img"></a></p>
+<figcaption>censo1</figcaption>
+</figure>
+</div>
+<p>La estadística como ciencia, siempre busca generar información con el mínimo de error posible, estos errores pueden ser errores sistemáticos o errores aleatorios, los mas fuertes entre ellos son los errores sistemáticos, estos merman un resultado final si es que se presentan en el proceso de generación de la información. Todo es un aprendizaje, y cada operación estadística nos debiera nutrir de instrumentos para mejorar en los próximos.</p>
+<p>Hoy les presento algo que me me llama poderosamente la atención y que aun no logro encontrar alguna variable que explique estas variaciones. En Bolivia el año pasado se realizo el Censo Nacional de Poblacion y Vivienda 2012 (CNPV-2012) y es una costumbre presentar primero datos preliminares y posteriormente los datos oficiales, en este censo particularmente, sucedio algo inusual; el CNPV-2012 presenta el mayor error de conteo de los últimos 3 censos (1992, 2001, 2012) y la jerarquia en población de los departamentos, varian del dato preliminar al final. Buscando algunos antecedentes respecto a errores de conteo, se tiene que; el mayor error de conteo sucedio en Beni en el censo de 1992 y ahora son 7 departamentos que tienen errores de conteo mayores a los censos pasados.</p>
+<p>Los origenes de estas diferencias aun no cuentan con una explicación técnica y exhaustiva i.e.&nbsp;un documento que informe las variaciones de conteo por regiones, zonas censales, encuestadores, motivos principales de las variaciones, etc. Lo que resta hacia adelante es documentar lo ocurrido verificar las variaciones con la experiencia pasada y tomar las medidas necesarias para que esto no vuelva a suceder y ver si no existen sesgos sistemáticos en el proceso que puedan repercutir en los indicadores que se vayan a usar para la formualción de políticas públicas</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>R</category>
+  <category>censo</category>
+  <category>muestreo</category>
+  <category>opinión</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2013-08-16-errores-de-conteo-entre-datos-preliminares-y/</guid>
+  <pubDate>Fri, 16 Aug 2013 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Los Censos no son Perfectos, pero deben ser transparentes</title>
+  <link>https://alvarolimber.github.io/blog/posts/2013-06-05-los-censos-no-son-perfectos-pero-deben/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2013). <a href="https://miradaestadisticabolivia.wordpress.com/2013/06/05/los-censos-no-son-perfectos-pero-deben-ser-transparentes/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/06/censo2.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/06/censo2.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>censo2</figcaption>
+</figure>
+</div>
+<p>Cualquier censo de población, vivienda, establecimientos económicos, agropecuario u otra unidad de análisis, significa un gran esfuerzo y desafío para los institutos de estadística de cada país. En materia de calidad y metodología, los países del “primer mundo” son los mejores referentes, porque siguen recomendaciones basadas en su experiencia y reflexión de los distintos organismos internacionales.</p>
+<p>En la región sudamericana, en el marco de la Ronda de Censos 2010, empiezan a visibilizarse situaciones que llaman la atención respecto a la calidad y confiabilidad de los procesos y los resultados censales, tal es el caso de Perú, donde el expresidente Alan García observó los resultados y dijo literalmente: “Ese censo ha sido definitivamente una estafa”, y ordenó llevar a cabo otro censo que se concretó en 2007 (se rehízo el censo).</p>
+<p>En ese país las observaciones surgieron a partir de una posible subestimación de la población y una percepción de varios analistas de una alta omisión censal. El costo político conllevó al alejamiento del director y el ministro a cargo que no reconocieron a tiempo los cuestionamientos.</p>
+<p>Recientemente en Chile se denunció la presunta manipulación de los resultados censales, por una significativa diferencia entre el número de habitantes respecto de las proyecciones, que llevó al cuestionamiento de la credibilidad de los resultados censales y que el “mejor censo de la historia de Chile” quede desprestigiado. Tal fue el impacto de este hecho, que ahora se realizan auditorías externas al censo, se cerró temporalmente el portal de internet del censo y se comienza a cuestionar la credibilidad del cálculo del IPC.</p>
+<p>Estos antecedentes en países cercanos, con presumiblemente infraestructuras estadísticas superiorers a la boliviana deben convocarnos fuertemente a la reflexión respecto a las debilidades técnicas observadas durante el proceso censal, sumar a esto la ausencia de una encuesta de cobertura poscensal y sus efectos en la calidad de los resultados censales.</p>
+<p>La ONU, en un informe reciente (Report on the Results of a Survey on Census Methods used by Countries in the 2010 Census Round), en el apartado sobre las técnicas de cálculo de los errores en los censos, reportó que el 78% de los países entrevistados (124 naciones de todo el mundo) realizó una encuesta de cobertura poscensal y sólo el 16% empleó métodos demográficos (que se aplicaría en el país), y en América Latina (14 países) el 57% realizó encuesta de cobertura y el 21% utilizó la técnica demográfica.</p>
+<p>Los operativos censales no son perfectos en todas sus dimensiones y con seguridad el boliviano tampoco lo será, pero hay que tomar en cuenta las experiencias de los países vecinos para reflexionar y mejorar la imagen institucional para que se construya credibilidad justificada en la población.</p>
+<p>La estadística es una ciencia exacta y maravillosa que ofrece mecanismos innumerables que permiten tratar información precaria con el fin de lograr indicadores transparentes que reflejen de manera acorde una realidad, y se debe tener claro que las mejores políticas públicas son las que se construyen con información transparente, correcta y oportuna.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>muestreo</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2013-06-05-los-censos-no-son-perfectos-pero-deben/</guid>
+  <pubDate>Wed, 05 Jun 2013 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Censo, encuestas por muestreo y el criterio de representatividad</title>
+  <link>https://alvarolimber.github.io/blog/posts/2013-04-02-censo-encuestas-por-muestreo-y-el-criterio/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2013). <a href="https://miradaestadisticabolivia.wordpress.com/2013/04/02/censo-encuestas-por-muestreo-y-el-criterio-de-representatividad/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/04/statistics.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/04/statistics.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>statistics</figcaption>
+</figure>
+</div>
+<p>En noviembre del pasado año se celebro en Bolivia el maximo evento estadístico que un país puede llevar acabo, se realizo el Censo Nacioal de Poblacion y Vivienda, cabe mencionar que existieron bastantes suceptibilidades al respecto, dado que muchas personas e instituciones observaron previamente aspectos como la pertinencia de la cartografia, el proceso reclutamiento del personal, etc. Sumar a todo ello que lastimimosamente no se realizo la encuesta ex-post de cobertura que tradicionalmente busca comprender la magnitud de los errores de cobertura y contenido de un censo, lastimosamente porque? la alternativa para conocer estos errores si no se realiza una encuesta de cobertura es un análisis demográfico, que emplea registros administrativos y proyecciones en base a los anteriores censos, pero el problema con ello esta en que el pasado 23 de enero de 2013 se dieron algunos resultados preliminares del censo arrojando una diferencia de casi medio millon hacia abajo de las proyecciones demográficas, dato que me hace pensar que el análisis demográfico que se haga estara sin duda influenciado por sesgos sistemáticos fuertes que pueden provenir de las proyecciones.</p>
+<p>Pensemos que el dato preliminar no variaria demasiado del verdadero… existe una llamada de atención para cualquier persona con sentido comun, creo yo, ¿cómo es posible lograr una diferencia de casi medio millon de personas respecto al dato preliminar del censo y las proyecciones? mas aun si Bolivia es un país que tenia en 2001 al rededor de 8 millones y un poco mas de habitantes, de manera clara: <strong>no puede haber un error tan grande</strong>, para explicar estas diferencias yo puedo atribuir ciertos errores al:</p>
+<ol type="1">
+<li>Conteo preliminar un tanto precario</li>
+<li>Alta omisión censal</li>
+<li>Técnicas de proyección poco robustas</li>
+</ol>
+<p>Representantes del INE advirtieron que el conteo conto con altos estandares de calidad, que no es verificable hasta que se cuente con algún documento técnico, pero considerando que eso es cierto, nos quedan dos alternativas, o hubo una omisión muy fuerte o las técnicas de proyección empleadas no son lo suficientemente robustas.</p>
+<p>Respecto a la posible alta omision censal una empresa de encuestas realizo un estudio en todo el país, que arroja como resultados una cobertura del censo del 97%, personalmente me llama la atención el diseño muestral de dicha encuesta y el concepto de representatividad que ciertas instituciones manejan que ya lo comentare en un articulo exclusivo. Dicha encuesta afirma tener representatividad con una muestra de aproximadamente 2000 personas.</p>
+<p>Nuevamente un supuesto, imaginemos que la estimacion de la cobertura del 97% es cierta, si es asi, al conteo preliminar del censo se debe añadir un 3% de población para pensar que esa es la población real en Bolivia, lo que logra 10711251 que difiere de las proyecciones en unos 100 mil habitantes, que es ya algo aceptable y se podria afirmar que las proyecciones del INE se acercaron.</p>
+<p>Lastimisamente todas mis afirmaciones estan condicionadas por supuestos, pero sirve de manera didactica para comprender como aveces pueden sincronizar y complementarse distintas técnicas estadísticas, un censo, una encuesta y una proyección.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>muestreo</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2013-04-02-censo-encuestas-por-muestreo-y-el-criterio/</guid>
+  <pubDate>Tue, 02 Apr 2013 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Censos, encuestas a hogares, diseños muestrales y el desafío de un sistema integrado en Bolivia</title>
+  <link>https://alvarolimber.github.io/blog/posts/2012-09-17-censos-encuestas-a-hogares-disenos-muestrales-y/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2012). <a href="https://miradaestadisticabolivia.wordpress.com/2012/09/17/censos-encuestas-a-hogares-disenos-muestras-y-un-desafio-hacia-un-sistema-integrado/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/e1.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/e1.png" class="img-fluid"></a></p>
+<p>Dado que el tema del censo esta siendo muy comentado en el ultimo tiempo en Bolivia, recorde que en mi trabajo de grado de la Universidad escribi algo relacionado a las encuestas a hogares, donde menciono varios aspectos asociados de estas encuestas con el CENSO, y como escribi esto por el 2010 me parece un instrumento tecnico que puede aportar algo a las personas que quieran conocer mas el mundo del muestreo, las encuestas a hogares y por supuesto u censo.</p>
+<p>Mi trabajo titula:</p>
+<p><strong>“CONSTRUCCIÓN DE LA METODOLOGÍA MARCO PARA DISEÑOS MUESTRALES EN ENCUESTAS DIRIGIDAS A HOGARES INSTITUTO NACIONAL DE ESTADÍSTICA BOLIVIA”</strong></p>
+<p>Mi trabajo en PDF <a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/metodologia-marco.pdf">aqu</a>í, y para los interesados en Latex tengo todo mi trabajo en LATEX y si quieren me escriben y se los mando.<a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/metodologia-marco.pdf"><br>
+</a></p>
+<p>El contenido es:</p>
+<p>1. INTRODUCCIÓN<br>
+1.1. ANTECEDENTES<br>
+1.2. PROBLEMA<br>
+1.3. OBJETIVOS<br>
+1.3.1. Objetivo general<br>
+1.3.2. Objetivos especícos<br>
+1.4. JUSTIFICACIÓN<br>
+1.5. DELIMITACIONES<br>
+2. METODOLÓGICA MARCO<br>
+2.1. POBLACIÓN OBJETIVO Y POBLACIÓN INVESTIGADA<br>
+2.2. MARCO MUESTRAL<br>
+2.2.1. Marco de áreas<br>
+2.2.2. Marco de lista<br>
+2.2.3. Marco múltiple<br>
+2.2.4. Perturbaciones en el Marco de muestreo<br>
+2.2.5. Actualización del marco muestral<br>
+2.3. UNIDADES ESTADÍSTICAS<br>
+2.3.1. Unidad de Observación<br>
+2.3.2. Unidad de información<br>
+2.3.3. Unidad de muestreo<br>
+2.4. TIPOS DE COBERTURA<br>
+2.4.1. Cobertura Espacial<br>
+2.4.2. Cobertura Temática<br>
+2.4.3. Cobertura Temporal<br>
+2.5. TÉCNICAS DE MUESTREO<br>
+2.5.1. Muestreo Aleatorio Simple<br>
+2.5.2. Muestreo Estratificado<br>
+2.5.3. Muestreo Sistemático<br>
+2.5.4. Muestreo Proporcional al tamaño<br>
+2.5.5. Muestreo Multi-etápico<br>
+2.5.6. Muestreo por Conglomerados<br>
+2.5.7. Muestreo en Ocasiones Sucesivas<br>
+2.5.8. Muestreo Longitudinal<br>
+2.6. LAS VARIABLES EN ENCUESTAS A HOGARES<br>
+2.7. ESTRATIFICACIÓN EN LAS ENCUESTAS A HOGARES<br>
+2.8. CONGLOMERADOS EN ENCUESTAS A HOGARES<br>
+2.9. MUESTREO POR ETAPAS EN LAS ENCUESTAS A HOGARES . . 19<br>
+2.10. DOMINIOS DE ESTUDIO VS ESTRATIFICACIÓN . . . . . . . . . . 20<br>
+2.11. LA PRUEBA PILOTO<br>
+2.12. EL TAMAÑO DE LA MUESTRA<br>
+2.12.1. Variables endógenas<br>
+2.12.2. Variables exógenas<br>
+2.12.3. El error de muestreo<br>
+2.12.4. El margen de error y el nivel de conabilidad<br>
+2.12.5. El efecto de la no respuesta<br>
+2.12.6. El efecto del diseño muestral<br>
+2.13. FACTORES DE EXPANSIÓN Y SUS AJUSTES<br>
+2.13.1. Incidencias de campo |<br>
+2.13.2. Actualización de conglomerados<br>
+2.13.3. Proyecciones Demográficas<br>
+2.14. ESTIMADORES Y ESTIMACIONES<br>
+2.14.1. Distribución de probabilidades del estimador<br>
+2.15. EL ERROR TOTAL EN UNA ENCUESTA POR MUESTREO<br>
+2.15.1. Modelo de Hansen. Hurwitz y Bershad<br>
+2.15.2. Estimación de las componentes de la varianza total de respuesta y el índice de inconsistencia<br>
+2.16. ENCUESTAS TRANSVERSALES Y LONGITUDINALES<br>
+2.16.1. Encuestas transversales<br>
+2.16.2. Encuestas longitudinales<br>
+3. DIAGNÓSTICO DE LAS ENCUESTAS A HOGARES<br>
+3.1. ORGANIZACIÓN<br>
+3.2. OBJETIVOS DE LAS ENCUESTAS<br>
+3.3. EL MARCO MUESTRAL<br>
+3.3.1. Variables de división político administrativa<br>
+3.3.2. Variables de división geográca<br>
+3.3.3. Variables de división estadística<br>
+3.3.4. Variables auxiliares de apoyo<br>
+3.3.5. Variables de estratificación<br>
+3.4. LA ESTRATIFICACIÓN<br>
+3.5. LOS NIVELES DE DESAGREGACIÓN<br>
+3.6. CONGLOMERADOS EMPLEADOS<br>
+3.7. ETAPAS DENTRO DEL DISEÑO<br>
+3.8. EL TAMAÑO DE LA MUESTRA<br>
+3.9. EL EFECTO DE LA CONGLOMERACIÓN<br>
+3.10. DISTRIBUCIÓN Y ASIGNACIÓN DE LA MUESTRA<br>
+3.11. PROBABILIDADES Y MÉTODOS DE SELECCIÓN<br>
+3.12. LOS FACTORES DE EXPANSIÓN<br>
+3.13. RENDIMIENTO DE LA MUESTRA E INCIDENCIAS<br>
+4. HACIA UN SISTEMA INTEGRADO DE ENCUESTAS A HOGARES<br>
+4.1. MARCO MUESTRAL<br>
+4.1.1. Insumos del CNPV para la construcción del Marco Maestro de Muestreo (MMM)<br>
+4.1.2. Un ejemplo del evidente cambio en el marco muestral<br>
+4.2. DOMINIOS DE ESTUDIO Y NIVELES DE DESAGREGACIÓN<br>
+4.2.1. Dominios departamentales y provinciales<br>
+4.2.2. Dominios municipales<br>
+4.2.3. Dominio Indígena originaria campesina<br>
+4.3. ESTRATIFICACIÓN<br>
+4.3.1. Estraticación geográfica<br>
+4.3.2. Estraticación por nivel de elegibilidad<br>
+4.3.3. Estraticación indígena originaria campesina<br>
+4.3.4. Asignación de la muestra<br>
+4.4. CONGLOMERACIÓN Y DEFINICIÓN DE LAS UPM<br>
+4.4.1. Áreas cartografiadas<br>
+4.5. NÚMERO DE ETAPAS<br>
+4.6. TAMAÑO DE MUESTRA<br>
+4.7. EL ESQUEMA DE SELECCIÓN Y EL EFECTO PPT<br>
+4.8. ERRORES MUESTRALES<br>
+4.8.1. Estimación del error muestral a través de la varianza teórica<br>
+4.8.2. El estimador- y sus componentes<br>
+4.8.3. Error muestral en un diseño de dos etapas<br>
+4.8.4. Caso de un muestreo sistemático PPT<br>
+4.9. DISEÑO BASE DE LAS FUTURAS ENCUESTAS A HOGARES<br>
+4.10. UNA OPCIÓN LATENTE EN ENCUESTAS PERIÓDICAS, LA MUESTRA MAESTRA<br>
+5. CONCLUSIONES Y RECOMENDACIONES FINALES<br>
+5.1. CONCLUSIONES<br>
+5.2. RECOMENDACIONES</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>LaTeX</category>
+  <category>censo</category>
+  <category>muestreo</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2012-09-17-censos-encuestas-a-hogares-disenos-muestrales-y/</guid>
+  <pubDate>Mon, 17 Sep 2012 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Día Internacional de la alfabetización</title>
+  <link>https://alvarolimber.github.io/blog/posts/2012-09-08-dia-internacional-de-la-alfabetizacion/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2012). <a href="https://miradaestadisticabolivia.wordpress.com/2012/09/08/dia-internacional-de-la-alfabetizacion/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/alfa.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/alfa.jpg" class="img-fluid"></a></p>
+<p>Parafrasenado el mensaje del Secretario General Naciones Unidas Ban Ki-moon, en conmemoración de este día:</p>
+<p>La alfabetización proporciona herramientas para que los hombres y las mujeres puedan comprender mejor el mundo y moldearlo a fin de lograr sus aspiraciones. Es fuente de dignidad humana y motor del desarrollo saludable de la sociedad. El Día Internacional de la Alfabetización es una oportunidad para celebrar esta fuerza transformadora y movilizarnos con miras a aprovecharla al máximo</p>
+<p>Por ello mi interés de mostrarles algunas estadísticas interesantes sobre este día en Bolivia. Para los que no lo saben, desde el 2006 , se puso en marcha el programa de alfabetización “Yo si Puedo” que entre sus objetivos esta el de lograr que las personas aprendan a leer y escribir que logra que la UNESCO en 2008 declare a Bolivia “Territorio libre de analfabetismo”. Posterior a ello se lanza la continuación del programa denominado “Yo si puedo seguir” .</p>
+<p>Definiendo algunos conceptos que me parecen muy importantes antes de mostrarles algunos datos, estan:</p>
+<p>Se denomina analfabetismo funcional a la incapacidad de un individuo para utilizar su capacidad de lectura, escritura y cálculo de forma eficiente en las situaciones habituales de la vida. Se diferencia del analfabetismo en sentido estricto en que éste supone la incapacidad absoluta de leer o escribir frases sencillas en cualquier idioma.</p>
+<p>Poco entiendo la dinamis de cuales los criterios para declarar a un pais como libre del analfabetismo, por ello, basado en los conceptos mencionados me decidi buscar alguna fuente de informacion que permitiera acercarme a conocer como nos encontramos respecto al analfabetismo funcional y el analfabetismo. La fuente mas representativa y cercana a ello fue la Serie de las Encuestas de Demografía y Salud que se lleva a cabo en Bolivia desde 1989. y sus rondas son en 1994 1998, 2003 y 2008.</p>
+<p>Este encuesta se aproxima a calcular el analfabetismo funcional, realizando por un lado la pregunta clásica de “Sabe leer y escribir” y adicionando la lectura de un texto y siendo el encuestador quien define si no pudo leer, si leyó con dificultad o lee sin problemas. Mencionar características de la población para las cuales les mostrare las estadísticas.</p>
+<p>Para todos los años de la encuesta, en el caso de las mujeres el dato se restringe a un corte de edad de 15 a 64 años, para los hombres de 15 a 49, ademas, solo para los hombre se dispone de esa pregunta para los años 1998, 2003 y 2008, todo esto por las características propias de la encuesta.</p>
+<p>La base de datos que empleo corresponde a una base de datos que homologa toda la serie de la ENDSA ademas de recalibrar los factores de expansión para que puedan expandir a la población total de cada año.</p>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/t11.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/t11.png" class="img-fluid"></a></p>
+<p>Disculpas por la calidad de la tabla es algo complicado vincular Stata con un blog y lo unico que pude hacer es capturar la pantalla, lo interesante de este resultado son dos cosas, la primera, el analfabetismo funcional se esta reduciendo con el paso del tiempo, lo segundo, existe nomas un grupo alto de personas que no pueden leer y leen con dificultad que para el 2008 bordeaba los 331321 (167776+63640+60953+38952) personas, a esto habrá que sumar la población que no entra dentro del corte de edad permitido por las ENDSA y entra dentro del esquema de analfabetismo funcional.</p>
+<p>Analfabetismo funcional, Hombres de 15 a 49 Años. ENDSA, donde: 0 “No puede leer”, 1 “Lee con dificultad”, 2 “Lee Normal”</p>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/h1.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/h1.png" class="img-fluid"></a></p>
+<p>Analfabetismo funcional, Mujeres de 15 a 64 Años. ENDSA, donde: 0 “No puede leer”, 1 “Lee con dificultad”, 2 “Lee Normal”</p>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/h3.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/h3.png" class="img-fluid"></a></p>
+<p>El mensaje es: Existe aun una población elevada de personas analfabetas (funcionales en este caso) y por ende es necesario concentrarse en estas grupos para mejorar e impulsas mas políticas publicas que permitan mejorar esta situación.</p>
+<p>Y como decía Paulo Freire:</p>
+<p>Alfabetizarse no es aprender a repetir palabras, sino a decir su palabra</p>
+<p>La cultura no es atributo exclusivo de la burguesía. Los llamados “ignorantes” son hombres y mujeres cultos a los que se les ha negado el derecho de expresarse y por ello son sometidos a vivir en una “cultura del silencio”</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>Stata</category>
+  <category>muestreo</category>
+  <category>opinión</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2012-09-08-dia-internacional-de-la-alfabetizacion/</guid>
+  <pubDate>Sat, 08 Sep 2012 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>La necesidad de aplicar un control de calidad al Censo 2012 en Bolivia</title>
+  <link>https://alvarolimber.github.io/blog/posts/2012-06-25-la-necesidad-de-aplicar-un-control-de/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2012). <a href="https://miradaestadisticabolivia.wordpress.com/2012/06/25/la-necesidad-de-aplicar-un-control-de-calidad-al-censo-2012/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/pens.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/pens.jpg" class="img-fluid"></a></p>
+<p>Tener un censo cada diez años limita la capacidad de mejorar la experiencia del manejo de un operativo de esta naturaleza, por ende se debe explotar al máximo este momento en busca de ganar la mayor experiencia posible para mejorar los próximos operativos. En otras palabras existe la necesidad de aplicar un control de calidad a un censo de las magnitudes que tendrá el de noviembre en el país.</p>
+<p>El énfasis de un control de calidad en las distintas actividades del censo obedece a la necesidad de contar con herramientas estadísticas que midan la calidad de un proceso y retroalimenten al mismo, dado que la transparencia de un proceso es primordial para validar los resultados posteriores. En ese entendido, se deben implementar programas que verifiquen la calidad de las distintas fases censales y poner en debate la inclusión de procesos de calidad que corroboren y ayuden al fortalecimiento de los distintos procesos estadísticos del país.</p>
+<p><strong>PREGUNTAS CLAVES</strong></p>
+<ol type="1">
+<li>¿Cuáles son los procesos de control de calidad que se están realizando en las distintas fases del censo 2012?</li>
+<li>¿Quienes realizan el control de calidad?</li>
+<li>¿Cuál el criterio para definir que un proceso es de calidad o no?</li>
+<li>¿Cuántas y cuáles son las herramientas para medir calidad?</li>
+</ol>
+<p>Específicas</p>
+<ol type="1">
+<li>¿Cómo garantizan la cobertura y utilidad de la actualización cartográfica multipropósito?</li>
+<li>¿Cuál el nivel de homogeneidad de criterios entre los empadronadores?</li>
+<li>¿Cuándo se realizara la encuesta de verificación u oportunidad y quien la realizará?</li>
+<li>¿Se empleara alguna fuente de información proveniente de registros administrativos para contrastar los resultados del censo?</li>
+</ol>
+<p><strong>“Un proceso es de calidad en la medida que dicha calidad es medible y este dentro de un umbral permitido y definido previamente”.</strong></p>
+<p><strong>Alvaro Limber Chirino Gutierrez</strong></p>
+<p><strong>Investigador-Fundación ARU</strong></p>
+<p><a href="mailto:achirino@aru.org.bo" class="email">achirino@aru.org.bo</a></p>
+<p><strong>Mesa Técnica de Calidad</strong></p>
+<p><strong>La Ruta del Censo 2012</strong></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2012-06-25-la-necesidad-de-aplicar-un-control-de/</guid>
+  <pubDate>Mon, 25 Jun 2012 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hacia un Censo de Población y Vivienda con calidad y pertinencia, Bolivia 2012</title>
+  <link>https://alvarolimber.github.io/blog/posts/2012-06-01-hacia-un-censo-de-poblacion-y-vivienda/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2012). <a href="https://miradaestadisticabolivia.wordpress.com/2012/06/01/hacia-un-censo-de-poblacion-y-vivienda-con-calidad-y-pertinencia-bolivia-2012/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/dardos.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/dardos.jpg" class="img-fluid"></a></p>
+<p>Aqui les dejo el borrador del documeto de calidad que realice en la Mesa de calidad de la Ruta del Censo 2012</p>
+<p>La información estadística es muy importante y relevante para distintos actores internos y externos de un país, la pertinencia y calidad del dato será un ingrediente sumamente importante para que las decisiones que se tomen estén basadas en un contexto coherente. Existen diversas fuentes de información estadística, estas son:</p>
+<ul>
+<li>Censos (Cobertura total de una población)</li>
+<li>Encuestas por Muestreo (Cobertura parcial de una población)</li>
+<li>Registros administrativos (Cobertura total de una población)</li>
+</ul>
+<p>Estas tres fuentes se diferencian por tiempo y cobertura. Las tres fuentes son peculiares y útiles en un determinado contexto, las encuestas permiten abordar temáticas complejas, volatiles y diversas, los registros administrativos son útiles en información de salud y hechos vitales (nacimientos y muertes) y el censo es la herramienta de planicación por excelencia.</p>
+<p><strong>Control de calidad</strong></p>
+<p>La característica de tener un censo cada diez años limita la capacidad de mejorar la experiencia del manejo de un operativo de esta naturaleza, por ende se debe explotar al máximo este momento buscando lograr ganar la mayor experiencia posible para mejorar los próximos operativos. El énfasis en lograr tener un control de calidad en las distintas actividades censales obedece a la necesidad de contar con herramientas estadísticas que midan la calidad de un<br>
+proceso y retroalimenten al mismo.<br>
+La experiencia obtenida por los pasados censos en Bolivia y latinoamérica muestran la necesidad de mejorar ciertas actividades censales en particular, así mismo, se debe ir deniendo los actores primordiales que validen ciertas herramientas<br>
+y procesos estadísticos.</p>
+<p>La experiencia ganada de un operativo censal es una de las enseñanzas mas valiosas para un país, dado que permite conocer su realidad en cifras, sin embargo, la utilidad del censo como tal no queda en el operativo y el simple recuento de la población, sino que es un instrumento edicador de herramientas estadísticas nuevas y funciona como insumo para mejorar otros procesos estadísticos futuros y pasados del país, realizando esta division se presenta a continuación los procesos que emplean al censo como insumo o como materia prima, que es de suma importancia se realice con máxima prioridad al nalizar un operativo censal.</p>
+<ul>
+<li>Materia prima .</li>
+</ul>
+<ol type="1">
+<li>Marco muestral encuestas periódicas</li>
+<li>Marco muestral encuestas especiales</li>
+<li>Sistema geo-referencial de información estadística</li>
+</ol>
+<ul>
+<li>Insumo .</li>
+</ul>
+<ol type="1">
+<li>Proyecciones demográcas</li>
+<li>Reajuste de los factores de expansion de las encuestas pasadas</li>
+<li>Motor de las investigaciones del país</li>
+</ol>
+<p><strong>Omisión censal</strong></p>
+<p>Otra característica que vale la pena mencionar es la omisión censal, esta incidencia afecta de manera sustancial al concepto mismo de reconocimiento, dado que una persona omitida es una persona no reconocida por el estado, los siguientes gráficos muestran la omisión censal existente en las rondas de encuestas de 1990 y 2000 en países de la región.</p>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/oc90.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/oc90.jpg" class="img-fluid"></a></p>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/oc00.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/oc00.jpg" class="img-fluid"></a></p>
+<p>Ambas figuras nos muestran que Bolivia se sitúa en un punto medio entre los otros países respecto a la omisión, además de percibir una disminución de una ronda a otra, la omisión censal esta caracterizada según ONU, 2008, por factores endógenos y exógenos al operativo, los endógenos muestran una falta de control de calidad en los procesos de cartografía y el empadronamiento (duplicación, omisión), en el caso particular de omisión de viviendas esta relacionado estrictamente a dos factores, la pertinencia del proceso cartográco i.e.&nbsp;la distancia en tiempo entre la actualización cartográca y el empadronamiento, el otro factor es una cartografía con un sesgo de sub cobertura. En el caso de omisión de personas puede responder a factores relacionadas a la idiosincrasia de la gente (exógeno) o a un mal control de la residencia habitual en la boleta (endógeno)</p>
+<p><strong>Recomendaciones</strong></p>
+<p>Una característica muy común en la antesala de un censo es la prominente aparición de diferentes sectores de la sociedad que buscan incorporar en la boleta censal algunas preguntas que den cierta información de sus sectores, estas intenciones no pueden ser cubiertas por una boleta que persiguen un objetivo censal, sin embargo, existen herramientas estadísticas que han permitido a otras países lograr la inclusion de estos sectores en el proceso censal, esto se logra a través del diseño de un cuestionario extendido o largo que se aplica mediante técnicas de muestreo estadístico, Bolivia no tienen ninguna experiencia al respecto, pero a razón de que la demanda de diferentes sectores se ha incrementado y la constitución política del estado dene una variedad de temas a medir, seria un logro estadístico muy grande para el país poder contar con una boleta extendida para este próximo censo.</p>
+<p>En general, se debe tener la misión y vision de lograr un censo de calidad que transparente todo el proceso censal y establezca parámetros de calidad para futuros procesos, buscar también que la información sea difundida y publicada<br>
+en un periodo mínimo de tiempo, es decir buscar un proceso pertinente.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2012-06-01-hacia-un-censo-de-poblacion-y-vivienda/</guid>
+  <pubDate>Fri, 01 Jun 2012 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>En marcha un nuevo proceso censal, Chile 2012</title>
+  <link>https://alvarolimber.github.io/blog/posts/2012-05-11-en-marcha-un-nuevo-proceso-censal-chile/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2012). <a href="https://miradaestadisticabolivia.wordpress.com/2012/05/11/en-marcha-un-nuevo-proceso-censal-chile-2012/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<section id="section" class="level1">
+<h1><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/05/censo-1.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/05/censo-1.jpg" class="img-fluid"></a></h1>
+<p>El pasado 9 de abril Chile empezó un nuevo proceso censal, la principal peculiaridad de este nuevo censo es que ya no se lo realizara en un solo día como tradicionalmente lo hacia, ahora, el proceso de levantamiento de información, se lo lleva durante un intervalo de tiempo mas prolongado, inicia el 9 de abril y culminara el 30 de junio. En Bolivia todos debemos estar expectantes para aprender mas sobre este proceso, ya que el censo en Bolivia se lo llevara acabo muy pronto (Segun declaraciones del gobierno boliviano) y todos debemos velar que nuestro censo se lo lleve acabo en las mejores condiciones y alimentemos ese proceso en base a la experiencia de nuestro países vecinos.</p>
+<p>Para mas informacion del censo en Chile, puede visitar la <a href="http://www.censo.cl">pagina</a> oficial del censo. A continuación les presento un apartado de esa pagina, donde se lista las características del nuevo censo en el país vecino.</p>
+</section>
+<section id="nuevo-censo" class="level1">
+<h1>Nuevo Censo</h1>
+<ul>
+<li><ul>
+<li><ul>
+<li><h2 id="el-censo-es-necesario" class="anchored" data-anchor-id="nuevo-censo"><em>El Censo es Necesario</em></h2></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>La planificación presupuestaria y la creación, desarrollo e implementación de políticas públicas que favorecen a la ciudadanía en su totalidad, provienen de los datos obtenidos en <a href="http://www.ine.cl/canales/usuarios/censos_digitalizados.php">los censos</a>.</p>
+<p>Asimismo, dicho datos son necesarios para actualizar toda la información estadística con la que cuenta el país, con el fin de poder ofrecer a la ciudadanía la mejor información posible a la hora de tomar decisiones.</p>
+<ul>
+<li><ul>
+<li><ul>
+<li><h2 id="el-censo-es-más-moderno" class="anchored"><em>El Censo es más Moderno</em></h2></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>El <a href="http://www.censo.cl/2011/11/ine-publica-cuestionario-de-censo-2012-2/">Cuestionario Censal</a> ha sido actualizado a las necesidades que hoy enfrenta nuestro país. En ese sentido, en el Censo 2012 <strong>se preguntará por el Estado de Hecho, como la convivencia entre personas del mismo sexo</strong>; medio ambiente y reciclaje, uso de Internet e idiomas, tanto a nivel de pueblo originario como de bilingüismo.</p>
+<p>Además del cuestionario, la modernización que ha sufrido el proceso de levantamiento ha significado que<strong>Chile se ponga en línea con la realidad de los países desarrollados</strong>, ya que dentro de los estados pertenecientes a la Organización para la Cooperación y el Desarrollo Económicos (OCDE), nuestro país era el único que realizaba el Censo en un día. Es más, a nivel latinoamericano el 73% de los países ya no ejecuta este tipo de censos.</p>
+<ul>
+<li><ul>
+<li><ul>
+<li><h2 id="el-censo-es-más-seguro" class="anchored"><em>El Censo es más Seguro</em></h2></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Uno de los avances que se han realizado en materia de seguridad es la posibilidad que tendrá la ciudadanía de <strong>verificar la identidad del censista que entra a su casa</strong>. El INE ha desarrollado un <a href="http://www.ine.cl/encuestadores">Sistema de Verificación de Encuestadores</a> que con solo digitar el rut del censista se podrá saber si la persona pertenece o no a la institución.</p>
+<p>Junto con ello, el INE trabajará de manera coordinada con Carabineros para ofrecer mayor seguridad durante el proceso.</p>
+<p>Finalmente, La información entregada será totalmente confidencial y se utilizará exclusivamente para el Censo 2012. Para su tranquilidad, <strong>estos antecedentes están protegidos por el <a href="http://www.ine.cl/canales/corporativo/secreto_estadistico/secreto_estadistico.php">Secreto Estadístico</a>, según lo dispuesto en la Ley N° 17.374.</strong></p>
+<ul>
+<li><ul>
+<li><ul>
+<li><h2 id="el-censo-es-más-profesional" class="anchored"><em>El Censo es más profesional</em></h2></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>En la versión 2012 del Censo, el levantamiento de datos no estará a cargo de censistas voluntarios ya que <strong>el INE contratará y capacitará a casi 14 mil personas para que realicen esta función.</strong></p>
+<p>Al contar con dos meses de levantamiento, la cobertura será mucho mayor que la que se puede realizar en un día, por lo <strong>la calidad del dato censal que se obtendrá será mucho mejor.</strong></p>
+<p>El Censo 2012 significará un <strong>menor costo para el país</strong>, ya que un día feriado le cuesta a Chile unos US$ 200 millones, versus US$ 13 millones que es el costo de remunerar a los censistas por dos meses</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2012-05-11-en-marcha-un-nuevo-proceso-censal-chile/</guid>
+  <pubDate>Fri, 11 May 2012 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Sinergia entre el censo y las encuestas nacionales</title>
+  <link>https://alvarolimber.github.io/blog/posts/2012-03-29-sinergia-entre-el-censo-y-las-encuestas/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2012). <a href="https://miradaestadisticabolivia.wordpress.com/2012/03/29/sinergia-entre-el-censo-y-las-encuestas-nacionales/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/03/sin.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/03/sin.jpg" class="img-fluid"></a></p>
+<p>Presentarles el <a href="http://www.paginasiete.bo/2012-03-29/Opinion/Destacados/18Opi00229-03-12-P720120327JUE.aspx">artículo de opinión</a> que realice para pagina siete, referente a la sinergia que debe existir entre el Censo y las distintas encuesta que se realizan en un país, en este caso bajo el contexto del próximo censo en Bolivia.</p>
+<p>Desde 2001 hasta ahora se ha sobrepasado el periodo intercensal óptimo de 10 años y no se puede seguir dilatando el Censo Nacional de Población y Vivienda (CNPV) previsto para este 2012, asimismo está pendiente el Censo Agropecuario con un periodo intercensal de más de 28 años y un censo de establecimientos económicos.</p>
+<p>El censo es la herramienta básica de soporte para los futuros relevamientos de información y, por ende, una fuente muy importante para la generación de investigación basada en cifras y datos.</p>
+<p>Desde un punto vista técnico, las diferentes instituciones internacionales que velan la calidad de un proceso estadístico, tales como la CEPAL, la Eurostat, la Bureau of Census de Estados Unidos y otros organismos, recomiendan que “se debe generar sinergia entre el operativo censal y las diferentes rondas de encuestas nacionales que se realizan”.</p>
+<p>“Sinergia” debe ser entendida como un proceso bidireccional que inyecta energía entre dos procesos, es decir que las rondas de encuestas deben apoyar al censo y éste a su vez debe apoyar a las encuestas. Una buena encuesta depende de un buen censo, y viceversa.</p>
+<p>En Bolivia se realizan varias encuestas para medir temáticas variadas, entre las que destacan las encuestas dirigidas a hogares, como la anual Medición de las Condiciones de Vida (Mecovi), la Encuesta Nacional de Demografía y Salud (ENDSA), que se ejecuta cada cinco años aproximadamente y las encuestas especiales (trabajo infantil, de uso de la coca, empleo y la encuesta de uso de tiempo) que se hacen de manera esporádica.</p>
+<p>Por otra parte, también están las sectoriales, como la Encuesta Nacional Agropecuaria (ENA) y en el ámbito económico un sinfín de encuestas destinadas a los establecimientos económicos.</p>
+<p>Más allá de generar información específica, las encuestas deben permitir al Instituto Nacional de Estadística (INE) probar y optimizar herramientas, estrategias y procesos que pueden ser utilizados y ajustados para el censo. Es recomendable probar las preguntas en las boletas de las encuestas, ensayar estrategias de transcripción, actualizar paulatinamente la cartografía y crear un flujo de trabajo de las encuestas hacia el censo; es decir, “sinergia”.</p>
+<p>Más importante aún es el flujo del censo hacia las encuestas, por un hecho indiscutible y completamente técnico: el censo provee el marco maestro de muestreo para las futuras encuestas de la próxima década, y en el caso del censo agropecuario, para más de un cuarto de siglo. Por eso, un operativo censal inadecuado e impreciso genera un sesgo sistemático que irá en desmedro de la calidad y rigurosidad metodológica de las futuras encuestas.</p>
+<p>Por este motivo, se debe trabajar con mucho cuidado y detalle en el desarrollo del operativo censal, y se debe ser muy riguroso en el armado de los futuros marcos maestros de muestreo de viviendas, agropecuario y el de establecimientos, porque será garantía de encuestas de calidad, oportunas y coherentes.</p>
+<p>El INE no está a cargo exclusivamente de los operativos censales, sino también de generar y presentar las estadísticas, y mientras no planifica el censo, se supone que levanta información por medio de encuestas que alimentan y refuerzan el motor de investigaciones del país.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>muestreo</category>
+  <category>opinión</category>
+  <category>pensamiento estadístico</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2012-03-29-sinergia-entre-el-censo-y-las-encuestas/</guid>
+  <pubDate>Thu, 29 Mar 2012 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Uso del muestreo en los Censos de Población y Vivienda (PARTE IV)</title>
+  <link>https://alvarolimber.github.io/blog/posts/2012-03-05-uso-del-muestreo-en-los-censos-de/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2012). <a href="https://miradaestadisticabolivia.wordpress.com/2012/03/05/uso-del-muestreo-en-los-censos-de-poblacion-y-vivienda-parte-iv/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/03/golden-rule-title.jpg"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/03/golden-rule-title.jpg" class="img-fluid"></a></p>
+<p>Se debe tener siempre claro las potenciales errores asociados a cada técnica estadística, no es de extrañar la afirmación de que a mayor cobertura poblacional mayor el error de cobertura y a menor cobertura poblacional mayor error de muestreo. Por ende, se hace de suma importancia verificar los errores de cobertura asociados a un censo, a través de una encuesta por muestreo, buscando siempre controlar de la mejor forma los errores estadísticos asociados a este.</p>
+<p><strong>A. Características de las operaciones de muestreo aceptables</strong></p>
+<ol type="1">
+<li><ul>
+<li><strong>Exactitud y precisión:</strong> Debe hacerse la diferencia entre estos dos conceptos; la exactitud es medida por el margen de error, i.e.&nbsp;la distancia entre el parámetro y el estimador, la precisión es medida con el error estándar y se refiere al nivel de dispersión.</li>
+</ul></li>
+</ol>
+<div>
+<p>“Si bien pueden adoptarse técnicas para estimar las varianzas, la técnica concreta que se utilice deberá reflejar el diseño de la muestra utilizada”</p>
+</div>
+<ol type="1">
+<li><ul>
+<li><strong>Recursos censales:</strong> El éxito del muestreo en el censo esta enmarcado en el uso juicioso del equipo disponible y el enfoque de mejora de calidad., deberán responderse las preguntas ¿Es posible (costo)?, ¿Es necesario (competencia)?. Se hace de suma importancia la presencia indiscutible de un estadístico especialista en muestreo, para la orientación de este proceso.</li>
+</ul></li>
+</ol>
+<p><strong>B. El muestreo como parte integrante del censo</strong></p>
+<p>El muestreo llega a ser e instrumento auditor de cada fase del proceso y busca integrarlo y mejorarlo, las ramas en las que se desenvuelve son:</p>
+<ol type="1">
+<li><ul>
+<li><strong>Pruebas de los métodos censales:</strong> Sirve para elegir entre varias alternativas y metodos posibles. “Se prueba la viabilidad de herramientas” en situaciones especificas o generales. Para medir eficiencia se debe utilizar procedimientos de muestreo.</li>
+</ul></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li><ul>
+<li><strong>Enumeración de temas además de aquellos para los que se considera necesario un empadronamiento completo:</strong> Se tienen dos posibles alternativas para utilización de muestreo en temas especiales dentro de la boleta censal, a partir de la utilización de una boleta larga.</li>
+</ul>
+<ol type="1">
+<li>Se designa por anticipado un conjunto sistemático de hogares que recibirán un formulario largo (Control estadístico riguroso). Se tiene un menor error de muestreo pero se debe trabajar bastante en la capacitación</li>
+<li>Se designa muestras en zonas de empadronamiento largo. Se tiene mayor manejo en campo, tiene un incremento en varianza.</li>
+</ol></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li><ul>
+<li><strong>Encuestas de verificación y comprobación:</strong> Es uno de los procesos mas importantes dentro de un censo, debe pensarse en un método apropiado de muestreo , calcular con cierto grado de fiabilidad la sub-estimación del censo, a distintos niveles, pensar tal vez en una encuesta con cobertura sub-nacional, entre los requisitos mas importantes están:</li>
+</ul>
+<ol type="1">
+<li>El tiempo entre el censo y la encuesta debe ser mínimo</li>
+<li>Debe ser un proceso independiente al del censo</li>
+<li>Debe estar al margen de todas las personas involucradas en el operativo del censo</li>
+<li>Debe tener su propio sistema de procesamiento y evaluación</li>
+<li>Como herramienta imprescindible para la corrección de los errores en el censo y verificar correlaciones debe agendarse dentro del cronograma.</li>
+</ol></li>
+</ol>
+<div>
+<ol type="1">
+<li><ul>
+<li><strong>Programa de garantía y mejoramiento de la calidad:</strong> Las medidas de calidad comienzan antes del empadronamiento, diseño de cuestionarios, pruebas experimentales, revisión y codificación de los cuestionarios,tabulaciones, se debe buscar “Patrones sistemáticos” y “Sistemas sencillos de registros”</li>
+</ul></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li><ul>
+<li><strong>Tabulación anticipada de determinados temas:</strong> Pueden realizarse a través de muestreo, para tener los tabulados de forma oportuna obteniendo una muestra de la población total.</li>
+</ul></li>
+</ol>
+<!-- -->
+<ol type="1">
+<li><ul>
+<li><strong>Elaboración y tabulación definitivas:</strong> Se disponen de herramientas como CsPro y IMPS que permiten el manejo de grandes cantidades de datos.</li>
+</ul></li>
+</ol>
+</div>
+<p><strong>C. El censo como base para ulteriores encuestas por muestreo o programasde encuestas</strong></p>
+<p>El censo proporciona el marco maestro de muestreo, por lo tanto se debe exigir exactitud, exhaustividad y actualidad, buscar formas de sinergia, flujo, simbiosis entre el censo y otros procesos estadísticos (Encuestas)</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>muestreo</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2012-03-05-uso-del-muestreo-en-los-censos-de/</guid>
+  <pubDate>Mon, 05 Mar 2012 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Planificación, organización y administración de los censos de población y vivienda (PARTE III)</title>
+  <link>https://alvarolimber.github.io/blog/posts/2011-11-23-planificacion-organizacion-y-administracion-de-los-censos/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Publicado originalmente en el blog <em>Mirada Estadística</em> (2011). <a href="https://miradaestadisticabolivia.wordpress.com/2011/11/23/planificacion-organizacion-y-administracion-de-los-censos-de-poblacion-y-vivienda/">Ver entrada original</a>.</p>
+</div>
+</div>
+</div>
+<p><a href="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/11/dormir.png"><img src="https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/11/dormir.png" class="img-fluid"></a></p>
+<p>Para empezar, definamos las faces de un CENSO:</p>
+<ol type="1">
+<li>Labor preparatoria</li>
+<li>Empadronamiento</li>
+<li>Elaboración de los datos</li>
+<li>Creación de las bases de datos y la difusión</li>
+<li>Evaluación de los resultados</li>
+<li>Análisis de los resultados</li>
+</ol>
+<div>
+<p>Teniendo como bandera en todo el proceso, la buena practica de documentar toda la experiencia censal ganada.</p>
+</div>
+<div>
+<p><strong><em>A) LABOR PREPARATORIA</em></strong></p>
+</div>
+<div>
+<ol type="1">
+<li>Base legal del censo</li>
+<li>Base financiera del censo</li>
+<li>Presupuesto y control de gasto</li>
+<li>Calendario del censo</li>
+<li>Organización administrativa</li>
+<li>Actividades de comunicación del censo, consultas de los usuarios, publicidad, promoción.</li>
+<li>Planes para un programa de control y mejoramiento de la calidad</li>
+<li>Cartografía</li>
+<li>Identificación de zonas pequeñas</li>
+<li>Lista de locales de habitación y hogares</li>
+<li>Programa de tabulación y bases de datos</li>
+<li>Preparación del cuestionario</li>
+<li>Pruebas del censo</li>
+<li>Plan de empadronamiento</li>
+<li>Planes de elaboración de datos</li>
+<li>Planes para los productos del censo</li>
+<li>Contratación y formación del personal</li>
+<li>Definición de estrategias para evitar los sesgos basados en el sexo y de sesgos que afecten a los datos sobre poblaciones minoritarias</li>
+</ol>
+</div>
+<div>
+<p><strong><em>B) EMPADRONAMIENTO</em></strong></p>
+</div>
+<div>
+<ul>
+<li>Método de empadronamiento</li>
+</ul>
+<div>
+<p>Las opciones van desde una boleta auto-suministrada hasta una entrevista directa, se debe prever una estrategia para los grupos nómadas, estableciendo como información necesaria sus puntos de reuniones, la jerarquía interna, un punto de abastecimiento de agua un punto de campamento, etc.</p>
+</div>
+<ul>
+<li>Momento y duración del periodo de empadronamiento</li>
+</ul>
+<div>
+<p>Se debe buscar un periodo ideal que garantice el éxito del levantamiento de información, en lo posible evitar periodos afectados por la naturaleza</p>
+</div>
+<ul>
+<li>Supervisión</li>
+</ul>
+<div>
+<p>Se debe verificar la cantidad y la calidad del trabajo</p>
+</div>
+<ul>
+<li>Uso del muestreo en el empadronamiento</li>
+</ul>
+<div>
+<p>Se debe recurrir al muestreo para reunir información sobre cualquier tema que no haya necesidad tabular por zonas pequeñas o grupos</p>
+</div>
+<div>
+
+</div>
+</div>
+<div>
+<p><em><strong>C) ELABORACIÓN DE LOS DATOS:</strong> Permite lograr sinergia entre el personal encargado de la elaboración de los datos y los especialistas.</em></p>
+</div>
+<div>
+<ol type="1">
+<li>Método de elaboración</li>
+<li>Codificación</li>
+<li>Captura de datos</li>
+<li>Revisión de los datos -&gt; revisión detallada (Imputación? especialistas), revisión general (tablas cruces ,coherencia)</li>
+<li>Control de la elaboración -&gt; control de calidad</li>
+<li>Archivo principal para la tabulación -&gt; Disposición de la base</li>
+<li>Métodos de tabulación -&gt; Corresponde a los especialistas en cada tema, que verifican coherencia</li>
+<li>Resultados provisionales del censo -&gt; a través de los informes de los empadronadores</li>
+</ol>
+</div>
+<div>
+<p><em><strong>D) BASES DE DATOS:</strong> Esto sirve para facilitar el flujo y la pertinencia de la informacion</em></p>
+</div>
+<div>
+<ol type="1">
+<li>Bases de datos de micronivel (Individuos y hogares)</li>
+<li>Bases de datos de macronivel (Referido a bases de tablas de áreas)</li>
+<li>Sistema de información geográfica</li>
+</ol>
+</div>
+<div>
+<p><em><strong>E) DIFUSIÓN DE LOS RESULTADOS:</strong> Esta sujeta a:</em></p>
+</div>
+<div>
+<ul>
+<li>Garantia de la calidad</li>
+<li>Riesgo de divulgacion de datos sobre declaraciones identificables</li>
+<li>Derechos de autor y propiedad, esta ultima se refiere a:</li>
+</ul>
+<ol type="1">
+<li>Publicación de cuadros e informes impresos</li>
+<li>Difusión en medios informáticos</li>
+<li>Difusión en linea</li>
+<li>Derecho a la intimidad y confidencialidad</li>
+<li>Aceptación de los resultados</li>
+</ol>
+</div>
+<div>
+<p><strong><em>E) EVALUACIÓN DE LOS RESULTADOS</em></strong></p>
+</div>
+<div>
+<ul>
+<li>Propósito de la evaluación del censo</li>
+</ul>
+<div>
+<p>Verificar la calidad de los datos, medir sus errores de cobertura y contenido</p>
+</div>
+<ul>
+<li>Métodos de evaluación</li>
+</ul>
+<div>
+<p>Dependerá de los objetivos</p>
+</div>
+<ul>
+<li>Análisis demográfico para la evaluación del censo</li>
+</ul>
+<div>
+<p>Observar las distribuciones de edades por sexo y área</p>
+</div>
+<ul>
+<li>Encuesta de verificación</li>
+</ul>
+<div>
+<p>Es un nuevo empadronamiento en base a una muestra, sus objetivos son:</p>
+</div>
+<div>
+<ol type="1">
+<li>Evaluar el grado de cobertura del censo</li>
+<li>Los efectos de las deficiencias de cobertura</li>
+<li>Obtener información para el diseño de futuras operaciones</li>
+<li>Examinar las características de las personas que quizá no se hayan incluido en el empadronamiento</li>
+</ol>
+</div>
+<ul>
+<li>Repetición de las entrevistas</li>
+</ul>
+</div>
+<div>
+<p><em><strong>F) ANÁLISIS DE LOS RESULTADOS:</strong> Por un hecho de sociabilización se hace importante un programa de análisis especializada, previa a la difusión.</em></p>
+</div>
+<div>
+<p><em><strong>G) REGISTRO Y DIFUSIÓN SISTEMÁTICA DE LA EXPERIENCIA CENSAL:</strong> Para concluir todo este proceso, se debe realizar un informe final, sobre metodologías y administración que abarque todo el contenido del censo.</em></p>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a> ]]></description>
+  <category>censo</category>
+  <category>muestreo</category>
+  <category>Mirada Estadística</category>
+  <guid>https://alvarolimber.github.io/blog/posts/2011-11-23-planificacion-organizacion-y-administracion-de-los-censos/</guid>
+  <pubDate>Wed, 23 Nov 2011 04:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

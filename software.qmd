@@ -1,0 +1,19 @@
+---
+title: "Software y código"
+aliases:
+  - "/software/index.html"
+  - "/code.html"
+---
+
+Código abierto y materiales reproducibles. Todo mi código está en [{{< fa brands github >}} GitHub](https://github.com/AlvaroLimber).
+
+::: {.sw-card}
+#### Pobreza multidimensional en R {.unnumbered .unlisted}
+Código en R para el cálculo del índice de pobreza multidimensional y sus componentes.
+
+[{{< fa brands github >}} Repositorio](https://github.com/AlvaroLimber){.btn .btn-outline-primary .btn-sm}
+:::
+
+## Material de cursos
+
+Los libros de apuntes de mis materias (Minería de Datos, Psicoestadística, Big Data en R, Estadística I y II, entre otros) están en [Docencia → Apuntes en línea](docencia/index.qmd#apuntes-en-línea).

@@ -1,0 +1,26 @@
+---
+title: "Elecciones Bolivia 2014, un diagnóstico de la victoria de EVO con información municipal de las pasadas elecciones"
+date: 2014-10-15
+categories: ["electoral", "Mirada Estadística"]
+description: "El pasado domingo 12 de Octubre se celebraron las elecciones Nacionales en Bolivia, a la fecha de este articulo (14 de Octubre 2014) aun no existe…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2014). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2014/10/15/elecciones-bolivia-2014-un-diagnostico-de-la-victoria-de-evo-con-informacion-municipal-de-las-pasadas-elecciones/).
+:::
+
+El pasado domingo 12 de Octubre se celebraron las elecciones Nacionales en Bolivia, a la fecha de este articulo (14 de Octubre 2014) aun no existe los resultados oficiales, sin embargo, por las bocas de urna y los recuentos rápidos se sabe que el Movimiento al Socialismo (MAS) logro la victoria con alrededor del 60%. Al iniciar la campaña política era algo evidente que el MAS tenia un importante apoyo, dado que en las elecciones de 2009 logro un 64%.
+
+En este articulo pretendo hacer un diagnostico simple y sencillo de los antecedentes que marcaron la votación. Como motivación presento el gráfico siguiente que muestra la trayectoria municipal en el apoyo al MAS desde 1997 (Donde el MAS no participo) y concluye en la elección 2009, hay 3 momentos en el tiempo que refleja el gráfico, el cambio de 1997 al 2002 (rojo), el cambio de 2002 a 2005 (azul) y el cambio de 2005 a 2009 (negro), en todos los casos el eje horizontal corresponde al primer año y el vertical al segundo año, las flechas guindas marca la trayectoria de los municipios con mayor peso electoral (para el 2014) y el tamaño de los puntos expresa de manera visual ese peso electoral, también se emplea un código por encima de los puntos, este codigo corresponde a la identificación de los municipios, por ejemplo; 10101=Sucre, 20101=La Paz, 20105=El Alto, 30101=Cochabamba, 40101=Oruro, 50101= Potosi, 60101=Tarija, 70101=Santa Cruz, 80101=Trinidad. En al mayoría de los casos los puntos visibles son los municipios principales de cada departamento.
+
+Claramente se observa que el municipio de Santa Cruz es el mas importante electoralmente, seguido de La Paz, El Alto, etc. Respecto a las trayectorias es importante notar que en la mayoría de los casos existe una pendiente positiva, cada año electoral el apoyo municipal fue creciendo, el único caso visible de caída en el apoyo es el del municipio de Sucre (10101) que de un apoyo superior al 50% en 2005 cae al 40%, este efecto puede deberse a la asamblea constituyente que se desarrollo por esos años y que tuvo sede en Sucre y existieron ciertas tensiones políticas. Santa Cruz es el municipio mas relevante en cuanto a su peso electoral, sin embargo, es el municipio con el mas lento apoyo hacia el MAS, esto pudo haber sido el motivo por el cual existió una campaña tan insistente en esa región y los resultados actuales tienden a validar este argumento.
+
+Un aspecto que llama la atención en los resultados parciales de las elecciones 2014 es la baja en el apoyo en el departamento de La Paz, donde los municipios de La Paz y El Alto son los que aportan el mayor peso electoral, una explicación algo burda de esta baja puede ser simplemente el hecho de que no existió una campaña tan agresiva en esta región, dado que el apoyo en el 2009 se encontraba por encima del 80% en El Alto y cerca del 60% en La Paz, uno podría intuir que de existir una baja no seria tan acelerada y era estrategicamente mas eficiente insistir en Santa Cruz.
+
+[![trayectoria_mas](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/10/trayectoria_mas.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/10/trayectoria_mas.png)
+
+Para finalizar, presento un gráfico que muestra las tendencias de apoyo de los municipios a lo largo de las elecciones, cada linea representa a un municipio de los 339 que existen, las elecciones del 1997 marcan el inicio de apoyo en 0% dado que el MAS no participo y las flechas muestran el avance en el apoyo en porcentajes en la recta horizontal que limita de 0 a 100, en la mayoría o casi todos los casos se observa que de 2002 a 2005 el % de apoyo se incremento, y de 2005 a 2009 sucedió algo similar con la particularidad de que varios municipios bajaron su apoyo.
+
+[![otra_tray](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/10/otra_tray.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/10/otra_tray.png)
+
+Espero sus comentarios, y a seguir mirando los datos...

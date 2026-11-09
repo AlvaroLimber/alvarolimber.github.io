@@ -1,0 +1,42 @@
+---
+title: "Movimientos migratorios internos, a nivel departamental, Bolivia 2001 – 2012"
+date: 2014-11-14
+categories: ["R", "censo", "Mirada Estadística"]
+description: "Según el Diccionario Demográfico Multilingüe de la Unión Internacional para el Estudio Científico de la Población (iTtECP): “Se da el nombre de…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2014). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2014/11/14/movimientos-migratorios-internos-a-nivel-departamental-bolivia-2001-2012/).
+:::
+
+Según el Diccionario Demográfico Multilingüe de la Unión Internacional para el Estudio Científico de la\
+Población (iTtECP): "Se da el nombre de migración o movimiento migratorio, al desplazamiento, con traslado de residencia de los individuos, desde un lugar de origen a un lugar de destino o llegada y que implica atravesar\
+los límites de una división geográfica". Entendiendo como migración interna ese mismo desplazamiento, pero al interior de un país y entre sus unidades político administrativas (UPA).
+
+Existen tambien 2 principales conceptos dentro de la definición de migración: la inmigración y la emigración; la inmigración puede entenderse como el volúmen de personas que llegan a una unidad político administriva y provienen de otra y la emigración es el volúmen de personas que salen de una unidad político administrativa y se van a otras. En base al tiempo de permanencia en la UPA después del desplazamiento se definen algunos indicadores:
+
+1.  Migración de toda la vida: Total de personas que residen en una UPA distinta a la de UPA de nacimiento.
+2.  Migración reciente: Total de personas que residen en un UPA distinta a la residencia que tenían 5 años antes
+3.  Migración habitual: Total de personas que estan en un UPA distinta a la que reciden habitualmente
+
+Otro indicador interesante es el Saldo Migratorio, este se define como:
+
+SM(i)=total(inmigrantes(i))-total(emigrantes(i))
+
+Con SM(i) es el saldo migratoria de la UPA i. Este indicador puede ser "\>0" lo que implica que la UPA "i" es una unidad "atractiva" para desplazarse y si "SM(i)\<0" implica que la unidad "i" es "expulsora" puesto que los que se van (emigrantes) son mayores a los que llegan (inmigrantes).
+
+Finalmente, las fuentes de información para obtener estos indicadores pueden ser: (1) Registros administrativos, (2) Encuestas Nacionales y (3) Censo de Población, cada una con características particulares que permiten conocer los indicadores de migración.
+
+Este articulo presenta la migración de toda la vida, reciente y habitual para Bolivia, empleando a los Censos de Población 2001 y 2012, la UPA de interés corresponde a los departamentos, esta unidad es la primera unidad político administrativa despues del Estado Central, Bolivia tiene 9 departamentos. Con la finalidad de observar los desplazamientos de manera mas visual se empleo gráficos circulares que muestran los desplazamientos (generados en R). Estos gráficos muestran la inmigración y emigración por departamento además de presentar los saldos migratorios. Tener en cuenta que Bolivia tiene una población de 10,059,856 habitantes.
+
+**MIGRACIÓN DE TODA LA VIDA:** Por los saldos migratorios se evidencia que los departamentos de Santa Cruz, Tarija, Pando y Cochabamba son las UPA atractivas, y parece que la tendencia no cambio de un censo a otro, siendo Santa Cruz el Departamento con un mayor saldo positivo (casi medio millon), otro caso interesante es el de Pando, que logra para el 2012 un saldo migratorio de 6 veces mas que el 2001. Finalmente. La Paz, Potosi y Beni, que tienen saldos negativos presentan una fuerte migración interna, esto es, existen desplazamientos entre sus municipios al interior de esos departamentos (los municipios son las UPA menores)
+
+[![mvida01_001](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mvida01_001.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mvida01_001.png) [![mvida12_001](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mvida12_001.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mvida12_001.png)
+
+**MIGRACIÓN DE RECIENTE:** Similar a la migración de todo la vida en el signo de los saldos migratorios, salvo el caso de Oruro que pasa de tener un saldo negativo de -15824 en 2001 a 162 el 2012**.**
+
+[![mreciente01_001](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mreciente01_001.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mreciente01_001.png) [![mreciente12_001](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mreciente12_001.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mreciente12_001.png)
+
+**MIGRACIÓN HABITUAL:** Claramente los saldos migratorios varian de signo y magnitud de un censo a otro, lo llamativo de los gráficos es el fuerte desplazamiento interno en los departamentos, que puede deberse al fenomeno propio del Censo, donde mucha gente posiblemente se desplaza a otros municipios para hacerse censar, no por nada el censo se considera como la mayor movilización civil de una Nación en tiempos de paz.
+
+[![mhabitual01_001](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mhabitual01_001.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mhabitual01_001.png) [![mhabitual12_001](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mhabitual12_001.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/mhabitual12_001.png)

@@ -1,0 +1,50 @@
+---
+title: "Día Internacional de la alfabetización"
+date: 2012-09-08
+categories: ["Stata", "muestreo", "opinión", "pensamiento estadístico", "Mirada Estadística"]
+description: "Parafrasenado el mensaje del Secretario General Naciones Unidas Ban Ki-moon, en conmemoración de este día: La alfabetización proporciona herramientas…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2012). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2012/09/08/dia-internacional-de-la-alfabetizacion/).
+:::
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/alfa.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/alfa.jpg)
+
+Parafrasenado el mensaje del Secretario General Naciones Unidas Ban Ki-moon, en conmemoración de este día:
+
+La alfabetización proporciona herramientas para que los hombres y las mujeres puedan comprender mejor el mundo y moldearlo a fin de lograr sus aspiraciones. Es fuente de dignidad humana y motor del desarrollo saludable de la sociedad. El Día Internacional de la Alfabetización es una oportunidad para celebrar esta fuerza transformadora y movilizarnos con miras a aprovecharla al máximo
+
+Por ello mi interés de mostrarles algunas estadísticas interesantes sobre este día en Bolivia. Para los que no lo saben, desde el 2006 , se puso en marcha el programa de alfabetización "Yo si Puedo " que entre sus objetivos esta el de lograr que las personas aprendan a leer y escribir que logra que la UNESCO en 2008 declare a Bolivia "Territorio libre de analfabetismo". Posterior a ello se lanza la continuación del programa denominado "Yo si puedo seguir" .
+
+Definiendo algunos conceptos que me parecen muy importantes antes de mostrarles algunos datos, estan:
+
+Se denomina analfabetismo funcional a la incapacidad de un individuo para utilizar su capacidad de lectura, escritura y cálculo de forma eficiente en las situaciones habituales de la vida. Se diferencia del analfabetismo en sentido estricto en que éste supone la incapacidad absoluta de leer o escribir frases sencillas en cualquier idioma.
+
+Poco entiendo la dinamis de cuales los criterios para declarar a un pais como libre del analfabetismo, por ello, basado en los conceptos mencionados me decidi buscar alguna fuente de informacion que permitiera acercarme a conocer como nos encontramos respecto al analfabetismo funcional y el analfabetismo. La fuente mas representativa y cercana a ello fue la Serie de las Encuestas de Demografía y Salud que se lleva a cabo en Bolivia desde 1989. y sus rondas son en 1994 1998, 2003 y 2008.
+
+Este encuesta se aproxima a calcular el analfabetismo funcional, realizando por un lado la pregunta clásica de "Sabe leer y escribir" y adicionando la lectura de un texto y siendo el encuestador quien define si no pudo leer, si leyó con dificultad o lee sin problemas. Mencionar características de la población para las cuales les mostrare las estadísticas.
+
+Para todos los años de la encuesta, en el caso de las mujeres el dato se restringe a un corte de edad de 15 a 64 años, para los hombres de 15 a 49, ademas, solo para los hombre se dispone de esa pregunta para los años 1998, 2003 y 2008, todo esto por las características propias de la encuesta.
+
+La base de datos que empleo corresponde a una base de datos que homologa toda la serie de la ENDSA ademas de recalibrar los factores de expansión para que puedan expandir a la población total de cada año.
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/t11.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/t11.png)
+
+Disculpas por la calidad de la tabla es algo complicado vincular Stata con un blog y lo unico que pude hacer es capturar la pantalla, lo interesante de este resultado son dos cosas, la primera, el analfabetismo funcional se esta reduciendo con el paso del tiempo, lo segundo, existe nomas un grupo alto de personas que no pueden leer y leen con dificultad que para el 2008 bordeaba los 331321 (167776+63640+60953+38952) personas, a esto habrá que sumar la población que no entra dentro del corte de edad permitido por las ENDSA y entra dentro del esquema de analfabetismo funcional.
+
+Analfabetismo funcional, Hombres de 15 a 49 Años. ENDSA, donde: 0 "No puede leer", 1 "Lee con dificultad", 2 "Lee Normal"
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/h1.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/h1.png)
+
+Analfabetismo funcional, Mujeres de 15 a 64 Años. ENDSA, donde: 0 "No puede leer", 1 "Lee con dificultad", 2 "Lee Normal"
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/h3.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/09/h3.png)
+
+El mensaje es: Existe aun una población elevada de personas analfabetas (funcionales en este caso) y por ende es necesario concentrarse en estas grupos para mejorar e impulsas mas políticas publicas que permitan mejorar esta situación.
+
+Y como decía Paulo Freire:
+
+Alfabetizarse no es aprender a repetir palabras, sino a decir su palabra
+
+La cultura no es atributo exclusivo de la burguesía. Los llamados "ignorantes" son hombres y mujeres cultos a los que se les ha negado el derecho de expresarse y por ello son sometidos a vivir en una "cultura del silencio"

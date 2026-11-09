@@ -1,0 +1,39 @@
+---
+title: "El Comportamiento Electoral Municipal en las Elecciones Nacionales de 2002, 2005 y 2009 en Bolivia"
+date: 2014-09-19
+categories: ["electoral", "Mirada Estadística"]
+description: "El próximo 12 de Octubre de 2014 se celebran las Elecciones Nacionales en Bolivia, existen 5 frentes políticos en competencia. Considero que es un…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2014). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2014/09/19/el-comportamiento-electoral-municipal-en-las-elecciones-nacional-de-2002-2005-y-2009-en-bolivia/).
+:::
+
+El próximo 12 de Octubre de 2014 se celebran las Elecciones Nacionales en Bolivia, existen 5 frentes políticos en competencia. Considero que es un aspecto a destacar es la reducción de candidatos participantes, puesto que en elecciones pasadas como la de 1993 existían 14 candidatos.
+
+Otro detalle interesante es que 3 de los 5 candidatos presidenciales actuales ya participaron en elecciones pasadas también como candidatos presidenciales, tal es el caso de Evo Morales (4ta participación), Doria Medina (3ra Participación) y Jorge Quiroga (2da Participación).
+
+A unas cuantas semanas de las elecciones están circulando por los medio los resultados de intensión de voto para esta elección, y como era de esperar los tres candidatos con mas apoyo son los que participaron al menos una vez en las elecciones pasadas.
+
+Como estadístico, es llamativo tratar de predecir los resultados de las próximas elecciones, puesto que existen los insumos para hacer una predicción decente, espero terminar el modelo antes de las elecciones y publicarlo a pocos días de la elección, pero mientras trabajo en eso, he preparado un limitado y rápido análisis descriptivo multivariante a nivel de los municipios para cada departamento, con la intensión de identificar las agrupaciones de municipios respecto al apoyo a dos candidatos: Evo Morales y Doria Medina en las ultimas 3 elecciones Nacionales, 2002, 2005 y 2009. Se realizo un análisis cluster, se identificaron 3 grupos en base al análisis y se obtuvieron los porcentajes de apoyo para cada grupo en cada una de las elecciones Nacionales. Las figuras siguientes resumen los resultados encontrados, dejo al criterio de los lectores la interpretación y si existe alguna pregunta no duden en escribirme o comentar el articulo.
+
+**CHUQUISACA**
+
+[![masun1](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun1.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun1.png)
+
+**LA PAZ**\
+[![masun2](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun2.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun2.png)
+
+**COCHABAMBA**[![masun3](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun3.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun3.png)
+
+**ORURO**[![masun4](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun4.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun4.png)
+
+**POTOSI**[![masun5](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun5.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun5.png)
+
+**TARIJA**[![masun6](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun6.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun6.png)
+
+**SANTA CRUZ**[![masun7](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun7.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun7.png)
+
+**BENI**[![masun8](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun8.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun8.png)
+
+**PANDO**[![masun9](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun9.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/09/masun9.png)

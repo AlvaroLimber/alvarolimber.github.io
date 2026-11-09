@@ -1,0 +1,220 @@
+---
+title: "Planificación, organización y administración de los censos de población y vivienda (PARTE III)"
+date: 2011-11-23
+categories: ["censo", "muestreo", "Mirada Estadística"]
+description: "Para empezar, definamos las faces de un CENSO: Labor preparatoria Empadronamiento Elaboración de los datos Creación de las bases de datos y la…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2011). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2011/11/23/planificacion-organizacion-y-administracion-de-los-censos-de-poblacion-y-vivienda/).
+:::
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/11/dormir.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2011/11/dormir.png)
+
+Para empezar, definamos las faces de un CENSO:
+
+1.  Labor preparatoria
+2.  Empadronamiento
+3.  Elaboración de los datos
+4.  Creación de las bases de datos y la difusión
+5.  Evaluación de los resultados
+6.  Análisis de los resultados
+
+<div>
+
+Teniendo como bandera en todo el proceso, la buena practica de documentar toda la experiencia censal ganada.
+
+</div>
+
+<div>
+
+***A) LABOR PREPARATORIA***
+
+</div>
+
+<div>
+
+1.  Base legal del censo
+2.  Base financiera del censo
+3.  Presupuesto y control de gasto
+4.  Calendario del censo
+5.  Organización administrativa
+6.  Actividades de comunicación del censo, consultas de los usuarios, publicidad, promoción.
+7.  Planes para un programa de control y mejoramiento de la calidad
+8.  Cartografía
+9.  Identificación de zonas pequeñas
+10. Lista de locales de habitación y hogares
+11. Programa de tabulación y bases de datos
+12. Preparación del cuestionario
+13. Pruebas del censo
+14. Plan de empadronamiento
+15. Planes de elaboración de datos
+16. Planes para los productos del censo
+17. Contratación y formación del personal
+18. Definición de estrategias para evitar los sesgos basados en el sexo y de sesgos que afecten a los datos sobre poblaciones minoritarias
+
+</div>
+
+<div>
+
+***B) EMPADRONAMIENTO***
+
+</div>
+
+<div>
+
+-   Método de empadronamiento
+
+<div>
+
+Las opciones van desde una boleta auto-suministrada hasta una entrevista directa, se debe prever una estrategia para los grupos nómadas, estableciendo como información necesaria sus puntos de reuniones, la jerarquía interna, un punto de abastecimiento de agua un punto de campamento, etc.
+
+</div>
+
+-   Momento y duración del periodo de empadronamiento
+
+<div>
+
+Se debe buscar un periodo ideal que garantice el éxito del levantamiento de información, en lo posible evitar periodos afectados por la naturaleza
+
+</div>
+
+-   Supervisión
+
+<div>
+
+Se debe verificar la cantidad y la calidad del trabajo
+
+</div>
+
+-   Uso del muestreo en el empadronamiento
+
+<div>
+
+Se debe recurrir al muestreo para reunir información sobre cualquier tema que no haya necesidad tabular por zonas pequeñas o grupos
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+<div>
+
+***C) ELABORACIÓN DE LOS DATOS:** Permite lograr sinergia entre el personal encargado de la elaboración de los datos y los especialistas.*
+
+</div>
+
+<div>
+
+1.  Método de elaboración
+2.  Codificación
+3.  Captura de datos
+4.  Revisión de los datos -\> revisión detallada (Imputación? especialistas), revisión general (tablas cruces ,coherencia)
+5.  Control de la elaboración -\> control de calidad
+6.  Archivo principal para la tabulación -\> Disposición de la base
+7.  Métodos de tabulación -\> Corresponde a los especialistas en cada tema, que verifican coherencia
+8.  Resultados provisionales del censo -\> a través de los informes de los empadronadores
+
+</div>
+
+<div>
+
+***D) BASES DE DATOS:** Esto sirve para facilitar el flujo y la pertinencia de la informacion*
+
+</div>
+
+<div>
+
+1.  Bases de datos de micronivel (Individuos y hogares)
+2.  Bases de datos de macronivel (Referido a bases de tablas de áreas)
+3.  Sistema de información geográfica
+
+</div>
+
+<div>
+
+***E) DIFUSIÓN DE LOS RESULTADOS:** Esta sujeta a:*
+
+</div>
+
+<div>
+
+-   Garantia de la calidad
+-   Riesgo de divulgacion de datos sobre declaraciones identificables
+-   Derechos de autor y propiedad, esta ultima se refiere a:
+
+1.  Publicación de cuadros e informes impresos
+2.  Difusión en medios informáticos
+3.  Difusión en linea
+4.  Derecho a la intimidad y confidencialidad
+5.  Aceptación de los resultados
+
+</div>
+
+<div>
+
+***E) EVALUACIÓN DE LOS RESULTADOS***
+
+</div>
+
+<div>
+
+-   Propósito de la evaluación del censo
+
+<div>
+
+Verificar la calidad de los datos, medir sus errores de cobertura y contenido
+
+</div>
+
+-   Métodos de evaluación
+
+<div>
+
+Dependerá de los objetivos
+
+</div>
+
+-   Análisis demográfico para la evaluación del censo
+
+<div>
+
+Observar las distribuciones de edades por sexo y área
+
+</div>
+
+-   Encuesta de verificación
+
+<div>
+
+Es un nuevo empadronamiento en base a una muestra, sus objetivos son:
+
+</div>
+
+<div>
+
+1.  Evaluar el grado de cobertura del censo
+2.  Los efectos de las deficiencias de cobertura
+3.  Obtener información para el diseño de futuras operaciones
+4.  Examinar las características de las personas que quizá no se hayan incluido en el empadronamiento
+
+</div>
+
+-   Repetición de las entrevistas
+
+</div>
+
+<div>
+
+***F) ANÁLISIS DE LOS RESULTADOS:** Por un hecho de sociabilización se hace importante un programa de análisis especializada, previa a la difusión.*
+
+</div>
+
+<div>
+
+***G) REGISTRO Y DIFUSIÓN SISTEMÁTICA DE LA EXPERIENCIA CENSAL:** Para concluir todo este proceso, se debe realizar un informe final, sobre metodologías y administración que abarque todo el contenido del censo.*
+
+</div>

@@ -1,0 +1,18 @@
+---
+title: "El Alto, un municipio complejo en sus preferencias electorales"
+date: 2014-11-21
+categories: ["electoral", "opinión", "pensamiento estadístico", "Mirada Estadística"]
+description: "El 2015 se vienen las elecciones sub nacionales en Bolivia, y uno de los municipios mas intrigantes en cuanto a su preferencia electoral sera El…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2014). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2014/11/21/el-alto-un-municipio-complejo-en-sus-preferencias-electorales/).
+:::
+
+[![eleccion_001](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/eleccion_001.png)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/11/eleccion_001.png)El 2015 se vienen las elecciones sub nacionales en Bolivia, y uno de los municipios mas intrigantes en cuanto a su preferencia electoral sera El Alto, esto por dos simples razones, (1) en las elecciones 2005 el partido que gano fue el Plan Progreso (PP) con mas del 50%, logrando la re-elección del alcalde, en la misma elección el MAS logro cerca del 17%. El candidato conocido como Pepelucho del PP se postulo luego, en las elecciones de 2010 como gobernador del departamento de La Paz, donde, gano pero fue revocado por medio de un referendum, (2) Las ultimas elecciones municipales fueron el 2010, donde dada la ausencia del partido Plan Progreso, los principales partidos en las elecciones fueron el MAS con el candidato Edgar Patana, el UN con la candidata Soledad Chapeton y el MSM con el candidato Abel Mamani. Esa elección la gano el MAS pero con un apretado resultado que no llego ni al 40%, muchos analistas coinciden que su victoria no se debe a un aspecto estrictamente personal, sino mas bien, a un efecto derrame provocado por la popularidad del Presidente Evo Morales que en las elecciones Nacionales de 2009 logra en El Alto un apoyo de mas del 70%, sin embargo, un año después ese apoyo no se refleja tan nitidamente en las elecciones de Alcalde.
+
+Es por ello que resulta interesante analizar como voto el El Alto la pasada elección, es así que diseñe el gráfico que muestra la votación en porcentajes en cada zona de El Alto en orden del partido que logro mas apoyo. Se consideran las tres primeras fuerzas, el MAS (de color azul), UN (de color amarillo) y el MSM (de color verde), las 3 lineas verticales de la derecha son el porcentaje obtenido por cada partido en cada zona, en la primera linea vertical se anotan las zonas y se dibuja un punto rojo, cuyo tamaño expresa la importancia de la zona, entendiendo como importancia, la cantidad de votantes.
+
+Se aprecia claramente la inexistencia de un apoyo solido a algún partido especifico por zona, y dada la coyuntura nos encontramos en una situación similar a la anterior elección, el MAS viene de ganar las elecciones nacionales el 2014 con un porcentaje elevado en la ciudad de El Alto.
+
+Sin ningún candidato proclamado hasta el momento parece una recomendación coherente buscar un personaje diferente a los establecidos en la pasada elección puesto que polariza el voto y no logra un poyo contundente del Municipio, a menos que se piense y se tenga alguna certeza de que alguno de los tres pasados candidatos a logrado incrementar su caudal de voto de manera significativa. De manera personal considero que la polarización se debió a que 2 de los candidatos representaban a sectores específicos y esa característica contribuyo a esa división, eso, basado en que el 2005 Pepelucho gano fácilmente con mas del 50% y el no tenia ninguna afiliación o sesgo evidente a un sector en especifico. El ejemplo de que ese modelo funciona es la alcaldía de La Paz con Revilla.

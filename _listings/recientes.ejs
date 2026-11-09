@@ -1,0 +1,8 @@
+<ul class="list-unstyled">
+<% for (const item of items) { %>
+  <li class="mb-2" <%= metadataAttrs(item) %>>
+    <span class="text-muted small"><%= item.date %></span><br>
+    <a href="<%- item.path %>"><%= item.title %></a>
+  </li>
+<% } %>
+</ul>

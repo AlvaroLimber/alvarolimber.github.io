@@ -1,0 +1,28 @@
+---
+title: "Censo, encuestas por muestreo y el criterio de representatividad"
+date: 2013-04-02
+categories: ["censo", "muestreo", "pensamiento estadístico", "Mirada Estadística"]
+description: "En noviembre del pasado año se celebro en Bolivia el maximo evento estadístico que un país puede llevar acabo, se realizo el Censo Nacioal de…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2013). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2013/04/02/censo-encuestas-por-muestreo-y-el-criterio-de-representatividad/).
+:::
+
+[![statistics](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/04/statistics.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/04/statistics.jpg)
+
+En noviembre del pasado año se celebro en Bolivia el maximo evento estadístico que un país puede llevar acabo, se realizo el Censo Nacioal de Poblacion y Vivienda, cabe mencionar que existieron bastantes suceptibilidades al respecto, dado que muchas personas e instituciones observaron previamente aspectos como la pertinencia de la cartografia, el proceso reclutamiento del personal, etc. Sumar a todo ello que lastimimosamente no se realizo la encuesta ex-post de cobertura que tradicionalmente busca comprender la magnitud de los errores de cobertura y contenido de un censo, lastimosamente porque? la alternativa para conocer estos errores si no se realiza una encuesta de cobertura es un análisis demográfico, que emplea registros administrativos y proyecciones en base a los anteriores censos, pero el problema con ello esta en que el pasado 23 de enero de 2013 se dieron algunos resultados preliminares del censo arrojando una diferencia de casi medio millon hacia abajo de las proyecciones demográficas, dato que me hace pensar que el análisis demográfico que se haga estara sin duda influenciado por sesgos sistemáticos fuertes que pueden provenir de las proyecciones.
+
+Pensemos que el dato preliminar no variaria demasiado del verdadero... existe una llamada de atención para cualquier persona con sentido comun, creo yo, ¿cómo es posible lograr una diferencia de casi medio millon de personas respecto al dato preliminar del censo y las proyecciones? mas aun si Bolivia es un país que tenia en 2001 al rededor de 8 millones y un poco mas de habitantes, de manera clara: **no puede haber un error tan grande**, para explicar estas diferencias yo puedo atribuir ciertos errores al:
+
+1.  Conteo preliminar un tanto precario
+2.  Alta omisión censal
+3.  Técnicas de proyección poco robustas
+
+Representantes del INE advirtieron que el conteo conto con altos estandares de calidad, que no es verificable hasta que se cuente con algún documento técnico, pero considerando que eso es cierto, nos quedan dos alternativas, o hubo una omisión muy fuerte o las técnicas de proyección empleadas no son lo suficientemente robustas.
+
+Respecto a la posible alta omision censal una empresa de encuestas realizo un estudio en todo el país, que arroja como resultados una cobertura del censo del 97%, personalmente me llama la atención el diseño muestral de dicha encuesta y el concepto de representatividad que ciertas instituciones manejan que ya lo comentare en un articulo exclusivo. Dicha encuesta afirma tener representatividad con una muestra de aproximadamente 2000 personas.
+
+Nuevamente un supuesto, imaginemos que la estimacion de la cobertura del 97% es cierta, si es asi, al conteo preliminar del censo se debe añadir un 3% de población para pensar que esa es la población real en Bolivia, lo que logra 10711251 que difiere de las proyecciones en unos 100 mil habitantes, que es ya algo aceptable y se podria afirmar que las proyecciones del INE se acercaron.
+
+Lastimisamente todas mis afirmaciones estan condicionadas por supuestos, pero sirve de manera didactica para comprender como aveces pueden sincronizar y complementarse distintas técnicas estadísticas, un censo, una encuesta y una proyección.

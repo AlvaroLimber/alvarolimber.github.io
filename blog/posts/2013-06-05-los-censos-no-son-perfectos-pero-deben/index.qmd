@@ -1,0 +1,28 @@
+---
+title: "Los Censos no son Perfectos, pero deben ser transparentes"
+date: 2013-06-05
+categories: ["censo", "muestreo", "pensamiento estadístico", "Mirada Estadística"]
+description: "Cualquier censo de población, vivienda, establecimientos económicos, agropecuario u otra unidad de análisis, significa un gran esfuerzo y desafío…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2013). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2013/06/05/los-censos-no-son-perfectos-pero-deben-ser-transparentes/).
+:::
+
+[![censo2](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/06/censo2.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/06/censo2.jpg)
+
+Cualquier censo de población, vivienda, establecimientos económicos, agropecuario u otra unidad de análisis, significa un gran esfuerzo y desafío para los institutos de estadística de cada país. En materia de calidad y metodología, los países del "primer mundo" son los mejores referentes, porque siguen recomendaciones basadas en su experiencia y reflexión de los distintos organismos internacionales.
+
+En la región sudamericana, en el marco de la Ronda de Censos 2010, empiezan a visibilizarse situaciones que llaman la atención respecto a la calidad y confiabilidad de los procesos y los resultados censales, tal es el caso de Perú, donde el expresidente Alan García observó los resultados y dijo literalmente: "Ese censo ha sido definitivamente una estafa", y ordenó llevar a cabo otro censo que se concretó en 2007 (se rehízo el censo).
+
+En ese país las observaciones surgieron a partir de una posible subestimación de la población y una percepción de varios analistas de una alta omisión censal. El costo político conllevó al alejamiento del director y el ministro a cargo que no reconocieron a tiempo los cuestionamientos.
+
+Recientemente en Chile se denunció la presunta manipulación de los resultados censales, por una significativa diferencia entre el número de habitantes respecto de las proyecciones, que llevó al cuestionamiento de la credibilidad de los resultados censales y que el "mejor censo de la historia de Chile" quede desprestigiado. Tal fue el impacto de este hecho, que ahora se realizan auditorías externas al censo, se cerró temporalmente el portal de internet del censo y se comienza a cuestionar la credibilidad del cálculo del IPC.
+
+Estos antecedentes en países cercanos, con presumiblemente infraestructuras estadísticas superiorers a la boliviana deben convocarnos fuertemente a la reflexión respecto a las debilidades técnicas observadas durante el proceso censal, sumar a esto la ausencia de una encuesta de cobertura poscensal y sus efectos en la calidad de los resultados censales.
+
+La ONU, en un informe reciente (Report on the Results of a Survey on Census Methods used by Countries in the 2010 Census Round), en el apartado sobre las técnicas de cálculo de los errores en los censos, reportó que el 78% de los países entrevistados (124 naciones de todo el mundo) realizó una encuesta de cobertura poscensal y sólo el 16% empleó métodos demográficos (que se aplicaría en el país), y en América Latina (14 países) el 57% realizó encuesta de cobertura y el 21% utilizó la técnica demográfica.
+
+Los operativos censales no son perfectos en todas sus dimensiones y con seguridad el boliviano tampoco lo será, pero hay que tomar en cuenta las experiencias de los países vecinos para reflexionar y mejorar la imagen institucional para que se construya credibilidad justificada en la población.
+
+La estadística es una ciencia exacta y maravillosa que ofrece mecanismos innumerables que permiten tratar información precaria con el fin de lograr indicadores transparentes que reflejen de manera acorde una realidad, y se debe tener claro que las mejores políticas públicas son las que se construyen con información transparente, correcta y oportuna.

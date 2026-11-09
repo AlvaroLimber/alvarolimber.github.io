@@ -1,0 +1,42 @@
+---
+title: "La necesidad de aplicar un control de calidad al Censo 2012 en Bolivia"
+date: 2012-06-25
+categories: ["censo", "pensamiento estadístico", "Mirada Estadística"]
+description: "Tener un censo cada diez años limita la capacidad de mejorar la experiencia del manejo de un operativo de esta naturaleza, por ende se debe explotar…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2012). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2012/06/25/la-necesidad-de-aplicar-un-control-de-calidad-al-censo-2012/).
+:::
+
+[![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/pens.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/06/pens.jpg)
+
+Tener un censo cada diez años limita la capacidad de mejorar la experiencia del manejo de un operativo de esta naturaleza, por ende se debe explotar al máximo este momento en busca de ganar la mayor experiencia posible para mejorar los próximos operativos. En otras palabras existe la necesidad de aplicar un control de calidad a un censo de las magnitudes que tendrá el de noviembre en el país.
+
+El énfasis de un control de calidad en las distintas actividades del censo obedece a la necesidad de contar con herramientas estadísticas que midan la calidad de un proceso y retroalimenten al mismo, dado que la transparencia de un proceso es primordial para validar los resultados posteriores. En ese entendido, se deben implementar programas que verifiquen la calidad de las distintas fases censales y poner en debate la inclusión de procesos de calidad que corroboren y ayuden al fortalecimiento de los distintos procesos estadísticos del país.
+
+**PREGUNTAS CLAVES**
+
+1.   ¿Cuáles son los procesos de control de calidad que se están realizando en las distintas fases del censo 2012?
+2.   ¿Quienes realizan el control de calidad?
+3.   ¿Cuál el criterio para definir que un proceso es de calidad o no?
+4.   ¿Cuántas y cuáles son las herramientas para medir calidad?
+
+Específicas
+
+1.   ¿Cómo garantizan la cobertura y utilidad de la actualización cartográfica multipropósito?
+2.   ¿Cuál el nivel de homogeneidad de criterios entre los empadronadores?
+3.   ¿Cuándo se realizara la encuesta de verificación u oportunidad y quien la realizará?
+4.   ¿Se empleara alguna fuente de información proveniente de registros administrativos para contrastar los resultados del censo?
+
+**"Un proceso es de calidad en la medida que dicha calidad es medible y este dentro de un umbral permitido y definido previamente".**
+
+**Alvaro Limber Chirino Gutierrez**
+
+**Investigador-Fundación ARU**
+
+<achirino@aru.org.bo>
+
+**Mesa Técnica de Calidad**
+
+**La Ruta del Censo 2012**

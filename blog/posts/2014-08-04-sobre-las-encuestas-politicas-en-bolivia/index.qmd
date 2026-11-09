@@ -1,0 +1,40 @@
+---
+title: "Sobre las encuestas políticas en Bolivia"
+date: 2014-08-04
+categories: ["opinión", "Mirada Estadística"]
+description: "Las encuestas electorales en nuestro país están lejos de convertirse en un referente confiable de las preferencias políticas reales, mientras no…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2014). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2014/08/04/sobre-las-encuestas-politicas-en-bolivia/).
+:::
+
+[![encu](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/08/encu.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2014/08/encu.jpg)
+
+Las encuestas electorales en nuestro país están lejos de convertirse en un referente confiable de las preferencias políticas reales, mientras no incluyan los procesos electorales históricos que moldean corrientes políticas en las distintas regiones de Bolivia.
+
+Acá les dejo un articulo que escribí para La Razón este domingo 3 de Agosto.
+
+Previo a un proceso electoral siempre aparecen las consultoras de encuestas, sondeos, opinión política, entre otros, que buscan dar un panorama de los posibles resultados; éstos siempre se convierten en un tema mediático entre los principales actores de estas elecciones (partidos, medios de comunicación y agrupaciones); la crítica a estos estudios siempre está orientada a dos hechos: el primero, cuánto se equivocaron en elecciones pasadas, y el segundo, que la cobertura y poblaciones entrevistadas no representan a la población. ¿Cuánto de cierto existe en estas afirmaciones?
+
+Muchas empresas encuestadoras escudan la confianza de sus resultados en principios estadísticos, mencionando que sus estudios tienen márgenes de error controlados, niveles de confiabilidad altos y fueron recolectados de todas las áreas del país. A raíz de estas declaraciones y sus resultados posteriores la práctica de hacer encuestas de este estilo fue degradada y fuertemente cuestionada por la población, a tal punto que se expresa en ocasiones que las encuestas no son confiables.
+
+La mayor parte de la información que recoge el país para la construcción de indicadores de bienestar, seguimiento a programa, y otros, provienen de encuestas y sus resultados no son tan cuestionados como los de las encuestas políticas; entonces, se podría decir que ¿las encuestas políticas son las ovejas negras de la teoría de muestreo en la estadística?
+
+La experiencia de otros países nos dan interesantes lecciones sobre las encuestas políticas. En los Estados Unidos, por ejemplo, ya se tienen identificados los Estados que son los que definirán el resultado en las elecciones; lo que obtienen las encuestas se aparta en porcentajes despreciables del resultado de las elecciones. Obviamente este caso no es comparable con el nuestro por la naturaleza misma del sistema bipartidista estadounidense, pero nos muestra que la investigación en el área de encuestas políticas ha evolucionado a niveles muy altos. Entonces, es una duda válida y no trivial preguntarse cómo se debe manejar los resultados de las encuestas políticas en nuestro país.
+
+A continuación listo dos criterios personales que se pueden usar para desconfiar de los resultados de algunas encuestas políticas:
+
+1\. "La encuesta es un sondeo que se hizo en lugares estratégicos del país"; detrás de estos estudios no hay ningún principio estadístico y sus resultados están sesgados a la planificación del que lo hizo.
+
+2\. "El margen de error es del 5%, los resultados son representativos a nivel departamental y la muestra total es menor a 10.000 personas"; ni el INE (Instituto Nacional de Estadística) logra estos resultados en la encuesta a hogares y tiene una muestra de casi 32.000 personas (Encuesta de Hogares 2012).
+
+INSUMOS. El querer pronosticar un resultado electoral a través de encuestas políticas es muy complejo y requiere de muchos insumos, se debe contar con una base de información de los resultados de al menos las últimas cuatro elecciones generales al nivel de los asientos electorales, esto, para tener una idea de la corriente política de los distintos lugares y cómo estas evolucionan según la coyuntura que se atraviese.
+
+Sin ir muy lejos, en la elección de 2002, cuando fue la primera participación del Movimiento Al Socialismo (MAS), éste logró una votación mayor al 50% de votos válidos en 48 municipios del país; éstos mantuvieron esa votación superior al 50% en las elecciones de 2005 y 2009. Así, tal situación podrá implicar que es muy probable que la proporción de apoyo de estos municipios se mantenga para estas elecciones. Por otro lado, en el caso del Unidad Nacional (UN) en 2005, que fue también su primera participación, logró una votación superior al 50% en dos municipios, pero para el 2009 en estas mismas circunscripciones logró menos del 10% de votos. Estos dos ejemplos evidencian que la dinámica del voto es una variable muy compleja de entender, sin embargo, eso no significa que no se lo pueda hacer.
+
+Las encuestas electorales en nuestro país están lejos de convertirse en un referente confiable de las preferencias políticas reales mientras no incluyan los procesos electorales históricos que moldean corrientes políticas en las regiones de Bolivia.
+
+Un dato para tener en cuenta para esta elección: en las últimas elecciones de 2009 el MAS logró más del 50% de votos en 267 municipios; de éstos, 216 ya lo apoyaban en esa intensidad en 2005. Se puede creer que este apoyo va en ascenso, como también es válido pensar que las variables de ahora son diferentes y el apoyo va a caer, lo único que no se debe perder de vista es que la única evidencia sobre cómo se comporta electoralmente la población ya fue registrada en anteriores elecciones y no considerar esta información en la planificación de las encuestas electorales es un error imperdonable dentro de la metodología de investigación estadística.
+
+Para concluir, las encuestas políticas por más buenas intenciones que tengan, si no tienen una fuerte y rigurosa metodología estadística por detrás, simplemente no sirven y mal informan a la población; es mejor e incluso más confiable mirar el conjunto de los procesos electorales anteriores. Las encuestas políticas en nuestro país seguirán siendo las ovejas negras en el quehacer estadístico mientras no dirijan más esfuerzo a la mejora de sus métodos de investigación. Mi recomendación a la población y a los partidos políticos en general es que antes de mirar los resultados de las encuestas electorales comprendan los comportamientos históricos del voto en espacios locales, y si aún quieren mirar las encuestas, desconfíen de sus resultados cuando observen algunos de los dos criterios presentados.

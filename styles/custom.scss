@@ -1,0 +1,68 @@
+/*-- scss:defaults --*/
+// Base Flatly (la del sitio antiguo) + barra oscura (la del sitio actual)
+$navbar-bg: #212529;
+$navbar-fg: #e9ecef;
+$navbar-hl: #ffffff;
+$primary: #2C3E50;
+$link-color: #128f76;
+$footer-bg: #212529;
+
+/*-- scss:rules --*/
+.navbar-brand img { margin-right: 6px; }
+.navbar .navbar-nav .nav-link { font-weight: 500; }
+
+// Tarjeta de perfil (equivalente al "jumbotron" del sitio actual)
+.profile-card {
+  background: #f4f6f8;
+  border-radius: 0.5rem;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  img.headshot { width: 60%; max-width: 220px; border-radius: 50%; margin-bottom: .75rem; }
+  h4 { margin-bottom: .25rem; }
+  .role { color: #555; font-size: .95rem; margin-bottom: .75rem; }
+  .profile-links { margin-bottom: .5rem; }
+  .profile-links p { margin: 0; }
+  .profile-links a { font-size: 1.9rem; text-decoration: none; margin: 0 .25rem; color: $primary; }
+  .profile-links a:hover { color: $link-color; }
+  ul { text-align: left; margin-top: 1rem; font-size: .95rem; }
+}
+.services { margin: .5rem 0 1rem; }
+.service {
+  border: 1px solid #dee2e6; border-radius: .5rem; padding: .85rem 1rem;
+  font-size: .95rem; line-height: 1.4;
+  .fa-solid, .fas { color: $link-color; margin-right: .25rem; }
+}
+.news-card {
+  background: #f4f6f8;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  h4 { margin-top: 0; }
+}
+
+// Publicaciones / charlas
+.pub-year { margin-top: 2rem; border-bottom: 2px solid $link-color; padding-bottom: .25rem; }
+.pub-item { margin-bottom: 1.1rem; }
+.pub-item .pub-title { font-weight: 600; }
+.pub-item .pub-venue { font-style: italic; }
+.pub-links a.badge { text-decoration: none; margin-right: .3rem; font-weight: 500; }
+.pub-item details { margin-top: .35rem; font-size: .92rem; }
+.pub-item details summary { cursor: pointer; color: $link-color; display: inline; margin-right: .75rem; }
+.pub-item pre { font-size: .8rem; background: #f4f6f8; padding: .5rem; white-space: pre-wrap; }
+
+.sw-card { border: 1px solid #dee2e6; border-radius: .5rem; padding: 1rem 1.25rem; margin-bottom: 1rem; }
+
+// Pie de página de 3 columnas (como el sitio actual)
+#site-footer {
+  background: $footer-bg;
+  color: #ced4da;
+  padding: 2rem 0 1rem;
+  margin-top: 3rem;
+  h5 { color: #fff; }
+  a { color: #8fd3c4; }
+  hr { border-color: #495057; }
+  .ftr-wrap { max-width: 1140px; margin: 0 auto; padding: 0 1.5rem; }
+  .ftr-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  @media (max-width: 640px) { .ftr-grid { grid-template-columns: 1fr; } }
+}
+#site-footer { grid-column: screen-start / screen-end; }

@@ -1,0 +1,37 @@
+---
+title: "Encuesta a Hogares 2012 – Bolivia"
+date: 2013-12-08
+categories: ["censo", "opinión", "pensamiento estadístico", "Mirada Estadística"]
+description: "El pasado 26 de Noviembre de 2013 el Instituto Nacional de Estadística de Bolivia publico la Encuesta a Hogares 2012, esta encuesta se realiza…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2013). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2013/12/08/encuesta-a-hogares-2012-bolivia/).
+:::
+
+[![images (1)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/12/images-1.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2013/12/images-1.jpg)
+
+El pasado 26 de Noviembre de 2013 el Instituto Nacional de Estadística de Bolivia publico la [Encuesta a Hogares 2012](http://www.ine.gob.bo:8081/Webine10/enchogares1.aspx), esta encuesta se realiza aproximadamente el ultimo trimestre de cada año, particularmente el 2012 fue diferente para Bolivia en el entendido que el 21 de Noviembre de 2012 se realizo el Censo Nacional de Población y Vivienda 2012. Lo extraño aun es que los factores de expansión de la Encuesta a Hogares 2012 dan cuenta de un población mayor en casi 500000 Hab. a la del Censo 2012.
+
+Esta anomalía ya la había comentado antes pero con la Encuesta a Hogares 2011, y es preocupante pensar que aun no se han corregido estas dificultades, seguir con estos factores implicara seguir teniendo indicadores de pobreza, salud, educación, etc. con un sesgo aun desconocido. Los resultados de estos dos operativos estadísticos llevados a cabo por la misma institución en un casi paralelo espacio de tiempo es:
+
+  -------------- ----------
+  Departamento   EH 2012
+  Chuquisaca     673526
+  La Paz         2932613
+  Cochabamba     1947185
+  Oruro          458328
+  Potosi         799276
+  Tarija         550617
+  Santa Cruz     2962797
+  Beni           462547
+  Pando          87662
+  Total          10874551
+  -------------- ----------
+
+Las recomendaciones respecto estos temas siguen siendo:
+
+1.  Re-calcular los factores de expansión de la seria de las Encuestas a Hogares 2002-2012, considerando el factor teorico y un ajuste por proyección a los resultados del censo 2012 estimando el sesgo introducido por este ajuste.
+2.  Para evitar depender demasiado de las proyecciones considerar la expansión que permite el muestreo de las Encuesta a Hogares
+
+Me encuentro trabajando en unos ponderadores nuevos para toda la serie, priorizando en el diseño de la muestra y tratando de estimar el sesgo que provocan el ajuste por proyecciones en el caso Boliviano, con la intención de generar los indicadores mas relevantes y presentar el grado de confiabilidad estadística que tienen. Lo publicare mas adelante cuando logre documentar todo el trabajo y sea un aporte para la investigación con este tipo de bases en Bolivia.

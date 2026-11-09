@@ -1,0 +1,34 @@
+# Tesis y proyectos de grado dirigidos (tutor). Copie un bloque para agregar.
+# Campos opcionales: autor, url
+- title: "Predicción de la rentabilidad de los bancos múltiples en Bolivia en el contexto de diferimiento y reprogramación de pagos de créditos: un análisis comparativo de modelos predictivos"
+  year: 2024
+  venue: "Licenciatura en Economía, UCB La Paz"
+  categories: [Machine learning]
+- title: "Evaluación de impacto del programa de alimentación complementaria escolar: una aplicación de diseños cuasiexperimentales para la estimación de efectos causales (2017–2019)"
+  year: 2024
+  venue: "Licenciatura en Estadística, UMSA"
+  categories: [Inferencia causal]
+- title: "Modelo binomial negativo con filtro espacial para determinar factores del delito en el municipio de La Paz, 2012–2022"
+  year: 2024
+  venue: "Licenciatura en Estadística, UMSA"
+  categories: [Estadística espacial]
+- title: "Métodos de post-estratificación y ranking, una aplicación en la encuesta de hogares 2011–2014 de Bolivia: estimando la incidencia de pobreza"
+  year: 2024
+  venue: "Licenciatura en Estadística, UMSA"
+  categories: [Muestreo]
+- title: "Análisis y comparación de métodos de agrupamiento para la estimación de grupos resilientes al desarrollo en comunidades rurales del departamento de La Paz"
+  year: 2023
+  venue: "Licenciatura en Estadística, UMSA"
+  categories: [Machine learning]
+- title: "Aplicación de modelos de regresión lineal con errores normal sesgada y t de Student sesgada al índice de masa corporal"
+  year: 2023
+  venue: "Licenciatura en Estadística, UMSA"
+  categories: [Modelos de regresión]
+- title: "Bootstrap generalizado aplicado a los estimadores del ingreso del hogar"
+  year: 2021
+  venue: "Licenciatura en Estadística, UMSA"
+  categories: [Muestreo]
+- title: "Métodos de clasificación multivariados en puntos de venta"
+  year: 2017
+  venue: "Licenciatura en Estadística, UMSA"
+  categories: [Machine learning]

@@ -1,0 +1,46 @@
+---
+title: "En marcha un nuevo proceso censal, Chile 2012"
+date: 2012-05-11
+categories: ["censo", "pensamiento estadístico", "Mirada Estadística"]
+description: "El pasado 9 de abril Chile empezó un nuevo proceso censal, la principal peculiaridad de este nuevo censo es que ya no se lo realizara en un solo día…"
+---
+
+::: {.callout-note appearance="minimal"}
+Publicado originalmente en el blog *Mirada Estadística* (2012). [Ver entrada original](https://miradaestadisticabolivia.wordpress.com/2012/05/11/en-marcha-un-nuevo-proceso-censal-chile-2012/).
+:::
+
+# [![](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/05/censo-1.jpg)](https://miradaestadisticabolivia.wordpress.com/wp-content/uploads/2012/05/censo-1.jpg)
+
+El pasado 9 de abril Chile empezó un nuevo proceso censal, la principal peculiaridad de este nuevo censo es que ya no se lo realizara en un solo día como tradicionalmente lo hacia, ahora, el proceso de levantamiento de información, se lo lleva durante un intervalo de tiempo mas prolongado, inicia el 9 de abril y culminara el 30 de junio. En Bolivia todos debemos estar expectantes para aprender mas sobre este proceso, ya que el censo en Bolivia se lo llevara acabo muy pronto (Segun declaraciones del gobierno boliviano) y todos debemos velar que nuestro censo se lo lleve acabo en las mejores condiciones y alimentemos ese proceso en base a la experiencia de nuestro países vecinos.
+
+Para mas informacion del censo en Chile, puede visitar la [pagina](http://www.censo.cl) oficial del censo. A continuación les presento un apartado de esa pagina, donde se lista las características del nuevo censo en el país vecino.
+
+# Nuevo Censo
+
+-   -   -   ## *El Censo es Necesario*
+
+La planificación presupuestaria y la creación, desarrollo e implementación de políticas públicas que favorecen a la ciudadanía en su totalidad, provienen de los datos obtenidos en [los censos](http://www.ine.cl/canales/usuarios/censos_digitalizados.php).
+
+Asimismo, dicho datos son necesarios para actualizar toda la información estadística con la que cuenta el país, con el fin de poder ofrecer a la ciudadanía la mejor información posible a la hora de tomar decisiones.
+
+-   -   -   ## *El Censo es más Moderno*
+
+El [Cuestionario Censal](http://www.censo.cl/2011/11/ine-publica-cuestionario-de-censo-2012-2/) ha sido actualizado a las necesidades que hoy enfrenta nuestro país. En ese sentido, en el Censo 2012 **se preguntará por el Estado de Hecho, como la convivencia entre personas del mismo sexo**; medio ambiente y reciclaje, uso de Internet e idiomas, tanto a nivel de pueblo originario como de bilingüismo.
+
+Además del cuestionario, la modernización que ha sufrido el proceso de levantamiento ha significado que**Chile se ponga en línea con la realidad de los países desarrollados**, ya que dentro de los estados pertenecientes a la Organización para la Cooperación y el Desarrollo Económicos (OCDE), nuestro país era el único que realizaba el Censo en un día. Es más, a nivel latinoamericano el 73% de los países ya no ejecuta este tipo de censos.
+
+-   -   -   ## *El Censo es más Seguro*
+
+Uno de los avances que se han realizado en materia de seguridad es la posibilidad que tendrá la ciudadanía de **verificar la identidad del censista que entra a su casa**. El INE ha desarrollado un [Sistema de Verificación de Encuestadores](http://www.ine.cl/encuestadores) que con solo digitar el rut del censista se podrá saber si la persona pertenece o no a la institución.
+
+Junto con ello, el INE trabajará de manera coordinada con Carabineros para ofrecer mayor seguridad durante el proceso.
+
+Finalmente, La información entregada será totalmente confidencial y se utilizará exclusivamente para el Censo 2012. Para su tranquilidad, **estos antecedentes están protegidos por el [Secreto Estadístico](http://www.ine.cl/canales/corporativo/secreto_estadistico/secreto_estadistico.php), según lo dispuesto en la Ley N° 17.374.**
+
+-   -   -   ## *El Censo es más profesional*
+
+En la versión 2012 del Censo, el levantamiento de datos no estará a cargo de censistas voluntarios ya que **el INE contratará y capacitará a casi 14 mil personas para que realicen esta función.**
+
+Al contar con dos meses de levantamiento, la cobertura será mucho mayor que la que se puede realizar en un día, por lo **la calidad del dato censal que se obtendrá será mucho mejor.**
+
+El Censo 2012 significará un **menor costo para el país**, ya que un día feriado le cuesta a Chile unos US\$ 200 millones, versus US\$ 13 millones que es el costo de remunerar a los censistas por dos meses
